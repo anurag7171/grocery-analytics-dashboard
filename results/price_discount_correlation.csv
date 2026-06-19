@@ -1,0 +1,10 @@
+category,spearman_rho,p_value,significant
+Bakery,-0.778,0.0004,True
+Dairy & Eggs,-0.831,0.0105,True
+Drinks,-0.599,0.0008,True
+Frozen,-0.485,0.1104,False
+Health & Wellness,-0.435,0.0487,True
+Household,0.147,0.5731,False
+Meat & Seafood,-0.245,0.3275,False
+Pantry,0.296,0.233,False
+Snacks,-0.368,0.0541,False

@@ -1,0 +1,11 @@
+category,n,shapiro_stat,shapiro_p,is_normal,skewness,kurtosis,shape
+Bakery,123,0.9609,0.0013,False,0.556,0.167,right-skewed
+Dairy & Eggs,128,0.8055,0.0,False,2.541,12.743,right-skewed
+Drinks,127,0.7345,0.0,False,1.823,2.942,right-skewed
+Frozen,127,0.9303,0.0,False,0.567,-0.767,right-skewed
+Fruit & Veg,123,0.6665,0.0,False,4.233,28.785,right-skewed
+Health & Wellness,131,0.678,0.0,False,2.364,5.324,right-skewed
+Household,131,0.8096,0.0,False,1.653,2.412,right-skewed
+Meat & Seafood,129,0.9186,0.0,False,0.956,0.351,right-skewed
+Pantry,129,0.8022,0.0,False,2.027,5.239,right-skewed
+Snacks,127,0.9415,0.0,False,0.64,-0.348,right-skewed
