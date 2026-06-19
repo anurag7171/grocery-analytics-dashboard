@@ -1,0 +1,72 @@
+name,brand,category,price,q1,q3,iqr
+Woolworths Butter Croissant,Woolworths,Bakery,9.9,3.5,5.55,2.05
+Woolworths Beef Lasagne,Woolworths,Dairy & Eggs,25.0,2.6750000000000003,6.125,3.4499999999999997
+Sunny Queen 18 Large Free Range Eggs,Sunny Queen,Dairy & Eggs,12.7,2.6750000000000003,6.125,3.4499999999999997
+Coca-Cola Classic Soft Drink Cans,Coca-Cola,Drinks,26.0,2.425,8.65,6.2250000000000005
+Coca-Cola Zero Sugar Soft Drink Cans,Coca-Cola,Drinks,26.0,2.425,8.65,6.2250000000000005
+Coca-Cola Zero Sugar Soft Drink Cans,Coca-Cola,Drinks,21.0,2.425,8.65,6.2250000000000005
+Pepsi Max No Sugar Soft Drink Cans,Pepsi,Drinks,39.5,2.425,8.65,6.2250000000000005
+Coca-Cola Classic Soft Drink Cans,Coca-Cola,Drinks,21.0,2.425,8.65,6.2250000000000005
+Pepsi Max No Sugar Soft Drink Cans,Pepsi,Drinks,29.5,2.425,8.65,6.2250000000000005
+Mount Franklin Lightly Sparkling Water lime Cans,Mount Franklin,Drinks,21.0,2.425,8.65,6.2250000000000005
+Mount Franklin Lightly Sparkling Raspberry,Mount Franklin,Drinks,21.0,2.425,8.65,6.2250000000000005
+Mount Franklin Lightly Sparkling Water Mango,Mount Franklin,Drinks,21.0,2.425,8.65,6.2250000000000005
+Mount Franklin Lightly Sparkling Peach Cans,Mount Franklin,Drinks,21.0,2.425,8.65,6.2250000000000005
+Mount Franklin Lightly Sparkling Water Passionfruit Cans,Mount Franklin,Drinks,21.0,2.425,8.65,6.2250000000000005
+Red Bull Energy Drink Cans,Red Bull,Drinks,22.0,2.425,8.65,6.2250000000000005
+Coca-Cola Diet Soft Drink Cans,Coca-Cola,Drinks,26.0,2.425,8.65,6.2250000000000005
+Sprite Zero Sugar Lemonade Soft Drink  Cans,Sprite,Drinks,21.0,2.425,8.65,6.2250000000000005
+Coca-Cola Caffeine Free Zero Sugar Soft Drink Cans,Coca-Cola,Drinks,21.0,2.425,8.65,6.2250000000000005
+Mount Franklin Lightly Sparkling Water lime Cans,Mount Franklin,Drinks,21.0,2.425,8.65,6.2250000000000005
+Solo Original Lemon Soft Drink Cans,Solo,Drinks,26.0,2.425,8.65,6.2250000000000005
+Mushrooms Cups Loose,,Fruit & Veg,12.5,1.31,4.95,3.64
+Mushroom Portobello Flat Large Loose,,Fruit & Veg,13.5,1.31,4.95,3.64
+Mushrooms Flat Large Loose,,Fruit & Veg,13.5,1.31,4.95,3.64
+Ginger Fresh,,Fruit & Veg,33.0,1.31,4.95,3.64
+Clearblue Pregnancy Test Ultra Early,Clearblue,Health & Wellness,17.0,4.0,7.5,3.5
+Clearblue Pregnancy Test Rapid Detection,Clearblue,Health & Wellness,18.0,4.0,7.5,3.5
+Clearblue Visual Early Detect Pregnancy Tests,Clearblue,Health & Wellness,36.0,4.0,7.5,3.5
+Clearblue Pregnancy Test Combo Pack,Clearblue,Health & Wellness,26.0,4.0,7.5,3.5
+Fresh Medjool Dates Loose,,Health & Wellness,26.0,4.0,7.5,3.5
+Clearblue Digital Pregnancy Test Ultra Early,Clearblue,Health & Wellness,29.0,4.0,7.5,3.5
+Clearblue Trying To Get Pregnant Kit 10 Ovulation & 1 Pregnancy Test,Clearblue,Health & Wellness,34.8,4.0,7.5,3.5
+First Response Pregnancy Test Instream,First Response,Health & Wellness,20.0,4.0,7.5,3.5
+Woolworths Cashews Roasted & Salted,Woolworths,Health & Wellness,14.0,4.0,7.5,3.5
+Gevity Rx Chocolate Bone Broth,Gevity Rx,Health & Wellness,17.5,4.0,7.5,3.5
+Gevity Rx Goodstachio Pistachio Spread,Gevity Rx,Health & Wellness,12.8,4.0,7.5,3.5
+First Response Pregnancy Test Instream,First Response,Health & Wellness,35.5,4.0,7.5,3.5
+Nicaway Stop Smoking Mint Gum 4Mg,Nicaway,Health & Wellness,27.0,4.0,7.5,3.5
+Woolworths Almonds Kernels,Woolworths,Health & Wellness,13.5,4.0,7.5,3.5
+Woolworths Cashews Roasted & Unsalted,Woolworths,Health & Wellness,14.0,4.0,7.5,3.5
+Lyher Rapid Antigen Test Kit,Lyher,Health & Wellness,20.0,4.0,7.5,3.5
+Muscle Nation Protein Daily Shake Powder Milk Chocolate Flavour,Muscle Nation,Health & Wellness,24.5,4.0,7.5,3.5
+Muscle Nation Protein Water Powder Apple Blackcurrant Flavour,Muscle Nation,Health & Wellness,24.5,4.0,7.5,3.5
+Muscle Nation Protein Water Powder Raspberry,Muscle Nation,Health & Wellness,24.5,4.0,7.5,3.5
+Vanish Gold Pro Turbo Stain Remover Powder,Vanish,Household,19.0,2.6,9.0,6.4
+Dynamo Professional Laundry Liquid Odour Eliminator,Dynamo,Household,23.0,2.6,9.0,6.4
+Cold Power Extreme Clean Laundry Liquid Washing Detergent,Cold Power,Household,26.0,2.6,9.0,6.4
+Cold Power Sensitive Laundry Liquid Washing Detergent,Cold Power,Household,26.0,2.6,9.0,6.4
+Cold Power Sensitive Laundry Liquid Washing Detergent,Cold Power,Household,21.0,2.6,9.0,6.4
+Cold Power Advanced Clean Odour Fighter Laundry Liquid Detergent,Cold Power,Household,21.0,2.6,9.0,6.4
+Earthwise Orange & Eucalyptus Laundry Liquid Washing Detergent,Earthwise,Household,19.0,2.6,9.0,6.4
+Cold Power Advanced Clean Laundry Washing Powder Detergent,Cold Power,Household,21.0,2.6,9.0,6.4
+Radiant Mixed Colours Laundry Liquid Detergent,Radiant,Household,22.0,2.6,9.0,6.4
+Woolworths Fresh Tasmanian Atlantic Skin On Salmon Fillets,Woolworths,Meat & Seafood,38.0,9.43,19.0,9.57
+Bertocchi Premium Boneless Leg Ham Shaved From The Deli,Bertocchi,Meat & Seafood,35.0,9.43,19.0,9.57
+Don Melosi Double Smoked Ham Shaved From The Deli,Don,Meat & Seafood,34.0,9.43,19.0,9.57
+Woolworths Roast Beef Shaved From The Deli,Woolworths,Meat & Seafood,35.5,9.43,19.0,9.57
+Woolworths Roast Beef Sliced From The Deli,Woolworths,Meat & Seafood,35.5,9.43,19.0,9.57
+Woolworths Lamb Leg Roast,Woolworths,Meat & Seafood,39.6,9.43,19.0,9.57
+Nice & Natural Fruit Fun Mix Variety Multi Pack School Snacks Gluten Free,Nice & Natural,Pantry,8.0,1.7,3.3,1.5999999999999999
+Twinings English Breakfast Tea Bags Tea Bags,Twinings,Pantry,6.75,1.7,3.3,1.5999999999999999
+Weet-Bix Breakfast Cereal,Weet-Bix,Pantry,7.0,1.7,3.3,1.5999999999999999
+Vegemite Spread,Vegemite,Pantry,6.0,1.7,3.3,1.5999999999999999
+Cadbury Baking Chips Milk Chocolate,Cadbury,Pantry,8.4,1.7,3.3,1.5999999999999999
+Cholula Salsa Verde,Cholula,Pantry,7.25,1.7,3.3,1.5999999999999999
+Woolworths 100% Canadian Maple Syrup,Woolworths,Pantry,6.0,1.7,3.3,1.5999999999999999
+Nutella Hazelnut Chocolate Spread Spread,Nutella,Pantry,12.5,1.7,3.3,1.5999999999999999
+Bega Peanut Butter Smooth,Bega,Pantry,6.9,1.7,3.3,1.5999999999999999
+Twinings Pure Green Tea Bags Bags,Twinings,Pantry,6.75,1.7,3.3,1.5999999999999999
+Noshu Protein Plus Keto Pro Bars Crunchy Cookie Butter,Noshu,Pantry,5.9,1.7,3.3,1.5999999999999999
+Vegemite Spread,Vegemite,Pantry,9.9,1.7,3.3,1.5999999999999999
+Kellogg's Nutri Grain Protein Breakfast Cereal,Kellogg's,Pantry,7.0,1.7,3.3,1.5999999999999999

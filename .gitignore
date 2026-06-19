@@ -5,7 +5,6 @@ __pycache__/
 .env
 data/raw/
 data/retail.db
-results/figures/
 *.egg-info/
 .venv/
 venv/
