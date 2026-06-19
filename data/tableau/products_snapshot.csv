@@ -1,0 +1,1276 @@
+id,product_id,source,name,brand,category,price,was_price,is_on_special,discount_pct,unit_size,cup_price,cup_measure,avg_rating,review_count,scraped_at,brand_type
+1,ww_651492,woolworths,Mandarin Tangold Seedless,Mandarin,Fruit & Veg,0.77,0.77,0,0.0,each,0.77,1EA,,0,2026-06-18T14:40:52Z,National Brand
+2,ww_143109,woolworths,Mushrooms Cups Loose,,Fruit & Veg,12.5,12.5,0,0.0,per 200g,12.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+3,ww_187314,woolworths,Woolworths Broccolini Bunch,Woolworths,Fruit & Veg,3.7,3.7,0,0.0,each,3.7,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+4,ww_143304,woolworths,Woolworths Mushrooms Cups Punnet,Woolworths,Fruit & Veg,4.0,4.0,0,0.0,200g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+5,ww_133211,woolworths,Cavendish Bananas,,Fruit & Veg,0.88,0.88,0,0.0,each,0.88,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+6,ww_134034,woolworths,Gourmet Tomato,,Fruit & Veg,0.54,0.54,0,0.0,each,0.54,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+7,ww_120080,woolworths,Hass Avocado,,Fruit & Veg,1.8,1.8,0,0.0,each,1.8,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+8,ww_105919,woolworths,Fresh Pink Lady Apples,,Fruit & Veg,0.86,0.86,0,0.0,each,0.86,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+9,ww_144329,woolworths,Onion Brown,,Fruit & Veg,0.63,0.63,0,0.0,each,0.63,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+10,ww_141410,woolworths,Mandarin Imperial,,Fruit & Veg,0.53,0.53,0,0.0,each,0.53,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+11,ww_381241,woolworths,Woolworths Mushrooms Swiss Brown Sliced Punnet,Woolworths,Fruit & Veg,5.0,5.5,1,9.1,200g,25.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+12,ww_124011,woolworths,Mushroom Portobello Flat Large Loose,,Fruit & Veg,13.5,13.5,0,0.0,per 200g,13.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+13,ww_381923,woolworths,Kanzi Apple,Kanzi,Fruit & Veg,1.31,1.31,0,0.0,each,1.31,1EA,,0,2026-06-18T14:40:52Z,National Brand
+14,ww_785544,woolworths,Kanzi Apple Punnet,Kanzi,Fruit & Veg,7.5,7.5,0,0.0,1kg,7.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+15,ww_208895,woolworths,Potato White Washed,,Fruit & Veg,0.9,0.9,0,0.0,each,0.9,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+16,ww_137130,woolworths,Lebanese Cucumbers,,Fruit & Veg,1.6,1.6,0,0.0,each,1.6,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+17,ww_135306,woolworths,Red Capsicum,Red,Fruit & Veg,1.98,1.98,0,0.0,each,1.98,1EA,,0,2026-06-18T14:40:52Z,National Brand
+18,ww_829107,woolworths,Mandarin Amorette® Seedless,,Fruit & Veg,0.59,0.59,0,0.0,each,0.59,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+19,ww_134681,woolworths,Fresh Broccoli,,Fruit & Veg,1.49,1.49,0,0.0,each,1.49,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+20,ww_147071,woolworths,Sweet Potato Gold,,Fruit & Veg,1.96,1.96,0,0.0,each,1.96,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+21,ww_157649,woolworths,Eat Later Cavendish Bananas,,Fruit & Veg,0.88,0.88,0,0.0,each,0.88,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+22,ww_170225,woolworths,Fresh Zucchini Green,,Fruit & Veg,0.98,0.98,0,0.0,each,0.98,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+23,ww_135344,woolworths,Carrot Fresh,,Fruit & Veg,0.36,0.36,0,0.0,each,0.36,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+24,ww_130935,woolworths,Fresh Granny Smith Apples,,Fruit & Veg,1.31,1.31,0,0.0,each,1.31,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+25,ww_144607,woolworths,Strawberries Punnet,,Fruit & Veg,6.0,6.0,0,0.0,250g,24.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+26,ww_144497,woolworths,Onion Red,,Fruit & Veg,0.83,0.83,0,0.0,each,0.83,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+27,ww_259450,woolworths,Orange Navel,,Fruit & Veg,1.29,1.29,0,0.0,each,1.29,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+28,ww_135369,woolworths,Woolworths Australian Grown Carrots,Woolworths,Fruit & Veg,1.7,1.7,0,0.0,1kg,1.7,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+29,ww_169438,woolworths,Truss Tomatoes,,Fruit & Veg,1.25,1.25,0,0.0,each,1.25,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+30,ww_137102,woolworths,Woolworths Continental Cucumbers,Woolworths,Fruit & Veg,3.2,3.2,0,0.0,each,3.2,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+31,ww_169067,woolworths,Woolworths Qukes Baby Cucumbers Punnet,Woolworths,Fruit & Veg,4.0,4.0,0,0.0,250g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+32,ww_149864,woolworths,Tomato Roma Red,,Fruit & Veg,0.8,0.8,0,0.0,each,0.8,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+33,ww_154340,woolworths,Iceberg Lettuce,,Fruit & Veg,3.3,3.3,0,0.0,each,3.3,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+34,ww_149620,woolworths,Woolworths Cherry Tomatoes Punnet,Woolworths,Fruit & Veg,3.0,3.0,0,0.0,250g,12.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+35,ww_155003,woolworths,Apple Royal Gala,,Fruit & Veg,1.2,1.2,0,0.0,each,1.2,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+36,ww_267084,woolworths,Woolworths SunGold Kiwifruit Gold,Woolworths,Fruit & Veg,1.39,1.39,0,0.0,each,1.39,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+37,ww_259514,woolworths,Lemon Loose,,Fruit & Veg,1.49,1.49,0,0.0,each,1.49,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+38,ww_169792,woolworths,Blueberries Punnet,,Fruit & Veg,5.5,5.5,0,0.0,125g,44.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+39,ww_139238,woolworths,Kiwi Fruit Green,,Fruit & Veg,1.02,1.02,0,0.0,each,1.02,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+40,ww_147603,woolworths,Spring Onion Bunch,,Fruit & Veg,3.0,3.0,0,0.0,each,3.0,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+41,ww_144336,woolworths,Woolworths Onion Brown Bag,Woolworths,Fruit & Veg,3.6,3.6,0,0.0,1kg,3.6,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+42,ww_138801,woolworths,White Seedless Grapes Bag Approx. 900g,,Fruit & Veg,7.9,7.9,0,0.0,each,7.9,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+43,ww_145028,woolworths,Mushrooms Flat Large Loose,,Fruit & Veg,13.5,13.5,0,0.0,per 350g,13.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+44,ww_149930,woolworths,Woolworths Swiss Brown Mushrooms Punnet,Woolworths,Fruit & Veg,5.0,5.5,1,9.1,200g,25.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+45,ww_152608,woolworths,Woolworths Mushrooms Button Punnet,Woolworths,Fruit & Veg,4.5,4.5,0,0.0,200g,22.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+46,ww_201685,woolworths,Woolworths Mushrooms Cups Sliced Punnet,Woolworths,Fruit & Veg,6.0,6.0,0,0.0,375g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+47,ww_165262,woolworths,Driscoll's Raspberries Punnet,Driscoll's,Fruit & Veg,4.5,4.5,0,0.0,125g,36.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+48,ww_262783,woolworths,Woolworths Washed Potatoes Bag,Woolworths,Fruit & Veg,8.0,8.0,0,0.0,2kg,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+49,ww_115330,woolworths,Fresh Packham Pear,,Fruit & Veg,1.42,1.42,0,0.0,each,1.42,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+50,ww_713429,woolworths,Woolworths Garlic Head,Woolworths,Fruit & Veg,1.88,1.88,0,0.0,each,1.88,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+51,ww_524322,woolworths,Woolworths Baby Leaf Spinach,Woolworths,Fruit & Veg,3.3,3.3,0,0.0,120g,27.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+52,ww_106218,woolworths,Bananas Kids,,Fruit & Veg,3.5,3.5,0,0.0,5 pack,3.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+53,ww_215609,woolworths,Woolworths Portobello Flat Mushrooms Punnet,Woolworths,Fruit & Veg,8.5,8.5,0,0.0,375g,22.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+54,ww_143311,woolworths,Woolworths Mushrooms Shiitake Punnet,Woolworths,Fruit & Veg,6.9,6.9,0,0.0,100g,69.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+55,ww_179994,woolworths,Woolworths Mushrooms Oyster Punnet,Woolworths,Fruit & Veg,6.9,6.9,0,0.0,150g,46.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+56,ww_215610,woolworths,Woolworths White Flat Mushrooms Punnet,Woolworths,Fruit & Veg,7.0,7.0,0,0.0,375g,18.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+57,ww_727144,woolworths,Woolworths Sweet Solanato Tomato Punnet Punnet,Woolworths,Fruit & Veg,3.0,3.0,0,0.0,200g,15.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+58,ww_134072,woolworths,Beans Round,,Fruit & Veg,6.9,6.9,0,0.0,per 250g,6.9,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+59,ww_149374,woolworths,Corn Sweet,,Fruit & Veg,1.7,1.7,0,0.0,each,1.7,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+60,ww_141496,woolworths,Woolworths Cos Hearts Lettuce,Woolworths,Fruit & Veg,3.3,3.3,0,0.0,2 pack,1.65,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+61,ww_138082,woolworths,Ginger Fresh,,Fruit & Veg,33.0,33.0,0,0.0,per 80g,33.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+62,ww_147197,woolworths,Woolworths Butternut Pumpkin Cut,Woolworths,Fruit & Veg,3.51,3.51,0,0.0,each,3.51,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+63,ww_245902,woolworths,Lime Fresh,,Fruit & Veg,1.52,1.52,0,0.0,each,1.52,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+64,ww_651492,woolworths,Mandarin Tangold Seedless,Mandarin,Fruit & Veg,0.77,0.77,0,0.0,each,0.77,1EA,,0,2026-06-18T14:40:52Z,National Brand
+65,ww_111670,woolworths,Potato Red Washed,,Fruit & Veg,0.9,0.9,0,0.0,each,0.9,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+66,ww_137091,woolworths,Woolworths Fresh Herb Coriander Bunch,Woolworths,Fruit & Veg,3.2,3.2,0,0.0,each,3.2,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+67,ww_135156,woolworths,Woolworths Capsicum Green,Woolworths,Fruit & Veg,1.98,1.98,0,0.0,each,1.98,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+68,ww_314012,woolworths,Woolworths Royal Gala Apple Punnet,Woolworths,Fruit & Veg,4.9,4.9,0,0.0,1kg,4.9,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+69,ww_524336,woolworths,Woolworths Baby Leaf Spinach Spinach,Woolworths,Fruit & Veg,5.0,5.0,0,0.0,280g,17.86,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+70,ww_143709,woolworths,Pumpkin Kent Cut,,Fruit & Veg,1.9,1.9,0,0.0,each,1.9,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+71,ww_638009,woolworths,Woolworths Iceberg Shredded Lettuce Lettuce,Woolworths,Fruit & Veg,2.2,2.2,0,0.0,200g,11.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+72,ww_379515,woolworths,Woolworths Baby Leaf Spinach,Woolworths,Fruit & Veg,2.2,2.2,0,0.0,60g,36.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+73,ww_314075,woolworths,Mandarin Afourer,,Fruit & Veg,0.51,0.51,0,0.0,each,0.51,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+74,ww_189459,woolworths,Onion Shallot French,,Fruit & Veg,0.65,0.65,0,0.0,each,0.65,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+75,ww_139645,woolworths,Leek Fresh,,Fruit & Veg,3.0,3.0,0,0.0,each,3.0,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+76,ww_135918,woolworths,Celery Fresh Whole,,Fruit & Veg,4.5,4.5,0,0.0,each,4.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+77,ww_306510,woolworths,Macro Organic Banana,Macro,Fruit & Veg,1.24,1.24,0,0.0,each,1.24,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+78,ww_288440,woolworths,The Odd Bunch Carrots,The Odd Bunch,Fruit & Veg,2.0,2.0,0,0.0,1.5kg,1.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+79,ww_246566,woolworths,Potato Brushed,,Fruit & Veg,1.18,1.18,0,0.0,each,1.18,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+80,ww_405838,woolworths,Red Seedless Grapes Bag Approx. 900g,,Fruit & Veg,5.5,5.5,0,0.0,each,5.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+81,ww_310968,woolworths,Woolworths Fresh Pink Lady Apples Punnet,Woolworths,Fruit & Veg,4.9,4.9,0,0.0,1kg,4.9,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+82,ww_385085,woolworths,Woolworths White Washed Baby Potatoes Bag,Woolworths,Fruit & Veg,4.8,4.8,0,0.0,1kg,4.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+83,ww_381923,woolworths,Kanzi Apple,Kanzi,Fruit & Veg,1.31,1.31,0,0.0,each,1.31,1EA,,0,2026-06-18T14:40:52Z,National Brand
+84,ww_745467,woolworths,Woolworths Celery Sticks Punnet,Woolworths,Fruit & Veg,4.9,4.9,0,0.0,300g,16.33,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+85,ww_306343,woolworths,Jazz Apple,Jazz,Fruit & Veg,1.31,1.31,0,0.0,each,1.31,1EA,,0,2026-06-18T14:40:52Z,National Brand
+86,ww_135568,woolworths,Fresh Cauliflower Half,,Fruit & Veg,1.75,1.75,0,0.0,each,1.75,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+87,ww_827507,woolworths,Country Fresh Exotic Mushroom Stir Fry Mix,Country Fresh,Fruit & Veg,6.9,6.9,0,0.0,150g,46.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+88,ww_147981,woolworths,Woolworths White Cup Sliced Mushroom Punnet,Woolworths,Fruit & Veg,4.0,4.0,0,0.0,200g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+89,ww_144785,woolworths,Woolworths Fresh Continental Parsley Bunch,Woolworths,Fruit & Veg,3.2,3.2,0,0.0,each,3.2,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+90,ww_588064,woolworths,Woolworths Fresh Food Kids Mini Apples,Woolworths,Fruit & Veg,3.9,3.9,0,0.0,5 pack,0.78,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+91,ww_120384,woolworths,Woolworths Red Watermelon Cut Quarter,Woolworths,Fruit & Veg,9.9,9.9,0,0.0,each,9.9,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+92,ww_254080,woolworths,Woolworths Navel Oranges Bag,Woolworths,Fruit & Veg,5.9,5.9,0,0.0,3kg,1.97,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+93,ww_135552,woolworths,Fresh Whole Cauliflower,,Fruit & Veg,3.0,3.0,0,0.0,each,3.0,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+94,ww_775369,woolworths,The Odd Bunch Avocado Prepacked,The Odd Bunch,Fruit & Veg,6.0,6.0,0,0.0,1kg,6.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+95,ww_135324,woolworths,Capsicum Yellow,,Fruit & Veg,1.98,1.98,0,0.0,each,1.98,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+96,ww_830353,woolworths,The Odd Bunch Lemon Prepacked,The Odd Bunch,Fruit & Veg,3.4,3.4,0,0.0,500g,6.8,1KG,,0,2026-06-18T14:40:52Z,National Brand
+97,ww_829357,woolworths,Spud Lite Prepack Potato,Spud Lite,Fruit & Veg,8.0,8.0,0,0.0,1.5kg,5.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+98,ww_786152,woolworths,Kiwi Fruit Green,,Fruit & Veg,6.9,6.9,0,0.0,8 pack,0.86,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+99,ww_761414,woolworths,Envy Apple,Envy,Fruit & Veg,1.31,1.31,0,0.0,each,1.31,1EA,,0,2026-06-18T14:40:52Z,National Brand
+100,ww_296813,woolworths,Blackberry Blackberries Punnet,Blackberry,Fruit & Veg,4.7,4.7,0,0.0,125g,37.6,1KG,,0,2026-06-18T14:40:52Z,National Brand
+101,ww_180148,woolworths,Banana Red Tipped,,Fruit & Veg,0.99,0.99,0,0.0,each,0.99,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+102,ww_742824,woolworths,Woolworths Baby Carrots,Woolworths,Fruit & Veg,1.9,1.9,0,0.0,500g,3.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+103,ww_89466,woolworths,Woolworths Mushroom Sliced,Woolworths,Fruit & Veg,5.0,7.0,1,28.6,500g,10.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+104,ww_156015,woolworths,Woolworths Gold Sweet Potatoes Bag,Woolworths,Fruit & Veg,4.9,4.9,0,0.0,1kg,4.9,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+105,ww_144427,woolworths,Woolworths Brown Onions Bag,Woolworths,Fruit & Veg,4.5,4.5,0,0.0,2kg,2.25,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+106,ww_310966,woolworths,Woolworths Fresh Granny Smith Apples Punnet,Woolworths,Fruit & Veg,6.9,6.9,0,0.0,1kg,6.9,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+107,ww_166144,woolworths,Mini-Roma Tomato Punnet,Mini-Roma,Fruit & Veg,3.0,3.0,0,0.0,250g,12.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+108,ww_305235,woolworths,Woolworths Green Asparagus Bunch Green,Woolworths,Fruit & Veg,2.9,2.9,0,0.0,each,2.9,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+109,ww_845671,woolworths,The Odd Bunch Mandarin Prepacked,The Odd Bunch,Fruit & Veg,3.1,3.1,0,0.0,1kg,3.1,1KG,,0,2026-06-18T14:40:52Z,National Brand
+110,ww_124751,woolworths,Woolworths Red Onions Bag,Woolworths,Fruit & Veg,4.0,4.0,0,0.0,1kg,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+111,ww_594774,woolworths,Avocado Fresh,Avocado,Fruit & Veg,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+112,ww_133390,woolworths,Banana Lady Finger,,Fruit & Veg,1.44,1.44,0,0.0,each,1.44,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+113,ww_625158,woolworths,Bravo Apple Fresh,Bravo,Fruit & Veg,1.03,1.03,0,0.0,each,1.03,1EA,,0,2026-06-18T14:40:52Z,National Brand
+114,ww_137546,woolworths,Fresh Eggplant,,Fruit & Veg,2.21,2.21,0,0.0,each,2.21,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+115,ww_136341,woolworths,Woolworths Bird's Eye Chilli Hot,Woolworths,Fruit & Veg,0.14,0.14,0,0.0,each,0.14,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+116,ww_825869,woolworths,The Odd Bunch Zucchini Prepacked,The Odd Bunch,Fruit & Veg,2.9,2.9,0,0.0,750g,3.87,1KG,,0,2026-06-18T14:40:52Z,National Brand
+117,ww_591940,woolworths,Woolworths Sweet & Juicy Mandarins,Woolworths,Fruit & Veg,3.5,3.5,0,0.0,750g,4.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+118,ww_133621,woolworths,Woolworths Green Basil Bunch,Woolworths,Fruit & Veg,3.2,3.2,0,0.0,each,3.2,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+119,ww_101638,woolworths,Woolworths Red Washed Potatoes Bag,Woolworths,Fruit & Veg,8.0,8.0,0,0.0,2kg,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+120,ww_196442,woolworths,Woolworths Tomato Truss Punnet,Woolworths,Fruit & Veg,5.9,5.9,0,0.0,500g,11.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+121,ww_136510,woolworths,Woolworths Red Cayenne Chilli,Woolworths,Fruit & Veg,0.6,0.6,0,0.0,each,0.6,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+122,ww_310965,woolworths,Woolworths Packham Pear Punnet,Woolworths,Fruit & Veg,3.5,3.5,0,0.0,1kg,3.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+123,ww_149963,woolworths,Woolworths Mushrooms Cups Punnet,Woolworths,Fruit & Veg,5.0,7.0,1,28.6,500g,10.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+124,ww_392138,woolworths,Tassal Cooked Aussie Tiger Prawns,Tassal,Meat & Seafood,16.0,16.0,0,0.0,475g,33.68,1KG,,0,2026-06-18T14:40:52Z,National Brand
+125,ww_630332,woolworths,Tassal Atlantic Salmon Skin On,Tassal,Meat & Seafood,19.0,19.0,0,0.0,300g,63.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+126,ww_630331,woolworths,Tassal Atlantic Salmon Skin Off,Tassal,Meat & Seafood,20.0,20.0,0,0.0,300g,66.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+127,ww_176620,woolworths,Tassal Salmon Mustard & Dill,Tassal,Meat & Seafood,19.0,19.0,0,0.0,300g,63.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+128,ww_666237,woolworths,Chicken Sandwich Chicken Sandwich Schnitzel,Chicken Sandwich,Meat & Seafood,1.4,2.8,1,50.0,each,1.4,1EA,,0,2026-06-18T14:40:52Z,National Brand
+129,ww_71841,woolworths,D'Orsogna Shortcut Bacon From the Deli,D'Orsogna,Meat & Seafood,10.5,21.0,1,50.0,per 125g,10.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+130,ww_577860,woolworths,Woolworths Heart Smart Extra Lean Beef Mince,Woolworths,Meat & Seafood,12.0,12.0,0,0.0,500g,24.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+131,ww_710953,woolworths,Woolworths RSPCA Approved Chicken Breast Fillet,Woolworths,Meat & Seafood,12.0,12.0,0,0.0,per 350g,12.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+132,ww_577862,woolworths,Woolworths Lean Beef Mince,Woolworths,Meat & Seafood,19.35,19.35,0,0.0,1kg,19.35,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+133,ww_77038,woolworths,Woolworths RSPCA Approved Chicken Thigh Fillet,Woolworths,Meat & Seafood,15.5,15.5,0,0.0,per 150g,15.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+134,ww_846996,woolworths,Tassal Hot Smoked Salmon Peppercorn,Tassal,Meat & Seafood,11.5,11.5,0,0.0,150g,76.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+135,ww_847049,woolworths,Tassal Smoked Salmon,Tassal,Meat & Seafood,15.0,15.0,0,0.0,150g,100.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+136,ww_6074133,woolworths,Luv-A-Duck Peking Duck Legs,Luv-A-Duck,Meat & Seafood,10.0,10.0,0,0.0,650g,15.38,1KG,,0,2026-06-18T14:40:52Z,National Brand
+137,ww_29637,woolworths,Tassal Premium Tasmanian Smoked Salmon Slices,Tassal,Meat & Seafood,11.5,11.5,0,0.0,100g,115.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+138,ww_577861,woolworths,Woolworths Lean Beef Mince,Woolworths,Meat & Seafood,11.0,11.0,0,0.0,500g,22.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+139,ww_129693,woolworths,D'Orsogna Champagne Leg Ham Shaved From The Deli,D'Orsogna,Meat & Seafood,24.0,24.0,0,0.0,per 100g,24.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+140,ww_714680,woolworths,Hans Middle Bacon Rashers From the Deli,Hans,Meat & Seafood,19.0,19.0,0,0.0,per 170g,19.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+141,ww_239598,woolworths,Woolworths Pork & Beef Mince,Woolworths,Meat & Seafood,7.0,7.0,0,0.0,500g,14.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+142,ww_130276,woolworths,Leg Ham Shaved From The Deli,,Meat & Seafood,19.9,19.9,0,0.0,per 100g,19.9,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+143,ww_175734,woolworths,D'Orsogna Ham Leg Triple Smoked 97% Fat Free Shaved From The Deli,D'Orsogna,Meat & Seafood,28.0,28.0,0,0.0,per 100g,28.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+144,ww_969723,woolworths,Woolworths RSPCA Approved Chicken Breast Fillet,Woolworths,Meat & Seafood,18.7,18.7,0,0.0,1.3kg - 1.7kg,11.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+145,ww_95171,woolworths,Woolworths Fresh Tasmanian Atlantic Skin On Salmon Fillets,Woolworths,Meat & Seafood,38.0,38.0,0,0.0,per 200g,38.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+146,ww_746376,woolworths,D'Orsogna Streaky Bacon From The Deli,D'Orsogna,Meat & Seafood,23.0,23.0,0,0.0,per 110g,23.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+147,ww_901719,woolworths,Market Value 26 Thin BBQ Sausages,Market Value,Meat & Seafood,11.0,11.0,0,0.0,1.8kg,6.11,1KG,,0,2026-06-18T14:40:52Z,National Brand
+148,ww_103449,woolworths,D'Orsogna Honey Ham Shaved From The Deli,D'Orsogna,Meat & Seafood,28.0,28.0,0,0.0,per 100g,28.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+149,ww_764859,woolworths,Macro Free Range Chicken Thigh Fillet,Macro,Meat & Seafood,18.7,18.7,0,0.0,800g - 1.1kg,17.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+150,ww_901649,woolworths,Woolworths 10 Beef Sausages,Woolworths,Meat & Seafood,6.5,6.5,0,0.0,550g,11.82,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+151,ww_675632,woolworths,Woolworths Beef Chuck Steak Medium,Woolworths,Meat & Seafood,16.0,16.0,0,0.0,380g - 800g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+152,ww_119259,woolworths,Woolworths RSPCA Approved Chicken Breast Fillet Skinless Small,Woolworths,Meat & Seafood,9.43,9.43,0,0.0,500g - 650g,14.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+153,ww_700228,woolworths,Macro Chicken Breast Fillets Free Range,Macro,Meat & Seafood,19.6,19.6,0,0.0,700g - 1.4kg,14.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+154,ww_6044171,woolworths,Woolworths Lean Beef Strips,Woolworths,Meat & Seafood,12.0,12.0,0,0.0,500g,24.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+155,ww_785788,woolworths,Moira Mac's Roasted Chicken Breast Shredded From The Deli,Moira Mac's,Meat & Seafood,30.15,30.15,0,0.0,per 100g,30.15,1KG,,0,2026-06-18T14:40:52Z,National Brand
+156,ww_114261,woolworths,Woolworths RSPCA Approved Chicken Breast Diced,Woolworths,Meat & Seafood,15.5,15.5,0,0.0,1kg,15.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+157,ww_243050,woolworths,Woolworths Beef Porterhouse Steak & Butter,Woolworths,Meat & Seafood,18.0,18.0,0,0.0,400g,45.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+158,ww_769243,woolworths,Woolworths Chicken Garlic Kyiv From The Deli,Woolworths,Meat & Seafood,3.0,3.0,0,0.0,each,3.0,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+159,ww_353754,woolworths,Woolworths RSPCA Approved Chicken Breast Diced,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,500g,18.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+160,ww_353946,woolworths,Bertocchi Premium Boneless Leg Ham Shaved From The Deli,Bertocchi,Meat & Seafood,35.0,35.0,0,0.0,per 100g,35.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+161,ww_582608,woolworths,Woolworths Lean Pork Mince,Woolworths,Meat & Seafood,7.5,7.5,0,0.0,500g,15.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+162,ww_236846,woolworths,Woolworths Beef Rump Steak,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,250g,36.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+163,ww_317293,woolworths,Woolworths Beef Scotch Fillet Steak,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,170g,52.94,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+164,ww_727622,woolworths,Woolworths RSPCA Approved Chicken Thigh Fillets Skinless Tray,Woolworths,Meat & Seafood,24.65,24.65,0,0.0,1.3kg - 1.7kg,14.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+165,ww_937258,woolworths,D'Orsogna Premium Ham Off The Bone Shaved From The Deli,D'Orsogna,Meat & Seafood,29.0,35.0,1,17.1,per 100g,29.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+166,ww_509865,woolworths,Woolworths Short Cut Bacon,Woolworths,Meat & Seafood,3.8,3.8,0,0.0,200g,19.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+167,ww_169853,woolworths,Woolworths Pork Mince,Woolworths,Meat & Seafood,9.5,9.5,0,0.0,800g,11.88,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+168,ww_846995,woolworths,Tassal Hot Smoked Salmon Natural,Tassal,Meat & Seafood,11.5,11.5,0,0.0,150g,76.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+169,ww_847118,woolworths,Tassal Smoked Salmon,Tassal,Meat & Seafood,16.0,21.0,1,23.8,250g,64.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+170,ww_227128,woolworths,Tassal Fresh Tassie Salmon Side Skin On,Tassal,Meat & Seafood,23.5,23.5,0,0.0,500g,47.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+171,ww_846997,woolworths,Superior Gold Salmon Smoked,Superior Gold,Meat & Seafood,14.0,18.0,1,22.2,180g,77.78,1KG,,0,2026-06-18T14:40:52Z,National Brand
+172,ww_55375,woolworths,Woolworths Shortcut Bacon,Woolworths,Meat & Seafood,12.5,12.5,0,0.0,1kg,12.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+173,ww_158634,woolworths,Woolworths Honey Soy Wings with RSPCA Approved Chicken,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,per 120g,9.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+174,ww_310742,woolworths,Ingham's Turkey Mince,Ingham's,Meat & Seafood,7.0,7.0,0,0.0,500g,14.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+175,ww_27316,woolworths,Ingham's Turkey Breast Shaved From The Deli,Ingham's,Meat & Seafood,30.0,30.0,0,0.0,per 100g,30.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+176,ww_71860,woolworths,D'Orsogna Diced Bacon From the Deli,D'Orsogna,Meat & Seafood,20.0,20.0,0,0.0,per 100g,20.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+177,ww_6044173,woolworths,Woolworths Chunky Diced Lean Beef,Woolworths,Meat & Seafood,10.5,12.0,1,12.5,500g,21.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+178,ww_345337,woolworths,Tassal Salmon For Cooking,Tassal,Meat & Seafood,11.5,11.5,0,0.0,200g,57.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+179,ww_6074234,woolworths,Luv-A-Duck Thai Red Duck Curry,Luv-A-Duck,Meat & Seafood,12.0,16.5,1,27.3,470g,25.53,1KG,,0,2026-06-18T14:40:52Z,National Brand
+180,ww_351196,woolworths,Chicken Schnitzel Crumbed From The Deli,,Meat & Seafood,3.0,3.0,0,0.0,each,3.0,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+181,ww_686853,woolworths,Woolworths Beef Sizzle Steak,Woolworths,Meat & Seafood,13.0,13.0,0,0.0,400g,32.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+182,ww_48527,woolworths,Hans Devon Sliced From The Deli,Hans,Meat & Seafood,9.5,9.5,0,0.0,per 100g,9.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+183,ww_354118,woolworths,Woolworths RSPCA Approved Chicken Thigh Cutlets,Woolworths,Meat & Seafood,8.0,8.0,0,0.0,per 180g,8.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+184,ww_741794,woolworths,Don Cocktail Frankfurts From The Deli,Don,Meat & Seafood,9.5,9.5,0,0.0,per 100g,9.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+185,ww_321099,woolworths,Woolworths RSPCA Approved Chicken Mince,Woolworths,Meat & Seafood,10.5,10.5,0,0.0,1kg,10.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+186,ww_826675,woolworths,Steggles Family Roast Whole Chicken,Steggles,Meat & Seafood,17.5,17.5,0,0.0,1.8kg - 2.5kg,7.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+187,ww_675315,woolworths,Woolworths Beef Eye Fillet Steak,Woolworths,Meat & Seafood,30.0,30.0,0,0.0,200g - 500g,60.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+188,ww_59755,woolworths,Ingham's Oven Roasted Turkey Breast Sliced From The Deli,Ingham's,Meat & Seafood,30.0,30.0,0,0.0,per 100g,30.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+189,ww_48358,woolworths,Woolworths Middle Bacon Middle Rashers,Woolworths,Meat & Seafood,12.5,12.5,0,0.0,1kg,12.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+190,ww_582607,woolworths,Woolworths Lamb Mince,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,500g,18.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+191,ww_868940,woolworths,Woolworths Lamb Shanks,Woolworths,Meat & Seafood,13.3,13.3,0,0.0,500g - 950g,14.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+192,ww_109099,woolworths,Woolworths Beef Sausage Mince,Woolworths,Meat & Seafood,5.5,5.5,0,0.0,500g,11.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+193,ww_55374,woolworths,Woolworths Shortcut Bacon,Woolworths,Meat & Seafood,7.5,7.5,0,0.0,500g,15.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+194,ww_141203,woolworths,Woolworths Beef Chuck Large,Woolworths,Meat & Seafood,30.0,30.0,0,0.0,650g - 1.5kg,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+195,ww_700279,woolworths,Macro Chicken Tenderloins Free Range,Macro,Meat & Seafood,13.98,13.98,0,0.0,450g - 650g,21.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+196,ww_741872,woolworths,Don Thin Frankfurts From The Deli,Don,Meat & Seafood,9.5,9.5,0,0.0,per 130g,9.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+197,ww_23208,woolworths,Woolworths RSPCA Approved Chicken Drumsticks,Woolworths,Meat & Seafood,4.8,4.8,0,0.0,per 150g,4.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+198,ww_929865,woolworths,Don Shredded Ham From The Deli,Don,Meat & Seafood,22.0,22.0,0,0.0,per 100g,22.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+199,ww_675483,woolworths,Woolworths Diced Beef Casserole,Woolworths,Meat & Seafood,10.0,10.0,0,0.0,500g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+200,ww_148345,woolworths,Woolworths Corned Beef Silverside,Woolworths,Meat & Seafood,28.75,28.75,0,0.0,1kg - 2.5kg,11.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+201,ww_30936,woolworths,Ingham's Chicken Sliced From The Deli,Ingham's,Meat & Seafood,16.5,16.5,0,0.0,per 100g,16.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+202,ww_901506,woolworths,Woolworths 10 Honey Beef Sausages,Woolworths,Meat & Seafood,6.5,6.5,0,0.0,550g,11.82,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+203,ww_6001529,woolworths,Don Melosi Leg Ham Shaved From The Deli,Don Melosi,Meat & Seafood,24.0,32.5,1,26.2,per 100g,24.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+204,ww_901505,woolworths,Woolworths 10 Herb & Garlic Beef Sausages,Woolworths,Meat & Seafood,6.5,6.5,0,0.0,550g,11.82,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+205,ww_268603,woolworths,Woolworths RSPCA Approved Chicken Whole,Woolworths,Meat & Seafood,9.9,11.0,1,10.0,1.8kg - 2.2kg,4.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+206,ww_742211,woolworths,Woolworths RSPCA Approved Chicken Kebab Honey Soy,Woolworths,Meat & Seafood,1.0,1.4,1,28.6,each,1.0,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+207,ww_134041,woolworths,Woolworths Chicken Schnitzels,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,600g,15.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+208,ww_114253,woolworths,Woolworths RSPCA Approved Chicken Breast Schnitzels,Woolworths,Meat & Seafood,10.5,10.5,0,0.0,500g,21.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+209,ww_392138,woolworths,Tassal Cooked Aussie Tiger Prawns,Tassal,Meat & Seafood,16.0,16.0,0,0.0,475g,33.68,1KG,,0,2026-06-18T14:40:52Z,National Brand
+210,ww_630332,woolworths,Tassal Atlantic Salmon Skin On,Tassal,Meat & Seafood,19.0,19.0,0,0.0,300g,63.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+211,ww_630331,woolworths,Tassal Atlantic Salmon Skin Off,Tassal,Meat & Seafood,20.0,20.0,0,0.0,300g,66.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+212,ww_176620,woolworths,Tassal Salmon Mustard & Dill,Tassal,Meat & Seafood,19.0,19.0,0,0.0,300g,63.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+213,ww_317294,woolworths,Woolworths Beef Porterhouse Steak,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,180g,50.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+214,ww_321551,woolworths,Macro Organic Extra Lean Beef Mince,Macro,Meat & Seafood,15.5,15.5,0,0.0,500g,31.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+215,ww_901703,woolworths,Woolworths 4 Angus Quarter Pound Beef Burgers,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,454g,19.82,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+216,ww_2841,woolworths,Woolworths RSPCA Approved Chicken Stirfry,Woolworths,Meat & Seafood,8.75,8.75,0,0.0,500g,17.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+217,ww_67486,woolworths,Don Melosi Double Smoked Ham Shaved From The Deli,Don,Meat & Seafood,34.0,34.0,0,0.0,per 100g,34.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+218,ww_675318,woolworths,Woolworths Beef Rump Steak Medium,Woolworths,Meat & Seafood,21.75,21.75,0,0.0,270g - 750g,29.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+219,ww_846996,woolworths,Tassal Hot Smoked Salmon Peppercorn,Tassal,Meat & Seafood,11.5,11.5,0,0.0,150g,76.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+220,ww_847049,woolworths,Tassal Smoked Salmon,Tassal,Meat & Seafood,15.0,15.0,0,0.0,150g,100.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+221,ww_6074133,woolworths,Luv-A-Duck Peking Duck Legs,Luv-A-Duck,Meat & Seafood,10.0,10.0,0,0.0,650g,15.38,1KG,,0,2026-06-18T14:40:52Z,National Brand
+222,ww_29637,woolworths,Tassal Premium Tasmanian Smoked Salmon Slices,Tassal,Meat & Seafood,11.5,11.5,0,0.0,100g,115.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+223,ww_666557,woolworths,Woolworths Heart Smart Extra Lean Pork Mince,Woolworths,Meat & Seafood,8.0,8.0,0,0.0,500g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+224,ww_184628,woolworths,Macro Chicken Breast Fillets Free Range,Macro,Meat & Seafood,16.2,16.2,0,0.0,400g - 900g,18.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+225,ww_157054,woolworths,Woolworths Salmon Portions Skin On,Woolworths,Meat & Seafood,17.5,17.5,0,0.0,4 pack,38.04,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+226,ww_6041771,woolworths,Woolworths Silverside Corned Beef Sliced From The Deli,Woolworths,Meat & Seafood,28.0,28.0,0,0.0,per 100g,28.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+227,ww_6022457,woolworths,Woolworths Australian Beef Rump Steak Medallions,Woolworths,Meat & Seafood,15.0,15.0,0,0.0,340g,44.12,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+228,ww_672975,woolworths,Macro Organic Lean Beef Mince,Macro,Meat & Seafood,13.0,14.5,1,10.3,500g,26.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+229,ww_114258,woolworths,Woolworths RSPCA Approved Chicken Tenderloins,Woolworths,Meat & Seafood,10.0,11.0,1,9.1,600g,16.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+230,ww_175569,woolworths,Macro Grass Fed Australian Stir-Fry Beef,Macro,Meat & Seafood,13.0,13.0,0,0.0,500g,26.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+231,ww_763087,woolworths,D'Orsogna Bacon Streaky,D'Orsogna,Meat & Seafood,8.4,8.4,0,0.0,200g,42.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+232,ww_285093,woolworths,Macro Grass Fed Beef Rump Steak,Macro,Meat & Seafood,12.5,12.5,0,0.0,300g,41.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+233,ww_477866,woolworths,Bertocchi Smoked Pork Bones,Bertocchi,Meat & Seafood,13.5,13.5,0,0.0,per 100g,13.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+234,ww_260669,woolworths,Woolworths Angus Beef & Caramelised Onion Sausages,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,450g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+235,ww_827609,woolworths,Woolworths Lamb Leg Steak,Woolworths,Meat & Seafood,15.0,18.0,1,16.7,540g,27.78,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+236,ww_907241,woolworths,Woolworths 12 Chicken Kebabs Honey Soy,Woolworths,Meat & Seafood,12.0,12.0,0,0.0,750g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+237,ww_6047034,woolworths,Woolworths Roast Beef Shaved From The Deli,Woolworths,Meat & Seafood,35.5,38.0,1,6.6,per 100g,35.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+238,ww_184649,woolworths,Macro Chicken Thigh Fillets Free Range,Macro,Meat & Seafood,11.0,11.0,0,0.0,450g - 550g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+239,ww_119318,woolworths,Woolworths RSPCA Approved Chicken Thigh Skinless Fillets Small,Woolworths,Meat & Seafood,13.5,13.5,0,0.0,500g - 750g,18.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+240,ww_675492,woolworths,Woolworths Scotch Fillet Pork,Woolworths,Meat & Seafood,10.0,12.0,1,16.7,600g,16.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+241,ww_54241,woolworths,Woolworths BBQ Beef Steaks With Black Pepper,Woolworths,Meat & Seafood,8.0,8.0,0,0.0,300g,26.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+242,ww_6046970,woolworths,Woolworths Silverside Corned Beef Shaved From The Deli,Woolworths,Meat & Seafood,28.0,28.0,0,0.0,per 100g,28.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+243,ww_11303,woolworths,Moira Mac's Marinated BBQ Chicken Breast Sliced From The Deli,Moira Mac's,Meat & Seafood,30.15,30.15,0,0.0,per 100g,30.15,1KG,,0,2026-06-18T14:40:52Z,National Brand
+244,ww_268605,woolworths,Woolworths RSPCA Approved Chicken Drumsticks,Woolworths,Meat & Seafood,8.0,8.0,0,0.0,2kg,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+245,ww_357418,woolworths,Woolworths Classic Angus Beef Sausages,Woolworths,Meat & Seafood,9.0,9.0,0,0.0,6 pack,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+246,ww_6040154,woolworths,Woolworths Roast Beef Sliced From The Deli,Woolworths,Meat & Seafood,35.5,38.0,1,6.6,per 100g,35.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+247,ww_764968,woolworths,Woolworths Lamb Leg Roast,Woolworths,Meat & Seafood,39.6,39.6,0,0.0,750g - 2.2kg,18.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+248,ww_134032,woolworths,Woolworths Creamy Garlic Stuffed Boneless Chicken Kyiv,Woolworths,Meat & Seafood,7.0,8.0,1,12.5,700g,10.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+249,ww_901682,woolworths,Woolworths 10 Chicken Sausages,Woolworths,Meat & Seafood,6.5,6.5,0,0.0,550g,11.82,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+250,ww_176564,woolworths,D'Orsogna Shortcut Bacon,D'Orsogna,Meat & Seafood,22.0,22.0,0,0.0,1kg,22.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+251,ww_178137,woolworths,Peppercorn Extra Lean Beef Burger 6 Pack,Peppercorn,Meat & Seafood,10.0,11.5,1,13.0,500g,20.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+252,ww_157055,woolworths,Woolworths Salmon Portions Skin Off,Woolworths,Meat & Seafood,19.0,19.0,0,0.0,4 pack,41.3,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+253,ww_769558,woolworths,Bega Tasty Cheese Slices Slices,Bega,Dairy & Eggs,10.7,11.8,1,9.3,500g,21.4,1KG,,0,2026-06-18T14:40:52Z,National Brand
+254,ww_706239,woolworths,Ultimate Yoghurt Juicy Strawberry,Ultimate,Dairy & Eggs,6.0,6.0,0,0.0,115g x 4 pack,1.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+255,ww_620882,woolworths,Chris' Traditional French Onion,Chris',Dairy & Eggs,4.5,4.5,0,0.0,200g,2.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+256,ww_6059945,woolworths,Muscle Nation Protein Yoghurt Pouch Banoffee,Muscle Nation,Dairy & Eggs,3.0,3.0,0,0.0,150g,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+257,ww_888140,woolworths,Woolworths Full Cream Milk,Woolworths,Dairy & Eggs,5.15,5.15,0,0.0,3L,1.72,1L,,0,2026-06-18T14:40:52Z,Own Brand
+258,ww_748595,woolworths,Woolworths Full Cream Long Life Milk UHT,Woolworths,Dairy & Eggs,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+259,ww_888137,woolworths,Woolworths Full Cream Milk,Woolworths,Dairy & Eggs,3.55,3.55,0,0.0,2L,1.78,1L,,0,2026-06-18T14:40:52Z,Own Brand
+260,ww_48720,woolworths,Woolworths Thickened Cream,Woolworths,Dairy & Eggs,5.2,5.2,0,0.0,600mL,0.87,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+261,ww_105609,woolworths,Woolworths Sour Cream,Woolworths,Dairy & Eggs,3.3,3.3,0,0.0,300mL,1.1,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+262,ww_799813,woolworths,Woolworths Free From Lactose Lite Long Life Milk UHT,Woolworths,Dairy & Eggs,2.1,2.1,0,0.0,1L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+263,ww_769459,woolworths,Perfect Italiano Grated 4 Cheese Melt,Perfect Italiano,Dairy & Eggs,10.2,10.2,0,0.0,450g,22.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+264,ww_741994,woolworths,Ultimate Yoghurt Golden Honey,Ultimate,Dairy & Eggs,6.0,6.0,0,0.0,115g x 4 pack,1.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+265,ww_6050494,woolworths,Woolworths Beef Lasagne,Woolworths,Dairy & Eggs,25.0,25.0,0,0.0,1.5kg,1.67,100G,,0,2026-06-18T14:40:52Z,Own Brand
+266,ww_253798,woolworths,Yoplait Vanilla Yoghurt,Yoplait,Dairy & Eggs,5.2,5.2,0,0.0,1kg,0.52,100G,,0,2026-06-18T14:40:52Z,National Brand
+267,ww_44317,woolworths,Woolworths Thickened Cream,Woolworths,Dairy & Eggs,3.4,3.4,0,0.0,300mL,1.13,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+268,ww_33557,woolworths,Devondale 100% Pure Full Cream Long Life Milk UHT,Devondale,Dairy & Eggs,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+269,ww_771258,woolworths,Rokeby Protein Smoothie Dutch Chocolate,Rokeby,Dairy & Eggs,4.65,4.65,0,0.0,425mL,10.94,1L,,0,2026-06-18T14:40:52Z,National Brand
+270,ww_48650,woolworths,Woolworths Salted Butter,Woolworths,Dairy & Eggs,7.0,7.0,0,0.0,500g,1.4,100G,,0,2026-06-18T14:40:52Z,Own Brand
+271,ww_688962,woolworths,Essentials Unsalted Butter,Essentials,Dairy & Eggs,7.0,7.0,0,0.0,500g,1.4,100G,,0,2026-06-18T14:40:52Z,National Brand
+272,ww_77170,woolworths,Sunny Queen 12 Extra Large Free Range Eggs,Sunny Queen,Dairy & Eggs,8.8,8.8,0,0.0,700g,1.26,100G,,0,2026-06-18T14:40:52Z,National Brand
+273,ww_6010283,woolworths,Woolworths Strawberry Yoghurt Pouch Strawberry,Woolworths,Dairy & Eggs,0.8,0.8,0,0.0,70g,1.14,100G,,0,2026-06-18T14:40:52Z,Own Brand
+274,ww_6010295,woolworths,Woolworths Vanilla Yoghurt Pouch Vanilla,Woolworths,Dairy & Eggs,0.8,0.8,0,0.0,70g,1.14,100G,,0,2026-06-18T14:40:52Z,Own Brand
+275,ww_69756,woolworths,Western Star Original Spreadable Butter Blend Tub,Western Star,Dairy & Eggs,8.5,8.5,0,0.0,500g,1.7,100G,,0,2026-06-18T14:40:52Z,National Brand
+276,ww_748597,woolworths,Woolworths Skim Long Life Milk UHT,Woolworths,Dairy & Eggs,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+277,ww_491820,woolworths,Hillview Tasty Shredded Cheese,Hillview,Dairy & Eggs,9.3,9.3,0,0.0,700g,13.29,1KG,,0,2026-06-18T14:40:52Z,National Brand
+278,ww_571487,woolworths,Woolworths Natural Greek Style Yoghurt,Woolworths,Dairy & Eggs,4.2,4.2,0,0.0,1kg,0.42,100G,,0,2026-06-18T14:40:52Z,Own Brand
+279,ww_224941,woolworths,Woolworths Tasty Cheese Slices,Woolworths,Dairy & Eggs,7.5,7.5,0,0.0,500g,15.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+280,ww_888139,woolworths,Woolworths Lite Milk,Woolworths,Dairy & Eggs,3.55,3.55,0,0.0,2L,1.78,1L,,0,2026-06-18T14:40:52Z,Own Brand
+281,ww_205663,woolworths,Woolworths Light Sour Cream,Woolworths,Dairy & Eggs,3.3,3.3,0,0.0,300mL,1.1,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+282,ww_799811,woolworths,Woolworths Free From Lactose Full Cream Long Life Milk UHT,Woolworths,Dairy & Eggs,2.1,2.1,0,0.0,1L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+283,ww_748596,woolworths,Woolworths Lite Long Life Milk UHT,Woolworths,Dairy & Eggs,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+284,ww_23038,woolworths,Macro Firm Tofu,Macro,Dairy & Eggs,2.8,2.8,0,0.0,450g,6.22,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+285,ww_452083,woolworths,Woolworths Greek Style Fetta,Woolworths,Dairy & Eggs,3.2,3.2,0,0.0,200g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+286,ww_888141,woolworths,Woolworths Lite Milk,Woolworths,Dairy & Eggs,5.15,5.15,0,0.0,3L,1.72,1L,,0,2026-06-18T14:40:52Z,Own Brand
+287,ww_56731,woolworths,Bonsoy Soy Long Life Milk UHT,Bonsoy,Dairy & Eggs,4.5,4.5,0,0.0,1L,4.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+288,ww_663177,woolworths,Farmers Union Greek Style Yoghurt Pouch Real Vanilla Bean,Farmers Union,Dairy & Eggs,2.9,2.9,0,0.0,130g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+289,ww_170475,woolworths,Wicked Sister High Protein Chocolate Pudding,Wicked Sister,Dairy & Eggs,3.3,3.3,0,0.0,170g,1.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+290,ww_6039040,woolworths,Vaalia Boost Probiotic Yoghurt Pouch Mango Magic,Vaalia,Dairy & Eggs,2.85,2.85,0,0.0,150g,1.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+291,ww_6010159,woolworths,Woolworths Blueberry Yoghurt Pouch Blueberry,Woolworths,Dairy & Eggs,0.8,0.8,0,0.0,70g,1.14,100G,,0,2026-06-18T14:40:52Z,Own Brand
+292,ww_500187,woolworths,Hillview Cheese Block,Hillview,Dairy & Eggs,9.3,9.3,0,0.0,1kg,9.3,1KG,,0,2026-06-18T14:40:52Z,National Brand
+293,ww_779130,woolworths,Woolworths Soy Long Life Milk UHT,Woolworths,Dairy & Eggs,1.75,1.75,0,0.0,1L,1.75,1L,,0,2026-06-18T14:40:52Z,Own Brand
+294,ww_296507,woolworths,Woolworths Cream Cheese,Woolworths,Dairy & Eggs,2.6,2.6,0,0.0,250g,10.4,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+295,ww_508827,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Strawberry,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+296,ww_43562,woolworths,Pauls Custard Vanilla Custard,Pauls,Dairy & Eggs,5.5,5.5,0,0.0,1kg,0.55,100G,,0,2026-06-18T14:40:52Z,National Brand
+297,ww_717672,woolworths,Yoplait Classic Yoghurt Punnets Punnets,Yoplait,Dairy & Eggs,9.4,9.4,0,0.0,100g x 12 pack,0.78,100G,,0,2026-06-18T14:40:52Z,National Brand
+298,ww_6001736,woolworths,Dairyworks Grated Mozzarella Cheese,Dairyworks,Dairy & Eggs,7.5,7.5,0,0.0,500g,15.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+299,ww_85587,woolworths,Woolworths Shredded Parmesan Cheese,Woolworths,Dairy & Eggs,5.7,5.7,0,0.0,250g,22.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+300,ww_686461,woolworths,Farmers Union Greek Style Yoghurt Pouch Strawberry,Farmers Union,Dairy & Eggs,2.9,2.9,0,0.0,130g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+301,ww_258746,woolworths,Bulla Cooking Cream,Bulla,Dairy & Eggs,4.1,4.1,0,0.0,300mL,1.37,100ML,,0,2026-06-18T14:40:52Z,National Brand
+302,ww_744490,woolworths,Sanitarium So Good Unsweetened Almond Long Life Milk UHT,Sanitarium,Dairy & Eggs,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+303,ww_331448,woolworths,Vaalia Kids Probiotic Yoghurt Pouch Strawberry,Vaalia,Dairy & Eggs,2.55,2.55,0,0.0,140g,1.82,100G,,0,2026-06-18T14:40:52Z,National Brand
+304,ww_771267,woolworths,Rokeby Protein Smoothie Double Espresso,Rokeby,Dairy & Eggs,4.65,4.65,0,0.0,425mL,10.94,1L,,0,2026-06-18T14:40:52Z,National Brand
+305,ww_199420,woolworths,Western Star Spreadable Butter Blend Tub Supersoft,Western Star,Dairy & Eggs,8.5,8.5,0,0.0,500g,1.7,100G,,0,2026-06-18T14:40:52Z,National Brand
+306,ww_263854,woolworths,Chris' Dips Corn Relish,Chris',Dairy & Eggs,4.5,4.5,0,0.0,200g,2.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+307,ww_6060445,woolworths,Muscle Nation Protein Yoghurt Pouch Lemon Cheesecake,Muscle Nation,Dairy & Eggs,3.0,3.0,0,0.0,150g,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+308,ww_513469,woolworths,Pauls Plus+ Protein Low Fat Milk,Pauls,Dairy & Eggs,5.6,5.6,0,0.0,2L,2.8,1L,,0,2026-06-18T14:40:52Z,National Brand
+309,ww_508826,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Vanilla,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+310,ww_838737,woolworths,Woolworths Light Thickened Cream,Woolworths,Dairy & Eggs,3.4,3.4,0,0.0,300mL,1.13,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+311,ww_771237,woolworths,Sunny Queen 18 Large Free Range Eggs,Sunny Queen,Dairy & Eggs,12.7,12.7,0,0.0,900g,1.41,100G,,0,2026-06-18T14:40:52Z,National Brand
+312,ww_780717,woolworths,Woolworths Creamed Cottage Cheese,Woolworths,Dairy & Eggs,6.0,6.0,0,0.0,500g,12.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+313,ww_124806,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Banana,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+314,ww_779134,woolworths,Woolworths Unsweetened Almond Long Life Milk UHT,Woolworths,Dairy & Eggs,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+315,ww_660435,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Blueberry,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+316,ww_88436,woolworths,Dairy Farmers Full Cream Milk Full Cream Milk,Dairy Farmers,Dairy & Eggs,4.65,4.95,1,6.1,2L,2.33,1L,,0,2026-06-18T14:40:52Z,National Brand
+317,ww_24318,woolworths,Sanitarium So Good Soy Regular Long Life Milk UHT,Sanitarium,Dairy & Eggs,2.4,2.4,0,0.0,1L,2.4,1L,,0,2026-06-18T14:40:52Z,National Brand
+318,ww_730998,woolworths,Pauls Zymil Lactose Free Full Cream Long Life Milk UHT,Pauls,Dairy & Eggs,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+319,ww_331445,woolworths,Vaalia Kids Probiotic Yoghurt Pouch Vanilla,Vaalia,Dairy & Eggs,2.55,2.55,0,0.0,140g,1.82,100G,,0,2026-06-18T14:40:52Z,National Brand
+320,ww_717518,woolworths,Chobani Greek Yoghurt Natural Light Plain,Chobani,Dairy & Eggs,7.9,7.9,0,0.0,907g,0.87,100G,,0,2026-06-18T14:40:52Z,National Brand
+321,ww_57182,woolworths,Mainland Buttersoft Pure  Butter Tub Salted,Mainland,Dairy & Eggs,10.6,10.6,0,0.0,375g,2.83,100G,,0,2026-06-18T14:40:52Z,National Brand
+322,ww_728983,woolworths,Woolworths Mozzarella Shredded Cheese,Woolworths,Dairy & Eggs,8.3,8.3,0,0.0,500g,16.6,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+323,ww_105321,woolworths,YoPRO Perform High Protein Yoghurt Pouch Mango Passionfruit,YoPRO,Dairy & Eggs,3.9,3.9,0,0.0,175g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+324,ww_729008,woolworths,Woolworths Light Tasty Shredded Cheese,Woolworths,Dairy & Eggs,6.5,6.5,0,0.0,500g,13.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+325,ww_31547,woolworths,Farmers Union Greek Style Natural Yoghurt,Farmers Union,Dairy & Eggs,7.5,7.5,0,0.0,1kg,0.75,100G,,0,2026-06-18T14:40:52Z,National Brand
+326,ww_48025,woolworths,Western Star Salted Butter Block Butter Block,Western Star,Dairy & Eggs,4.9,4.9,0,0.0,250g,1.96,100G,,0,2026-06-18T14:40:52Z,National Brand
+327,ww_6036107,woolworths,Woolworths Essentials Table Spread,Woolworths,Dairy & Eggs,2.8,2.8,0,0.0,1kg,0.28,100G,,0,2026-06-18T14:40:52Z,Own Brand
+328,ww_50923,woolworths,Woolworths Full Cream Milk,Woolworths,Dairy & Eggs,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+329,ww_310237,woolworths,Woolworths Tasty Cheese Block,Woolworths,Dairy & Eggs,7.7,7.7,0,0.0,500g,15.4,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+330,ww_360847,woolworths,Bulla Cottage Cheese Plain Cheese,Bulla,Dairy & Eggs,8.0,8.0,0,0.0,500g,16.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+331,ww_729026,woolworths,Woolworths Tasty Shredded Cheese,Woolworths,Dairy & Eggs,8.3,8.3,0,0.0,500g,16.6,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+332,ww_167552,woolworths,Tamar Valley Dairy Yoghurt Strawberry & Cream,Tamar Valley,Dairy & Eggs,3.05,3.05,0,0.0,170g,1.79,100G,,0,2026-06-18T14:40:52Z,National Brand
+333,ww_858008,woolworths,PureHarvest Organic Almond Unsweetened Long Life Milk UH,PureHarvest,Dairy & Eggs,2.6,3.4,1,23.5,1L,2.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+334,ww_788553,woolworths,Rokeby Protein Smoothie Banana Honey Cinnamon,Rokeby,Dairy & Eggs,4.65,4.65,0,0.0,425mL,10.94,1L,,0,2026-06-18T14:40:52Z,National Brand
+335,ww_41402,woolworths,Bulla Cottage Cheese Original,Bulla,Dairy & Eggs,4.8,4.8,0,0.0,200g,24.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+336,ww_862492,woolworths,Pauls Kids Bluey Vanilla Yoghurt Pouch,Pauls,Dairy & Eggs,1.35,1.35,0,0.0,70g,1.93,100G,,0,2026-06-18T14:40:52Z,National Brand
+337,ww_42161,woolworths,Perfect Italiano Parmesan Cheese Grated Parmesan,Perfect Italiano,Dairy & Eggs,4.8,4.8,0,0.0,125g,38.4,1KG,,0,2026-06-18T14:40:52Z,National Brand
+338,ww_95502,woolworths,Bulla Premium Sour Cream,Bulla,Dairy & Eggs,3.95,3.95,0,0.0,200mL,1.98,100ML,,0,2026-06-18T14:40:52Z,National Brand
+339,ww_6061610,woolworths,Muscle Nation Protein Yoghurt Pouch Mango,Muscle Nation,Dairy & Eggs,3.0,3.0,0,0.0,150g,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+340,ww_405010,woolworths,Farmhouse Gold Full Cream Milk Full Cream Milk,Farmhouse Gold,Dairy & Eggs,4.95,4.95,0,0.0,1.5L,3.3,1L,,0,2026-06-18T14:40:52Z,National Brand
+341,ww_932567,woolworths,Chris' Dips French Onion,Chris',Dairy & Eggs,3.3,4.5,1,26.7,60g x 3 pack,1.83,100G,,0,2026-06-18T14:40:52Z,National Brand
+342,ww_706257,woolworths,Ultimate Yoghurt Black Cherry,Ultimate,Dairy & Eggs,6.0,6.0,0,0.0,115g x 4 pack,1.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+343,ww_6039041,woolworths,Vaalia Boost Probiotic Yoghurt Pouch Strawberry Squeeze,Vaalia,Dairy & Eggs,2.85,2.85,0,0.0,150g,1.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+344,ww_867015,woolworths,YoPRO Protein Yoghurt Vanilla,YoPRO,Dairy & Eggs,8.0,8.0,0,0.0,700g,1.14,100G,,0,2026-06-18T14:40:52Z,National Brand
+345,ww_28991,woolworths,Bega Stringers Cheese Cheese,Bega,Dairy & Eggs,7.5,7.5,0,0.0,160g,46.88,1KG,,0,2026-06-18T14:40:52Z,National Brand
+346,ww_265568,woolworths,Chobani Greek Yoghurt Natural Light,Chobani,Dairy & Eggs,2.7,2.7,0,0.0,160g,1.69,100G,,0,2026-06-18T14:40:52Z,National Brand
+347,ww_6039963,woolworths,Rokeby Protein Snack Chocolate,Rokeby,Dairy & Eggs,2.4,3.0,1,20.0,160g,1.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+348,ww_6038609,woolworths,Vaalia Boost Probiotic Yoghurt Pouch Banana Buzz,Vaalia,Dairy & Eggs,2.85,2.85,0,0.0,150g,1.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+349,ww_87702,woolworths,Lurpak Butter Spreadable,Lurpak,Dairy & Eggs,9.0,9.0,0,0.0,400g,2.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+350,ww_660435,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Blueberry,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+351,ww_13834,woolworths,Vaalia Probiotic Yoghurt French Vanilla,Vaalia,Dairy & Eggs,6.8,6.8,0,0.0,900g,0.76,100G,,0,2026-06-18T14:40:52Z,National Brand
+352,ww_6038843,woolworths,Ultimate Yoghurt Smooth Caramel,Ultimate,Dairy & Eggs,6.0,6.0,0,0.0,115g x 4 pack,1.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+353,ww_686455,woolworths,Farmers Union Greek Style Yoghurt Pouch Hint Of Real Mango,Farmers Union,Dairy & Eggs,2.9,2.9,0,0.0,130g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+354,ww_167374,woolworths,Tamar Valley Dairy Yoghurt Mango & Cream Yoghurt Mango & Cream,Tamar Valley,Dairy & Eggs,3.05,3.05,0,0.0,170g,1.79,100G,,0,2026-06-18T14:40:52Z,National Brand
+355,ww_346607,woolworths,Hillview Mozzarella Shredded Cheese,Hillview,Dairy & Eggs,9.3,9.3,0,0.0,700g,13.29,1KG,,0,2026-06-18T14:40:52Z,National Brand
+356,ww_729025,woolworths,Woolworths Tasty Cheese Shredded,Woolworths,Dairy & Eggs,5.0,5.0,0,0.0,250g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+357,ww_230367,woolworths,Devondale Semi Skim Long Life Milk UHT,Devondale,Dairy & Eggs,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+358,ww_794731,woolworths,YoPRO Protein Yoghurt Pouch Vanilla,YoPRO,Dairy & Eggs,1.9,3.2,1,40.6,150g,1.27,100G,,0,2026-06-18T14:40:52Z,National Brand
+359,ww_148781,woolworths,Vitasoy Oat Milky Long Life Milk UHT,Vitasoy,Dairy & Eggs,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+360,ww_208064,woolworths,a2 Milk Full Cream Milk,a2 Milk,Dairy & Eggs,7.3,7.3,0,0.0,2L,3.65,1L,,0,2026-06-18T14:40:52Z,National Brand
+361,ww_120207,woolworths,Sanitarium So Good Oat No Added Sugar Long Life Milk UHT,Sanitarium,Dairy & Eggs,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+362,ww_769558,woolworths,Bega Tasty Cheese Slices Slices,Bega,Dairy & Eggs,10.7,11.8,1,9.3,500g,21.4,1KG,,0,2026-06-18T14:40:52Z,National Brand
+363,ww_105785,woolworths,YoPRO Perform High Protein Yoghurt Pouch Mixed Berries,YoPRO,Dairy & Eggs,3.9,3.9,0,0.0,175g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+364,ww_68977,woolworths,Woolworths Australian Butter Unsalted,Woolworths,Dairy & Eggs,4.5,4.5,0,0.0,250g,1.8,100G,,0,2026-06-18T14:40:52Z,Own Brand
+365,ww_104248,woolworths,YoPRO Perform High Protein Yoghurt Pouch Strawberry,YoPRO,Dairy & Eggs,3.9,3.9,0,0.0,175g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+366,ww_452086,woolworths,Woolworths Danish Style Fetta,Woolworths,Dairy & Eggs,3.2,3.2,0,0.0,200g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+367,ww_536508,woolworths,Woolworths Mozzarella Shredded Cheese,Woolworths,Dairy & Eggs,5.5,5.5,0,0.0,250g,22.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+368,ww_862414,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Raspberry,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+369,ww_312191,woolworths,Yoplait Petit Miam Kids Yoghurt Pouch Strawberry,Yoplait,Dairy & Eggs,1.4,1.4,0,0.0,70g,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+370,ww_623659,woolworths,Nestle Milo Energy Dairy Snack Snack Pouch,Nestle,Dairy & Eggs,2.05,2.85,1,28.1,150g,1.37,100G,,0,2026-06-18T14:40:52Z,National Brand
+371,ww_509491,woolworths,Tamar Valley Dairy Kids Greek Yoghurt Pouch Tropical,Tamar Valley,Dairy & Eggs,2.55,2.55,0,0.0,110g,2.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+372,ww_165367,woolworths,Woolworths 12 Extra Large Cage Free Eggs,Woolworths,Dairy & Eggs,5.7,5.7,0,0.0,700g,0.81,100G,,0,2026-06-18T14:40:52Z,Own Brand
+373,ww_167330,woolworths,Tamar Valley The Creamery Greek Style Yoghurt Blueberries & Cream,Tamar Valley,Dairy & Eggs,3.05,3.05,0,0.0,170g,1.79,100G,,0,2026-06-18T14:40:52Z,National Brand
+374,ww_68978,woolworths,Woolworths Australian Butter Salted,Woolworths,Dairy & Eggs,4.5,4.5,0,0.0,250g,1.8,100G,,0,2026-06-18T14:40:52Z,Own Brand
+375,ww_224944,woolworths,Woolworths Extra Tasty Cheese Slices,Woolworths,Dairy & Eggs,7.5,7.5,0,0.0,500g,15.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+376,ww_663179,woolworths,Farmers Union Greek Style Yoghurt Pouch Natural,Farmers Union,Dairy & Eggs,2.9,2.9,0,0.0,130g,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+377,ww_504592,woolworths,Westgold Butter Salted Salted,Westgold,Dairy & Eggs,8.0,8.0,0,0.0,400g,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+378,ww_223865,woolworths,Lurpak Butter Spreadable Slightly Salted,Lurpak,Dairy & Eggs,6.5,6.5,0,0.0,250g,2.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+379,ww_365569,woolworths,Macro Organic Full Cream Milk,Macro,Dairy & Eggs,2.5,2.5,0,0.0,1L,2.5,1L,,0,2026-06-18T14:40:52Z,Own Brand
+380,ww_751972,woolworths,Pauls Kids Bluey Vanilla Custard Pouch,Pauls,Dairy & Eggs,2.05,2.05,0,0.0,70g,2.93,100G,,0,2026-06-18T14:40:52Z,National Brand
+381,ww_6033364,woolworths,Golden Banana Bread Flavoured Crumpets,Golden,Bakery,4.0,5.5,1,27.3,6 pack,0.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+382,ww_6071665,woolworths,Tip Top The One Digestive Health Soft White Sliced Loaf,Tip Top,Bakery,4.5,5.0,1,10.0,680g,0.66,100G,,0,2026-06-18T14:40:52Z,National Brand
+383,ww_453156,woolworths,Cadbury Chocolate Mini Rolls 115g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+384,ww_633063,woolworths,Cadbury Milk Chocolate Cake Bars 105g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+385,ww_263669,woolworths,Wonder White Bread Vitamins & Minerals Sandwich,Wonder,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+386,ww_277728,woolworths,Woolworths White Sandwich Bread Loaf,Woolworths,Bakery,2.5,2.5,0,0.0,650g,0.38,100G,,0,2026-06-18T14:40:52Z,Own Brand
+387,ww_634918,woolworths,Woolworths White Wrap,Woolworths,Bakery,2.2,2.2,0,0.0,8 pack,0.61,100G,,0,2026-06-18T14:40:52Z,Own Brand
+388,ww_581176,woolworths,Woolworths Wholemeal Soft Sandwich Bread,Woolworths,Bakery,2.8,2.8,0,0.0,650g,0.43,100G,,0,2026-06-18T14:40:52Z,Own Brand
+389,ww_713816,woolworths,Tip Top The One White Sandwich Slice Bread Loaf Bakery,Tip Top,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+390,ww_49622,woolworths,Golden Crumpets Round,Golden,Bakery,4.8,4.8,0,0.0,6 pack,0.8,1EA,,0,2026-06-18T14:40:52Z,National Brand
+391,ww_855750,woolworths,Cadbury Raspberry Mini Rolls 125g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+392,ww_581280,woolworths,Woolworths White Soft Hi-Fibre Bread,Woolworths,Bakery,3.5,3.5,0,0.0,700g,0.5,100G,,0,2026-06-18T14:40:52Z,Own Brand
+393,ww_224737,woolworths,Woolworths English Muffins,Woolworths,Bakery,3.0,3.0,0,0.0,6 pack,0.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+394,ww_253937,woolworths,Wonder White Wholemeal With Iron Sandwich Slice,Wonder,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+395,ww_33593,woolworths,Woolworths All Butter Croissants,Woolworths,Bakery,2.6,2.6,0,0.0,4 pack,0.65,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+396,ww_320194,woolworths,Mission Wraps Original,Mission,Bakery,5.6,5.6,0,0.0,8 pack,0.99,100G,,0,2026-06-18T14:40:52Z,National Brand
+397,ww_233160,woolworths,Woolworths Soft White Loaf White Extra Soft Loaf,Woolworths,Bakery,3.6,3.6,0,0.0,800g,0.45,100G,,0,2026-06-18T14:40:52Z,Own Brand
+398,ww_46795,woolworths,Tip Top English Muffins Original Bakery,Tip Top,Bakery,3.2,6.4,1,50.0,6 pack,0.53,1EA,,0,2026-06-18T14:40:52Z,National Brand
+399,ww_6016711,woolworths,Woolworths Hamburger Buns,Woolworths,Bakery,2.75,2.75,0,0.0,6 pack,0.46,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+400,ww_581172,woolworths,Woolworths White Soft Sandwich Bread,Woolworths,Bakery,2.8,2.8,0,0.0,650g,0.43,100G,,0,2026-06-18T14:40:52Z,Own Brand
+401,ww_33878,woolworths,Woolworths Soft Hamburger Rolls Soft Hamburger,Woolworths,Bakery,3.0,3.0,0,0.0,6 pack,0.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+402,ww_363952,woolworths,Woolworths 35hr Sourdough Loaf White Loaf,Woolworths,Bakery,6.25,6.25,0,0.0,each,6.25,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+403,ww_6037735,woolworths,Woolworths Stonebaked Turkish Rolls,Woolworths,Bakery,2.6,2.6,0,0.0,4 pack,0.65,100G,,0,2026-06-18T14:40:52Z,Own Brand
+404,ww_713834,woolworths,Tip Top The One White Toast Slice Bread Loaf Bakery,Tip Top,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+405,ww_263667,woolworths,Wonder White Bread Vitamins & Minerals Toast,Wonder,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+406,ww_581281,woolworths,Woolworths Wholemeal Sandwich Hi-Fibre Bread,Woolworths,Bakery,3.5,3.5,0,0.0,700g,0.5,100G,,0,2026-06-18T14:40:52Z,Own Brand
+407,ww_634919,woolworths,Woolworths Wholegrain Wrap 8Pk,Woolworths,Bakery,2.2,2.2,0,0.0,360g,0.61,100G,,0,2026-06-18T14:40:52Z,Own Brand
+408,ww_6033366,woolworths,Tip Top Raisin Toast Loaf,Tip Top,Bakery,5.5,5.5,0,0.0,500g,1.1,100G,,0,2026-06-18T14:40:52Z,National Brand
+409,ww_573301,woolworths,Menissez Bake At Home White Dinner Rolls,Menissez,Bakery,2.9,2.9,0,0.0,6 pack,0.48,1EA,,0,2026-06-18T14:40:52Z,National Brand
+410,ww_645865,woolworths,Bakery Du Jour Brioche Burger Buns,Bakery Du Jour,Bakery,3.6,3.6,0,0.0,4 pack,0.9,1EA,,0,2026-06-18T14:40:52Z,National Brand
+411,ww_130502,woolworths,Woolworths Soft Round Rolls Extra Soft Lunch,Woolworths,Bakery,3.0,3.0,0,0.0,6 pack,0.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+412,ww_97237,woolworths,Woolworths All Butter Croissant,Woolworths,Bakery,2.6,2.6,0,0.0,3 pack,0.87,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+413,ww_7413,woolworths,Golden Crumpet Squares,Golden,Bakery,3.5,5.0,1,30.0,6 pack,0.58,1EA,,0,2026-06-18T14:40:52Z,National Brand
+414,ww_328822,woolworths,Woolworths Banana Bread Slices,Woolworths,Bakery,5.75,5.75,0,0.0,5 pack,1.15,100G,,0,2026-06-18T14:40:52Z,Own Brand
+415,ww_55656,woolworths,Woolworths Soft White Loaf White Extra Soft Loaf,Woolworths,Bakery,3.3,3.3,0,0.0,680g,0.49,100G,,0,2026-06-18T14:40:52Z,Own Brand
+416,ww_6035082,woolworths,Woolworths Mini Choc Chip Muffin,Woolworths,Bakery,4.5,4.5,0,0.0,8 pack,0.56,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+417,ww_6037733,woolworths,Woolworths Rustic White Sourdough Loaf,Woolworths,Bakery,4.0,4.0,0,0.0,500g,0.8,100G,,0,2026-06-18T14:40:52Z,Own Brand
+418,ww_84129,woolworths,Helga's Bread Traditional Wholemeal,Helga's,Bakery,5.3,5.3,0,0.0,750g,0.71,100G,,0,2026-06-18T14:40:52Z,National Brand
+419,ww_581174,woolworths,Woolworths White Soft Toast Bread,Woolworths,Bakery,2.8,2.8,0,0.0,650g,0.43,100G,,0,2026-06-18T14:40:52Z,Own Brand
+420,ww_365378,woolworths,Woolworths Pikelets,Woolworths,Bakery,2.5,2.5,0,0.0,8 pack,1.25,100G,,0,2026-06-18T14:40:52Z,Own Brand
+421,ww_581282,woolworths,Woolworths Multigrain Sandwich Hi-Fibre Bread,Woolworths,Bakery,3.5,3.5,0,0.0,700g,0.5,100G,,0,2026-06-18T14:40:52Z,Own Brand
+422,ww_6033364,woolworths,Golden Banana Bread Flavoured Crumpets,Golden,Bakery,4.0,5.5,1,27.3,6 pack,0.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+423,ww_6071665,woolworths,Tip Top The One Digestive Health Soft White Sliced Loaf,Tip Top,Bakery,4.5,5.0,1,10.0,680g,0.66,100G,,0,2026-06-18T14:40:52Z,National Brand
+424,ww_453156,woolworths,Cadbury Chocolate Mini Rolls 115g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+425,ww_633063,woolworths,Cadbury Milk Chocolate Cake Bars 105g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+426,ww_283413,woolworths,Woolworths Fruit Toast Loaf,Woolworths,Bakery,3.45,3.45,0,0.0,560g,0.62,100G,,0,2026-06-18T14:40:52Z,Own Brand
+427,ww_6016644,woolworths,Woolworths Hotdog Rolls,Woolworths,Bakery,2.75,2.75,0,0.0,6 pack,0.46,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+428,ww_177677,woolworths,Mission Souvlaki Bread,Mission,Bakery,3.5,4.6,1,23.9,320g,1.09,100G,,0,2026-06-18T14:40:52Z,National Brand
+429,ww_224739,woolworths,Woolworths Crumpets,Woolworths,Bakery,2.2,2.2,0,0.0,6 pack,0.37,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+430,ww_33909,woolworths,Woolworths Soft Hotdog Rolls Hotdog Extra Soft,Woolworths,Bakery,3.0,3.0,0,0.0,6 pack,0.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+431,ww_803943,woolworths,Brioche Gourmet Burger Buns,Brioche Gourmet,Bakery,6.5,6.5,0,0.0,4 pack,1.63,1EA,,0,2026-06-18T14:40:52Z,National Brand
+432,ww_855750,woolworths,Cadbury Raspberry Mini Rolls 125g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+433,ww_331602,woolworths,Abbott's Bakery Light Rye Bread Sandwich Slice Loaf,Abbott's Bakery,Bakery,5.3,5.3,0,0.0,680g,0.78,100G,,0,2026-06-18T14:40:52Z,National Brand
+434,ww_6024445,woolworths,Woolworths Large White Wraps,Woolworths,Bakery,4.0,4.0,0,0.0,8 pack,0.71,100G,,0,2026-06-18T14:40:52Z,Own Brand
+435,ww_421465,woolworths,Woolworths Dreamy Choc Chip Cookies,Woolworths,Bakery,3.3,3.8,1,13.2,5 pack,0.66,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+436,ww_6027918,woolworths,Helga's Mixed Grain Loaf,Helga's,Bakery,5.3,5.3,0,0.0,800g,0.66,100G,,0,2026-06-18T14:40:52Z,National Brand
+437,ww_883002,woolworths,Woolworths Mini Blueberry Muffins,Woolworths,Bakery,4.5,4.5,0,0.0,8 pack,0.56,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+438,ww_581178,woolworths,Woolworths Multigrain Soft Sandwich Bread,Woolworths,Bakery,2.8,2.8,0,0.0,650g,0.43,100G,,0,2026-06-18T14:40:52Z,Own Brand
+439,ww_165306,woolworths,Tip Top Gluten Free The One White Sliced Bread,Tip Top,Bakery,7.4,7.4,0,0.0,550g,1.35,100G,,0,2026-06-18T14:40:52Z,National Brand
+440,ww_201257,woolworths,Woolworths Jumbo Soft Round Rolls Extra Soft Jumbo,Woolworths,Bakery,3.55,3.55,0,0.0,6 pack,0.59,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+441,ww_6034209,woolworths,Woolworths Mini Double Choc Chip Muffin,Woolworths,Bakery,4.5,4.5,0,0.0,8 pack,0.56,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+442,ww_250627,woolworths,Woolworths Cookies Choc Chip,Woolworths,Bakery,6.5,6.5,0,0.0,24 pack,0.27,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+443,ww_6079453,woolworths,Mission Garlic Souvlaki Bread,Mission,Bakery,3.5,4.6,1,23.9,320g 5 pack,1.09,100G,,0,2026-06-18T14:40:52Z,National Brand
+444,ww_197276,woolworths,Tip Top 9 Grain Classic Sandwich Slice Bread Loaf Bakery,Tip Top,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+445,ww_89121,woolworths,Tip Top English Muffins Wholemeal Bakery,Tip Top,Bakery,3.2,6.4,1,50.0,6 pack,0.53,1EA,,0,2026-06-18T14:40:52Z,National Brand
+446,ww_749588,woolworths,Tip Top The One Wholemeal Bread Sandwich Slice Loaf Bakery,Tip Top,Bakery,4.7,4.7,0,0.0,700g,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+447,ww_867246,woolworths,Toscano Classic Pizza Bases,Toscano,Bakery,7.0,7.0,0,0.0,2 pack,2.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+448,ww_89471,woolworths,Woolworths Thin Crust Pizza Base,Woolworths,Bakery,3.0,3.0,0,0.0,2 pack,1.5,100G,,0,2026-06-18T14:40:52Z,Own Brand
+449,ww_26162,woolworths,Mighty Soft Bread Rolls Hot Dog,Mighty Soft,Bakery,4.5,4.5,0,0.0,6 pack,0.75,1EA,,0,2026-06-18T14:40:52Z,National Brand
+450,ww_690672,woolworths,Abbott's Bakery Rustic White Bread Sandwich Slice Loaf,Abbott's Bakery,Bakery,5.3,5.3,0,0.0,700g,0.76,100G,,0,2026-06-18T14:40:52Z,National Brand
+451,ww_31560,woolworths,Golden Crumpets Round Wholemeal,Golden,Bakery,4.8,4.8,0,0.0,6 pack,0.8,1EA,,0,2026-06-18T14:40:52Z,National Brand
+452,ww_6033012,woolworths,Tip Top Cafe Thick Cut Raisin Toast Loaf,Tip Top,Bakery,5.5,5.5,0,0.0,600g,0.92,100G,,0,2026-06-18T14:40:52Z,National Brand
+453,ww_607875,woolworths,Woolworths Mini Banana Muffin,Woolworths,Bakery,4.5,4.5,0,0.0,8 pack,0.56,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+454,ww_131380,woolworths,Woolworths Lamington Fingers,Woolworths,Bakery,3.8,3.8,0,0.0,18 pack,0.21,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+455,ww_38214,woolworths,Woolworths Fresh Donuts Cinnamon,Woolworths,Bakery,3.5,3.5,0,0.0,12 pack,0.29,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+456,ww_125793,woolworths,Brioche Gourmet Burger Buns With Sesame Seeds,Brioche Gourmet,Bakery,6.5,6.5,0,0.0,4 pack,1.63,1EA,,0,2026-06-18T14:40:52Z,National Brand
+457,ww_13044,woolworths,Mighty Soft Bread Rolls Hamburger Buns,Mighty Soft,Bakery,4.5,4.5,0,0.0,6 pack,0.75,1EA,,0,2026-06-18T14:40:52Z,National Brand
+458,ww_6028328,woolworths,Helga's Soft White Loaf,Helga's,Bakery,5.3,5.3,0,0.0,700g,0.76,100G,,0,2026-06-18T14:40:52Z,National Brand
+459,ww_363951,woolworths,Woolworths 35hr Sourdough Loaf Seeded Seeds And Grains,Woolworths,Bakery,6.25,6.25,0,0.0,each,6.25,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+460,ww_201252,woolworths,Woolworths Jumbo Soft Hamburger Rolls Jumbo Hamburger,Woolworths,Bakery,3.55,3.55,0,0.0,6 pack,0.59,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+461,ww_46645,woolworths,Golden Pikelets,Golden,Bakery,4.5,4.5,0,0.0,8 pack,2.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+462,ww_320195,woolworths,Mission Wraps Mini Original,Mission,Bakery,4.6,5.6,1,17.9,8 pack,1.2,100G,,0,2026-06-18T14:40:52Z,National Brand
+463,ww_6033364,woolworths,Golden Banana Bread Flavoured Crumpets,Golden,Bakery,4.0,5.5,1,27.3,6 pack,0.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+464,ww_6071665,woolworths,Tip Top The One Digestive Health Soft White Sliced Loaf,Tip Top,Bakery,4.5,5.0,1,10.0,680g,0.66,100G,,0,2026-06-18T14:40:52Z,National Brand
+465,ww_453156,woolworths,Cadbury Chocolate Mini Rolls 115g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+466,ww_633063,woolworths,Cadbury Milk Chocolate Cake Bars 105g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+467,ww_16999,woolworths,Helga's Sourdough Loaf,Helga's,Bakery,5.3,5.3,0,0.0,650g,0.82,100G,,0,2026-06-18T14:40:52Z,National Brand
+468,ww_298121,woolworths,Woolworths Cheese & Bacon Rolls Bacon & Cheese,Woolworths,Bakery,6.5,6.5,0,0.0,6 pack,1.08,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+469,ww_7928,woolworths,Woolworths Iced Donuts,Woolworths,Bakery,3.8,3.8,0,0.0,6 pack,0.63,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+470,ww_66921,woolworths,Woolworths Butter Croissant,Woolworths,Bakery,9.9,9.9,0,0.0,10 pack,0.99,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+471,ww_28125,woolworths,Buttercup Country Split White Bread,Buttercup,Bakery,4.4,4.4,0,0.0,450g,0.98,100G,,0,2026-06-18T14:40:52Z,National Brand
+472,ww_6072530,woolworths,Tip Top The One Digestive Health Soft Wholemeal Sliced Loaf,Tip Top,Bakery,4.5,5.0,1,10.0,680g,0.66,100G,,0,2026-06-18T14:40:52Z,National Brand
+473,ww_855750,woolworths,Cadbury Raspberry Mini Rolls 125g,Cadbury,Bakery,6.9,6.9,0,0.0,5 pack,1.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+474,ww_289456,woolworths,Abbott's Bakery Sourdough White Bread Sandwich Slice Loaf,Abbott's Bakery,Bakery,5.5,5.5,0,0.0,760g,0.72,100G,,0,2026-06-18T14:40:52Z,National Brand
+475,ww_690125,woolworths,Abbott's Bakery Country Grains Sandwich Slice Bread Loaf,Abbott's Bakery,Bakery,5.3,5.3,0,0.0,800g,0.66,100G,,0,2026-06-18T14:40:52Z,National Brand
+476,ww_331591,woolworths,Abbott's Bakery Farmhouse Wholemeal Bread Sandwich Slice Loaf,Abbott's Bakery,Bakery,5.3,5.3,0,0.0,750g,0.71,100G,,0,2026-06-18T14:40:52Z,National Brand
+477,ww_777161,woolworths,Woolworths Plain Turkish Rolls,Woolworths,Bakery,3.75,3.75,0,0.0,3 pack,1.25,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+478,ww_320197,woolworths,Mission Wraps Spinach & Herb,Mission,Bakery,5.6,5.6,0,0.0,8 pack,0.99,100G,,0,2026-06-18T14:40:52Z,National Brand
+479,ww_277578,woolworths,Woolworths Free From Gluten White Bread Loaf,Woolworths,Bakery,5.5,5.5,0,0.0,440g,1.25,100G,,0,2026-06-18T14:40:52Z,Own Brand
+480,ww_726067,woolworths,Toscano Brioche Burger Buns,Toscano,Bakery,5.7,5.7,0,0.0,4 pack,2.85,100G,,0,2026-06-18T14:40:52Z,National Brand
+481,ww_6037734,woolworths,Woolworths Rustic Rye Sourdough Loaf,Woolworths,Bakery,4.0,4.0,0,0.0,500g,0.8,100G,,0,2026-06-18T14:40:52Z,Own Brand
+482,ww_270580,woolworths,Abe's Bagels The Natural Bagels,Abe's Bagels,Bakery,5.0,5.5,1,9.1,4 pack,1.39,100G,,0,2026-06-18T14:40:52Z,National Brand
+483,ww_846809,woolworths,Mr Kipling Cake Angel Slices Snack Pack,Mr Kipling,Bakery,6.2,6.2,0,0.0,6 pack,1.03,1EA,,0,2026-06-18T14:40:52Z,National Brand
+484,ww_774123,woolworths,Mission Pita Bread Pockets Plain,Mission,Bakery,4.5,4.5,0,0.0,420g,1.07,100G,,0,2026-06-18T14:40:52Z,National Brand
+485,ww_384286,woolworths,Mission Wraps Wholegrain,Mission,Bakery,5.6,5.6,0,0.0,8 pack,0.99,100G,,0,2026-06-18T14:40:52Z,National Brand
+486,ww_919345,woolworths,Mission Carb Balance Original Wraps,Mission,Bakery,6.6,6.6,0,0.0,6 pack,2.29,100G,,0,2026-06-18T14:40:52Z,National Brand
+487,ww_35496,woolworths,Woolworths Wholemeal Loaf Wholemeal Loaf,Woolworths,Bakery,3.3,3.3,0,0.0,680g,0.49,100G,,0,2026-06-18T14:40:52Z,Own Brand
+488,ww_218853,woolworths,Tip Top Gourmet Burger Buns BBQ Bread Rolls Bakery,Tip Top,Bakery,5.9,5.9,0,0.0,4 pack,2.68,100G,,0,2026-06-18T14:40:52Z,National Brand
+489,ww_103774,woolworths,Abbott's Bakery Sourdough Rye Bread Sandwich Slice Loaf,Abbott's Bakery,Bakery,5.5,5.5,0,0.0,760g,0.72,100G,,0,2026-06-18T14:40:52Z,National Brand
+490,ww_6046609,woolworths,Tip Top Gourmet Pizza Bases White,Tip Top,Bakery,4.0,4.0,0,0.0,2 pack,0.91,100G,,0,2026-06-18T14:40:52Z,National Brand
+491,ww_6034087,woolworths,Woolworths Choc Chip Muffins,Woolworths,Bakery,4.5,4.5,0,0.0,4 pack,1.13,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+492,ww_145667,woolworths,Woolworths Anzac Biscuit Family,Woolworths,Bakery,6.5,6.5,0,0.0,24 pack,0.27,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+493,ww_182092,woolworths,Helga's Traditional Wholemeal Wraps,Helga's,Bakery,3.5,5.5,1,36.4,8 pack,0.69,100G,,0,2026-06-18T14:40:52Z,National Brand
+494,ww_883001,woolworths,Woolworths Blueberry Muffins,Woolworths,Bakery,4.5,4.5,0,0.0,4 pack,1.13,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+495,ww_889314,woolworths,Wonder 5 Star Soft White High Fibre Bread Loaf,Wonder,Bakery,5.0,5.0,0,0.0,680g,0.74,100G,,0,2026-06-18T14:40:52Z,National Brand
+496,ww_757540,woolworths,Woolworths Jumbo Crusty Tiger Rolls,Woolworths,Bakery,3.55,3.55,0,0.0,6 pack,0.59,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+497,ww_240473,woolworths,Simson's Pantry Low Carb High Protein + Fibre Large Wraps,Simson's Pantry,Bakery,6.5,6.5,0,0.0,6 pack,1.55,100G,,0,2026-06-18T14:40:52Z,National Brand
+498,ww_71654,woolworths,Glicks Plain Bagel,Glicks,Bakery,3.9,3.9,0,0.0,4 pack,1.08,100G,,0,2026-06-18T14:40:52Z,National Brand
+499,ww_232833,woolworths,Burgen Soy & Linseed Low GI Sliced Bread Loaf Bakery,Burgen,Bakery,6.0,6.0,0,0.0,700g,0.86,100G,,0,2026-06-18T14:40:52Z,National Brand
+500,ww_61227,woolworths,Brioche Gourmet Sliders,Brioche Gourmet,Bakery,6.5,6.5,0,0.0,10 pack,0.65,1EA,,0,2026-06-18T14:40:52Z,National Brand
+501,ww_6032991,woolworths,Tip Top Wholemeal Raisin Toast Loaf,Tip Top,Bakery,5.5,5.5,0,0.0,575g,0.96,100G,,0,2026-06-18T14:40:52Z,National Brand
+502,ww_242694,woolworths,Woolworths Rustic White Baguette,Woolworths,Bakery,2.5,2.5,0,0.0,each,2.5,1EA,,0,2026-06-18T14:40:52Z,Own Brand
+503,ww_243014,woolworths,Toscano Sourdough Pizza Base,Toscano,Bakery,8.5,8.5,0,0.0,2 pack,2.02,100G,,0,2026-06-18T14:40:52Z,National Brand
+504,ww_774205,woolworths,Nice & Natural Fruit Fun Mix Variety Multi Pack School Snacks Gluten Free,Nice & Natural,Pantry,8.0,8.0,0,0.0,16 pack,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+505,ww_72618,woolworths,Twinings English Breakfast Tea Bags Tea Bags,Twinings,Pantry,6.75,13.5,1,50.0,100 pack,0.07,1EA,,0,2026-06-18T14:40:52Z,National Brand
+506,ww_99633,woolworths,MasterFoods Tomato Sauce,MasterFoods,Pantry,2.8,4.2,1,33.3,500mL,0.56,100ML,,0,2026-06-18T14:40:52Z,National Brand
+507,ww_925716,woolworths,Praise Traditional Mayo,Praise,Pantry,3.5,3.5,0,0.0,250g,1.4,100G,,0,2026-06-18T14:40:52Z,National Brand
+508,ww_748595,woolworths,Woolworths Full Cream Long Life Milk UHT,Woolworths,Pantry,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+509,ww_799813,woolworths,Woolworths Free From Lactose Lite Long Life Milk UHT,Woolworths,Pantry,2.1,2.1,0,0.0,1L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+510,ww_33557,woolworths,Devondale 100% Pure Full Cream Long Life Milk UHT,Devondale,Pantry,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+511,ww_770320,woolworths,Woolworths Diced Italian Tomatoes,Woolworths,Pantry,1.1,1.1,0,0.0,400g,2.75,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+512,ww_230392,woolworths,Ardmona Crushed Vine Ripened Tomatoes,Ardmona,Pantry,1.4,1.8,1,22.2,400g,3.41,1KG,,0,2026-06-18T14:40:52Z,National Brand
+513,ww_38609,woolworths,Sirena Tuna In Oil Italian Style,Sirena,Pantry,2.95,2.95,0,0.0,95g,31.05,1KG,,0,2026-06-18T14:40:52Z,National Brand
+514,ww_6005486,woolworths,Cholula Original Taco Spice Seasoning Mix,Cholula,Pantry,3.1,3.1,0,0.0,28g,11.07,100G,,0,2026-06-18T14:40:52Z,National Brand
+515,ww_758286,woolworths,Dolmio Extra Bolognese Tomato Pasta Sauce,Dolmio,Pantry,4.6,4.6,0,0.0,500g,0.92,100G,,0,2026-06-18T14:40:52Z,National Brand
+516,ww_334160,woolworths,Nice & Natural Fruit Strings School Snacks Gluten Free,Nice & Natural,Pantry,4.25,5.6,1,24.1,8 pack,3.13,100G,,0,2026-06-18T14:40:52Z,National Brand
+517,ww_6000194,woolworths,Nice & Natural Deluxe Protein Bar Salted Caramel Cashew & Choc 5 Pack,Nice & Natural,Pantry,4.55,6.5,1,30.0,200g,2.28,100G,,0,2026-06-18T14:40:52Z,National Brand
+518,ww_218926,woolworths,Woolworths Corn Sweet Kernels,Woolworths,Pantry,1.05,1.05,0,0.0,420g,2.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+519,ww_748597,woolworths,Woolworths Skim Long Life Milk UHT,Woolworths,Pantry,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+520,ww_311488,woolworths,Essentials Diced Tomatoes,Essentials,Pantry,0.95,0.95,0,0.0,400g,2.38,1KG,,0,2026-06-18T14:40:52Z,National Brand
+521,ww_476700,woolworths,Woolworths Tuna In Springwater,Woolworths,Pantry,1.1,1.1,0,0.0,95g,11.58,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+522,ww_33282,woolworths,Essentials Plain Flour,Essentials,Pantry,1.3,1.3,0,0.0,1kg,1.3,1KG,,0,2026-06-18T14:40:52Z,National Brand
+523,ww_200695,woolworths,Weet-Bix Breakfast Cereal,Weet-Bix,Pantry,7.0,7.0,0,0.0,1.2kg,0.58,100G,,0,2026-06-18T14:40:52Z,National Brand
+524,ww_37250,woolworths,Greenseas Tuna Chunks In Springwater CHUNK IN SPRING WATER,Greenseas,Pantry,1.35,1.7,1,20.6,95g,14.21,1KG,,0,2026-06-18T14:40:52Z,National Brand
+525,ww_83235,woolworths,Deep Cove Sardines In Springwater,Deep Cove,Pantry,1.1,1.1,0,0.0,125g,8.8,1KG,,0,2026-06-18T14:40:52Z,National Brand
+526,ww_63005,woolworths,La Gina Italian Tomato Paste Passata,La Gina,Pantry,1.95,1.95,0,0.0,680g,0.29,100G,,0,2026-06-18T14:40:52Z,National Brand
+527,ww_360346,woolworths,Woolworths Microwave Jasmine Rice,Woolworths,Pantry,1.8,1.8,0,0.0,250g,0.72,100G,,0,2026-06-18T14:40:52Z,Own Brand
+528,ww_94706,woolworths,Essentials White Vinegar,Essentials,Pantry,1.85,1.85,0,0.0,2L,0.09,100ML,,0,2026-06-18T14:40:52Z,National Brand
+529,ww_694751,woolworths,Essentials Coconut Milk,Essentials,Pantry,1.7,1.7,0,0.0,400mL,0.43,100ML,,0,2026-06-18T14:40:52Z,National Brand
+530,ww_799811,woolworths,Woolworths Free From Lactose Full Cream Long Life Milk UHT,Woolworths,Pantry,2.1,2.1,0,0.0,1L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+531,ww_748596,woolworths,Woolworths Lite Long Life Milk UHT,Woolworths,Pantry,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+532,ww_346830,woolworths,Woolworths Pasta Spaghetti,Woolworths,Pantry,1.0,1.0,0,0.0,500g,0.2,100G,,0,2026-06-18T14:40:52Z,Own Brand
+533,ww_576220,woolworths,Woolworths Diced Australian Tomatoes,Woolworths,Pantry,1.3,1.3,0,0.0,400g,3.25,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+534,ww_346833,woolworths,Woolworths Pasta Spirals,Woolworths,Pantry,1.0,1.0,0,0.0,500g,0.2,100G,,0,2026-06-18T14:40:52Z,Own Brand
+535,ww_77750,woolworths,Campbell's Real Stock Chicken Liquid Stock,Campbell's,Pantry,2.25,4.5,1,50.0,1L,0.23,100ML,,0,2026-06-18T14:40:52Z,National Brand
+536,ww_56731,woolworths,Bonsoy Soy Long Life Milk UHT,Bonsoy,Pantry,4.5,4.5,0,0.0,1L,4.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+537,ww_700642,woolworths,Macro Organic Tomatoes Diced,Macro,Pantry,1.6,1.6,0,0.0,400g,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+538,ww_177972,woolworths,Indomie Mi Goreng Instant Noodles,Indomie,Pantry,3.95,3.95,0,0.0,425g 5 pack,0.93,100G,,0,2026-06-18T14:40:52Z,National Brand
+539,ww_907377,woolworths,Woolworths Black Beans,Woolworths,Pantry,1.0,1.0,0,0.0,420g,2.38,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+540,ww_35007,woolworths,Essentials Long Grain Rice Long Grain,Essentials,Pantry,1.8,1.8,0,0.0,1kg,0.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+541,ww_31370,woolworths,Essentials Coconut Cream,Essentials,Pantry,1.7,1.7,0,0.0,400mL,0.43,100ML,,0,2026-06-18T14:40:52Z,National Brand
+542,ww_684034,woolworths,Macro Organic Coconut Milk,Macro,Pantry,2.1,2.1,0,0.0,400mL,0.53,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+543,ww_779130,woolworths,Woolworths Soy Long Life Milk UHT,Woolworths,Pantry,1.75,1.75,0,0.0,1L,1.75,1L,,0,2026-06-18T14:40:52Z,Own Brand
+544,ww_344550,woolworths,Mutti Polpa Finely Chopped Tomatoes,Mutti,Pantry,2.3,2.3,0,0.0,400g,5.75,1KG,,0,2026-06-18T14:40:52Z,National Brand
+545,ww_188800,woolworths,Essentials Pasta Penne,Essentials,Pantry,0.9,0.9,0,0.0,500g,0.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+546,ww_236393,woolworths,Woolworths Diced Italian Tomatoes,Woolworths,Pantry,2.0,2.0,0,0.0,800g,2.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+547,ww_6076346,woolworths,Indomie Instant Noodles Mi Goreng Spicy Beef Flavour,Indomie,Pantry,3.95,3.95,0,0.0,425g 5 pack,0.93,100G,,0,2026-06-18T14:40:52Z,National Brand
+548,ww_796439,woolworths,Vegemite Spread,Vegemite,Pantry,6.0,7.7,1,22.1,380g,1.58,100G,,0,2026-06-18T14:40:52Z,National Brand
+549,ww_99696,woolworths,MasterFoods Barbecue Sauce,MasterFoods,Pantry,2.8,4.2,1,33.3,500mL,0.56,100ML,,0,2026-06-18T14:40:52Z,National Brand
+550,ww_6071742,woolworths,Cadbury Baking Chips Milk Chocolate,Cadbury,Pantry,8.4,8.4,0,0.0,360g,2.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+551,ww_758377,woolworths,Dolmio Classic Tomato With Basil Pasta Sauce,Dolmio,Pantry,2.5,2.5,0,0.0,500g,0.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+552,ww_230519,woolworths,Woolworths Tomato Sauce Squeeze,Woolworths,Pantry,2.0,2.0,0,0.0,500mL,0.4,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+553,ww_62735,woolworths,Fantastic Chicken Noodle Cup,Fantastic,Pantry,1.75,1.75,0,0.0,70g,2.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+554,ww_85488,woolworths,Sirena Tuna In Chilli Oil,Sirena,Pantry,2.95,2.95,0,0.0,95g,31.05,1KG,,0,2026-06-18T14:40:52Z,National Brand
+555,ww_744490,woolworths,Sanitarium So Good Unsweetened Almond Long Life Milk UHT,Sanitarium,Pantry,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+556,ww_21568,woolworths,Greenseas Tuna In Extra Virgin Olive Oil Blend,Greenseas,Pantry,1.35,1.7,1,20.6,95g,14.21,1KG,,0,2026-06-18T14:40:52Z,National Brand
+557,ww_360348,woolworths,Woolworths Microwave Basmati Rice,Woolworths,Pantry,1.8,1.8,0,0.0,250g,0.72,100G,,0,2026-06-18T14:40:52Z,Own Brand
+558,ww_38288,woolworths,Dilmah Premium Quality Tea Bags,Dilmah,Pantry,4.3,7.2,1,40.3,100 pack,0.04,1EA,,0,2026-06-18T14:40:52Z,National Brand
+559,ww_947246,woolworths,Ben's Original Special Fried Rice,Ben's Original,Pantry,2.0,4.0,1,50.0,250g,0.8,100G,,0,2026-06-18T14:40:52Z,National Brand
+560,ww_6005143,woolworths,Cholula Salsa Verde,Cholula,Pantry,7.25,7.25,0,0.0,340g,2.13,100G,,0,2026-06-18T14:40:52Z,National Brand
+561,ww_6016935,woolworths,MasterFoods Garlic Powder,MasterFoods,Pantry,3.5,3.5,0,0.0,45g,0.78,10G,,0,2026-06-18T14:40:52Z,National Brand
+562,ww_6017834,woolworths,Essentials French Onion Soup,Essentials,Pantry,0.55,0.55,0,0.0,40g,1.38,100G,,0,2026-06-18T14:40:52Z,National Brand
+563,ww_93444,woolworths,Old El Paso Taco Spice Mix Taco Spice Mix,Old El Paso,Pantry,2.7,2.7,0,0.0,30g,9.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+564,ww_34004,woolworths,Essentials Tomato Paste,Essentials,Pantry,1.4,1.4,0,0.0,500g,0.28,100G,,0,2026-06-18T14:40:52Z,National Brand
+565,ww_77384,woolworths,Woolworths Minced Garlic,Woolworths,Pantry,1.25,1.25,0,0.0,250g,0.05,10G,,0,2026-06-18T14:40:52Z,Own Brand
+566,ww_779134,woolworths,Woolworths Unsweetened Almond Long Life Milk UHT,Woolworths,Pantry,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+567,ww_47682,woolworths,Woolworths Baked Beans In Tomato Sauce,Woolworths,Pantry,1.1,1.1,0,0.0,420g,0.26,100G,,0,2026-06-18T14:40:52Z,Own Brand
+568,ww_297000,woolworths,Macro Organic Coconut Cream,Macro,Pantry,2.1,2.1,0,0.0,400mL,0.53,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+569,ww_58537,woolworths,Essentials White Sugar,Essentials,Pantry,1.8,1.8,0,0.0,1kg,0.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+570,ww_24318,woolworths,Sanitarium So Good Soy Regular Long Life Milk UHT,Sanitarium,Pantry,2.4,2.4,0,0.0,1L,2.4,1L,,0,2026-06-18T14:40:52Z,National Brand
+571,ww_730998,woolworths,Pauls Zymil Lactose Free Full Cream Long Life Milk UHT,Pauls,Pantry,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+572,ww_371052,woolworths,Sunrice Microwave Jasmine Rice Cup Fragrant Jasmine Rice,Sunrice,Pantry,3.55,3.55,0,0.0,125g x 2 pack,1.42,100G,,0,2026-06-18T14:40:52Z,National Brand
+573,ww_720342,woolworths,Essentials Brown Sugar,Essentials,Pantry,3.3,3.3,0,0.0,1kg,0.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+574,ww_6024088,woolworths,La Mesita Taco Seasoning Mild,La Mesita,Pantry,1.25,1.25,0,0.0,35g,3.57,100G,,0,2026-06-18T14:40:52Z,National Brand
+575,ww_907049,woolworths,Woolworths Red Kidney Beans,Woolworths,Pantry,1.0,1.0,0,0.0,420g,2.38,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+576,ww_77385,woolworths,Woolworths Minced Garlic,Woolworths,Pantry,2.3,2.3,0,0.0,500g,0.05,10G,,0,2026-06-18T14:40:52Z,Own Brand
+577,ww_694550,woolworths,Woolworths Basmati Rice,Woolworths,Pantry,4.0,4.0,0,0.0,1kg,0.4,100G,,0,2026-06-18T14:40:52Z,Own Brand
+578,ww_450687,woolworths,Leggo's Bolognese Chunky Tomato Garlic & Herbs Pasta Sauce,Leggo's,Pantry,2.3,3.3,1,30.3,500g,0.46,100G,,0,2026-06-18T14:40:52Z,National Brand
+579,ww_292796,woolworths,Cottee's Strawberry Jam,Cottee's,Pantry,3.8,3.8,0,0.0,375g,1.01,100G,,0,2026-06-18T14:40:52Z,National Brand
+580,ww_663584,woolworths,Macro Organic Black Bean No Added Salt,Macro,Pantry,1.5,1.5,0,0.0,420g,3.57,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+581,ww_83295,woolworths,Woolworths Panko Bread Crumbs,Woolworths,Pantry,2.3,2.3,0,0.0,220g,1.05,100G,,0,2026-06-18T14:40:52Z,Own Brand
+582,ww_298476,woolworths,Woolworths 100% Canadian Maple Syrup,Woolworths,Pantry,6.0,6.0,0,0.0,250mL,2.4,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+583,ww_720343,woolworths,Essentials Caster Sugar,Essentials,Pantry,2.2,2.2,0,0.0,1kg,0.22,100G,,0,2026-06-18T14:40:52Z,National Brand
+584,ww_178262,woolworths,Annalisa Chickpeas,Annalisa,Pantry,1.9,1.9,0,0.0,400g,4.75,1KG,,0,2026-06-18T14:40:52Z,National Brand
+585,ww_33296,woolworths,Essentials Self Raising Flour,Essentials,Pantry,1.3,1.3,0,0.0,1kg,1.3,1KG,,0,2026-06-18T14:40:52Z,National Brand
+586,ww_5743,woolworths,Essentials White Sugar,Essentials,Pantry,2.6,2.6,0,0.0,2kg,0.13,100G,,0,2026-06-18T14:40:52Z,National Brand
+587,ww_39128,woolworths,Essentials Cornflour,Essentials,Pantry,2.25,2.25,0,0.0,500g,4.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+588,ww_147314,woolworths,Nutella Hazelnut Chocolate Spread Spread,Nutella,Pantry,12.5,12.5,0,0.0,750g,1.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+589,ww_18169,woolworths,Essentials Raw Sugar,Essentials,Pantry,1.8,1.8,0,0.0,1kg,0.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+590,ww_98046,woolworths,Bega Peanut Butter Smooth,Bega,Pantry,6.9,6.9,0,0.0,470g,1.47,100G,,0,2026-06-18T14:40:52Z,National Brand
+591,ww_318680,woolworths,Twinings Pure Green Tea Bags Bags,Twinings,Pantry,6.75,13.5,1,50.0,100 pack,0.07,1EA,,0,2026-06-18T14:40:52Z,National Brand
+592,ww_758342,woolworths,Dolmio Extra Tomato Onion & Roast Garlic Pasta Sauce,Dolmio,Pantry,4.6,4.6,0,0.0,500g,0.92,100G,,0,2026-06-18T14:40:52Z,National Brand
+593,ww_6054645,woolworths,Noshu Protein Plus Keto Pro Bars Crunchy Cookie Butter,Noshu,Pantry,5.9,7.9,1,25.3,5 pack,3.28,100G,,0,2026-06-18T14:40:52Z,National Brand
+594,ww_858008,woolworths,PureHarvest Organic Almond Unsweetened Long Life Milk UH,PureHarvest,Pantry,2.6,3.4,1,23.5,1L,2.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+595,ww_563001,woolworths,Woolworths Pineapple Slices In Juice,Woolworths,Pantry,2.0,2.0,0,0.0,425g,4.71,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+596,ww_90260,woolworths,Essentials Tomato Paste,Essentials,Pantry,0.95,0.95,0,0.0,170g,0.56,100G,,0,2026-06-18T14:40:52Z,National Brand
+597,ww_178886,woolworths,Essentials Tuna Chunks In Spring Water,Essentials,Pantry,3.3,3.3,0,0.0,425g,7.76,1KG,,0,2026-06-18T14:40:52Z,National Brand
+598,ww_552488,woolworths,Woolworths Brown Rice Microwave Cups,Woolworths,Pantry,2.2,2.2,0,0.0,2 pack,0.88,100G,,0,2026-06-18T14:40:52Z,Own Brand
+599,ww_346831,woolworths,Woolworths Pasta Penne Rigate,Woolworths,Pantry,1.0,1.0,0,0.0,500g,0.2,100G,,0,2026-06-18T14:40:52Z,Own Brand
+600,ww_196566,woolworths,Dilmah Extra Strength Tea Bags,Dilmah,Pantry,5.3,8.8,1,39.8,100 pack,0.05,1EA,,0,2026-06-18T14:40:52Z,National Brand
+601,ww_36557,woolworths,MasterFoods Mild American Mustard Mild American Mustard,MasterFoods,Pantry,4.2,4.2,0,0.0,250g,1.68,100G,,0,2026-06-18T14:40:52Z,National Brand
+602,ww_6072786,woolworths,Masterfoods Garlic Truffle Seasoning,Masterfoods,Pantry,4.95,4.95,0,0.0,50g,0.99,10G,,0,2026-06-18T14:40:52Z,National Brand
+603,ww_6062572,woolworths,Masterfoods Signature Sauce,Masterfoods,Pantry,4.8,4.8,0,0.0,250mL,1.92,100ML,,0,2026-06-18T14:40:52Z,National Brand
+604,ww_144821,woolworths,Sirena Tuna In Springwater,Sirena,Pantry,2.95,2.95,0,0.0,95g,31.05,1KG,,0,2026-06-18T14:40:52Z,National Brand
+605,ww_280512,woolworths,Vegemite Spread,Vegemite,Pantry,9.9,9.9,0,0.0,560g,1.77,100G,,0,2026-06-18T14:40:52Z,National Brand
+606,ww_476701,woolworths,Woolworths Tuna In Oil,Woolworths,Pantry,1.1,1.1,0,0.0,95g,11.58,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+607,ww_251020,woolworths,Woolworths Garlic Powder,Woolworths,Pantry,2.0,2.0,0,0.0,50g,0.4,10G,,0,2026-06-18T14:40:52Z,Own Brand
+608,ww_346837,woolworths,Woolworths Pasta Macaroni,Woolworths,Pantry,1.0,1.0,0,0.0,500g,0.2,100G,,0,2026-06-18T14:40:52Z,Own Brand
+609,ww_83237,woolworths,Deep Cove Sardines In Oil,Deep Cove,Pantry,1.1,1.1,0,0.0,125g,8.8,1KG,,0,2026-06-18T14:40:52Z,National Brand
+610,ww_178887,woolworths,Essentials Tuna Chunks In Spring Water,Essentials,Pantry,1.7,1.7,0,0.0,185g,9.19,1KG,,0,2026-06-18T14:40:52Z,National Brand
+611,ww_6076225,woolworths,Fantastic Smokehouse BBQ Chicken Noodle Cup,Fantastic,Pantry,1.75,1.75,0,0.0,70g,2.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+612,ww_700648,woolworths,Macro Organic Passata,Macro,Pantry,2.5,2.5,0,0.0,700g,0.36,100G,,0,2026-06-18T14:40:52Z,Own Brand
+613,ww_105914,woolworths,Nestle Sweetened Condensed Milk,Nestle,Pantry,4.0,4.0,0,0.0,395g,1.01,100G,,0,2026-06-18T14:40:52Z,National Brand
+614,ww_89160,woolworths,Cloverdale Pure Honey Squeeze,Cloverdale,Pantry,4.2,4.2,0,0.0,400g,1.05,100G,,0,2026-06-18T14:40:52Z,National Brand
+615,ww_321220,woolworths,Woolworths Rolled Traditional Oats,Woolworths,Pantry,1.6,1.6,0,0.0,750g,0.21,100G,,0,2026-06-18T14:40:52Z,Own Brand
+616,ww_230367,woolworths,Devondale Semi Skim Long Life Milk UHT,Devondale,Pantry,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+617,ww_43974,woolworths,San Remo Spaghetti Pasta No 5,San Remo,Pantry,2.95,2.95,0,0.0,500g,0.59,100G,,0,2026-06-18T14:40:52Z,National Brand
+618,ww_258479,woolworths,Woolworths Pizza Sauce Squeeze Bottle,Woolworths,Pantry,2.5,2.5,0,0.0,415g,0.6,100G,,0,2026-06-18T14:40:52Z,Own Brand
+619,ww_148781,woolworths,Vitasoy Oat Milky Long Life Milk UHT,Vitasoy,Pantry,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+620,ww_120207,woolworths,Sanitarium So Good Oat No Added Sugar Long Life Milk UHT,Sanitarium,Pantry,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+621,ww_360343,woolworths,Woolworths Microwave Long Grain White Rice,Woolworths,Pantry,1.8,1.8,0,0.0,250g,0.72,100G,,0,2026-06-18T14:40:52Z,Own Brand
+622,ww_701706,woolworths,Kellogg's Nutri Grain Protein Breakfast Cereal,Kellogg's,Pantry,7.0,7.0,0,0.0,290g,2.41,100G,,0,2026-06-18T14:40:52Z,National Brand
+623,ww_360352,woolworths,Woolworths Microwave White Long Grain Rice Family,Woolworths,Pantry,2.75,2.75,0,0.0,450g,0.61,100G,,0,2026-06-18T14:40:52Z,Own Brand
+624,ww_215451,woolworths,Macro Organic Spirals Pasta,Macro,Pantry,1.95,1.95,0,0.0,500g,0.39,100G,,0,2026-06-18T14:40:52Z,Own Brand
+625,ww_144283,woolworths,Campbell's Real Stock Chicken Salt Reduced,Campbell's,Pantry,2.25,4.5,1,50.0,1L,0.23,100ML,,0,2026-06-18T14:40:52Z,National Brand
+626,ww_753340,woolworths,Woolworths Pesto Basil,Woolworths,Pantry,1.95,1.95,0,0.0,190g,1.03,100G,,0,2026-06-18T14:40:52Z,Own Brand
+627,ww_89159,woolworths,Cloverdale Pure Honey Twist & Squeeze,Cloverdale,Pantry,3.3,3.3,0,0.0,375g,0.88,100G,,0,2026-06-18T14:40:52Z,National Brand
+628,ww_521391,woolworths,Choice Chicken Noodle Cup,Choice,Pantry,1.0,1.0,0,0.0,70g,1.43,100G,,0,2026-06-18T14:40:52Z,National Brand
+629,ww_35742,woolworths,San Remo Penne Pasta No 18,San Remo,Pantry,2.95,2.95,0,0.0,500g,0.59,100G,,0,2026-06-18T14:40:52Z,National Brand
+630,ww_907048,woolworths,Woolworths Four Bean Mix,Woolworths,Pantry,1.0,1.0,0,0.0,420g,2.38,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+631,ww_34559,woolworths,Campbell's Real Stock Chicken Liquid Stock,Campbell's,Pantry,2.75,2.75,0,0.0,500mL,0.55,100ML,,0,2026-06-18T14:40:52Z,National Brand
+632,ww_310251,woolworths,Woolworths Chicken Liquid Stock,Woolworths,Pantry,1.9,1.9,0,0.0,1L,0.19,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+633,ww_6004674,woolworths,Pringles Minis Variety Mix Potato Chips,Pringles,Snacks,7.5,7.5,0,0.0,228g 12 pack,3.29,100G,,0,2026-06-18T14:40:52Z,National Brand
+634,ww_258076,woolworths,Tasty Mix Chips Variety Box,Tasty Mix,Snacks,8.9,8.9,0,0.0,20 pack,2.42,100G,,0,2026-06-18T14:40:52Z,National Brand
+635,ww_6073819,woolworths,The Natural Confectionery Co. Mega Snakes,The Natural Confectionery Co.,Snacks,5.0,5.0,0,0.0,170g,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+636,ww_641532,woolworths,Arnott's Shapes Cracker Biscuits Variety,Arnott's,Snacks,6.0,6.0,0,0.0,15 pack,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+637,ww_826730,woolworths,Smith's Crinkle Cut Potato Chips Original,Smith's,Snacks,5.0,5.0,0,0.0,170g,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+638,ww_826738,woolworths,Smith's Crinkle Cut Potato Chips Salt & Vinegar,Smith's,Snacks,5.0,5.0,0,0.0,170g,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+639,ww_820459,woolworths,Cobs Sea Salt Popcorn,Cobs,Snacks,4.0,4.0,0,0.0,65g 5 pack,6.15,100G,,0,2026-06-18T14:40:52Z,National Brand
+640,ww_71422,woolworths,Real Foods Corn Thins Original,Real Foods,Snacks,1.65,2.1,1,21.4,150g,1.1,100G,,0,2026-06-18T14:40:52Z,National Brand
+641,ww_340997,woolworths,Woolworths Original Salted Corn Chips,Woolworths,Snacks,2.2,2.2,0,0.0,175g,1.26,100G,,0,2026-06-18T14:40:52Z,Own Brand
+642,ww_384250,woolworths,Arnott's Jatz Original Crackers Biscuits,Arnott's,Snacks,2.4,4.0,1,40.0,225g,1.07,100G,,0,2026-06-18T14:40:52Z,National Brand
+643,ww_317455,woolworths,Oreo Mini Cookies Original Bags 10 pack,Oreo,Snacks,4.0,5.0,1,20.0,204g,1.96,100G,,0,2026-06-18T14:40:52Z,National Brand
+644,ww_641538,woolworths,Arnott's Tiny Teddy Hundreds & Thousands Biscuits,Arnott's,Snacks,4.0,5.0,1,20.0,8 pack,2.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+645,ww_816095,woolworths,Pringles Minis Sour Cream & Onion Potato Chips,Pringles,Snacks,4.0,4.0,0,0.0,19g x 5 pack,4.21,100G,,0,2026-06-18T14:40:52Z,National Brand
+646,ww_36022,woolworths,Arnott's Cream Favourites Assorted Biscuits,Arnott's,Snacks,5.5,6.5,1,15.4,500g,1.1,100G,,0,2026-06-18T14:40:52Z,National Brand
+647,ww_311121,woolworths,Woolworths Mild Salsa,Woolworths,Snacks,1.9,1.9,0,0.0,300g,0.63,100G,,0,2026-06-18T14:40:52Z,Own Brand
+648,ww_36066,woolworths,Arnott's Tim Tam Original Chocolate Biscuits,Arnott's,Snacks,6.0,6.0,0,0.0,200g,3.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+649,ww_331286,woolworths,Woolworths Original Rice Crackers,Woolworths,Snacks,1.0,1.0,0,0.0,100g,1.0,100G,,0,2026-06-18T14:40:52Z,Own Brand
+650,ww_36019,woolworths,Arnott's Salada Original Crispbreads,Arnott's,Snacks,3.4,3.4,0,0.0,250g,1.36,100G,,0,2026-06-18T14:40:52Z,National Brand
+651,ww_826735,woolworths,Smith's Crinkle Cut Potato Chips Cheese & Onion,Smith's,Snacks,5.0,5.0,0,0.0,170g,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+652,ww_510726,woolworths,Woolworths Original Popcorn,Woolworths,Snacks,2.6,2.6,0,0.0,20g x 10 pack,1.3,100G,,0,2026-06-18T14:40:52Z,Own Brand
+653,ww_826729,woolworths,Smith's Crinkle Cut Potato Chips Chicken,Smith's,Snacks,5.0,5.0,0,0.0,170g,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+654,ww_66527,woolworths,Kinder Bueno Milk Chocolate Bar,Kinder,Snacks,1.5,3.0,1,50.0,43g,3.49,100G,,0,2026-06-18T14:40:52Z,National Brand
+655,ww_826733,woolworths,Smith's Crinkle Cut Potato Chips Barbecue,Smith's,Snacks,5.0,5.0,0,0.0,170g,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+656,ww_36013,woolworths,Arnott's Scotch Finger Plain Biscuits,Arnott's,Snacks,3.3,3.3,0,0.0,250g,1.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+657,ww_299533,woolworths,Peckish Rice Crackers Original,Peckish,Snacks,2.0,2.5,1,20.0,90g,2.22,100G,,0,2026-06-18T14:40:52Z,National Brand
+658,ww_160905,woolworths,Mars Chocolate Bar with Nougat & Caramel,Mars,Snacks,3.0,3.0,0,0.0,47g,6.38,100G,,0,2026-06-18T14:40:52Z,National Brand
+659,ww_828996,woolworths,Pascall Marshmallows Pink & White White Lollies,Pascall,Snacks,5.0,5.0,0,0.0,280g,1.79,100G,,0,2026-06-18T14:40:52Z,National Brand
+660,ww_331285,woolworths,Woolworths Tangy BBQ Rice Crackers,Woolworths,Snacks,1.0,1.0,0,0.0,100g,1.0,100G,,0,2026-06-18T14:40:52Z,Own Brand
+661,ww_6115,woolworths,KitKat Chocolate Bar,KitKat,Snacks,3.0,3.0,0,0.0,42g,7.14,100G,,0,2026-06-18T14:40:52Z,National Brand
+662,ww_377589,woolworths,Cobs Popcorn Sea Salt Gluten Free,Cobs,Snacks,3.5,3.5,0,0.0,80g,4.38,100G,,0,2026-06-18T14:40:52Z,National Brand
+663,ww_36031,woolworths,Arnott's Monte Carlo Cream Biscuits,Arnott's,Snacks,4.0,4.0,0,0.0,250g,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+664,ww_758182,woolworths,Woolworths Thin Brown Rice Cakes Original,Woolworths,Snacks,1.65,1.65,0,0.0,150g,1.1,100G,,0,2026-06-18T14:40:52Z,Own Brand
+665,ww_820458,woolworths,Cobs Sweet & Salty Popcorn,Cobs,Snacks,4.0,4.0,0,0.0,65g 5 pack,6.15,100G,,0,2026-06-18T14:40:52Z,National Brand
+666,ww_331595,woolworths,Macro Organic Corn Chips Natural,Macro,Snacks,3.7,3.7,0,0.0,200g,1.85,100G,,0,2026-06-18T14:40:52Z,Own Brand
+667,ww_211973,woolworths,The Natural Confectionery Co. Snakes Lollies,The Natural Confectionery Co.,Snacks,5.0,5.0,0,0.0,230g,2.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+668,ww_211982,woolworths,The Natural Confectionery Co. Party Mix Lollies,The Natural Confectionery Co.,Snacks,5.0,5.0,0,0.0,220g,2.27,100G,,0,2026-06-18T14:40:52Z,National Brand
+669,ww_378069,woolworths,Woolworths Multigrain Brown Rice Crackers,Woolworths,Snacks,1.0,1.0,0,0.0,100g,1.0,100G,,0,2026-06-18T14:40:52Z,Own Brand
+670,ww_377593,woolworths,Cobs Natural Popcorn Lightly Salted Slightly Sweet,Cobs,Snacks,3.5,3.5,0,0.0,120g,2.92,100G,,0,2026-06-18T14:40:52Z,National Brand
+671,ww_781394,woolworths,Red Rock Deli Potato Chips Honey Soy Chicken,Red Rock Deli,Snacks,6.0,6.0,0,0.0,165g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+672,ww_587116,woolworths,Woolworths Choc Chip Cookies Minis,Woolworths,Snacks,2.5,2.5,0,0.0,8 pack,1.39,100G,,0,2026-06-18T14:40:52Z,Own Brand
+673,ww_35231,woolworths,Fantastic Rice Crackers Original,Fantastic,Snacks,2.5,2.5,0,0.0,100g,2.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+674,ww_261282,woolworths,Ritz Original Crackers,Ritz,Snacks,3.0,3.5,1,14.3,227g,1.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+675,ww_641537,woolworths,Arnott's Tiny Teddy Variety Biscuits,Arnott's,Snacks,6.0,6.0,0,0.0,15 pack,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+676,ww_36215,woolworths,Arnott's Mint Slice Chocolate Biscuits,Arnott's,Snacks,3.3,5.5,1,40.0,200g,1.65,100G,,0,2026-06-18T14:40:52Z,National Brand
+677,ww_160902,woolworths,Milky Way Milk Chocolate Mini Bars Party Share Bag 15 Pieces,Milky Way,Snacks,7.5,7.5,0,0.0,180g 15 pack,4.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+678,ww_32257,woolworths,Arnott's Tim Tam Double Chocolate Biscuits,Arnott's,Snacks,6.0,6.0,0,0.0,200g,3.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+679,ww_781370,woolworths,Red Rock Deli Potato Chips Sweet Chilli & Sour Cream,Red Rock Deli,Snacks,6.0,6.0,0,0.0,165g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+680,ww_781396,woolworths,Red Rock Deli Potato Chips Sea Salt,Red Rock Deli,Snacks,6.0,6.0,0,0.0,165g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+681,ww_707192,woolworths,Tostitos Corn Tortilla Chips Share Pack Lightly Salted,Tostitos,Snacks,5.2,5.2,0,0.0,175g,2.97,100G,,0,2026-06-18T14:40:52Z,National Brand
+682,ww_826731,woolworths,Doritos Corn Chips Cheese Supreme Share Pack,Doritos,Snacks,2.5,5.0,1,50.0,170g,1.47,100G,,0,2026-06-18T14:40:52Z,National Brand
+683,ww_340561,woolworths,Woolworths Supreme Cheese Corn Chips,Woolworths,Snacks,2.2,2.2,0,0.0,175g,1.26,100G,,0,2026-06-18T14:40:52Z,Own Brand
+684,ww_6057214,woolworths,Oreo Mini Cookies Original Bags 18 pack,Oreo,Snacks,7.0,7.0,0,0.0,367g,1.91,100G,,0,2026-06-18T14:40:52Z,National Brand
+685,ww_781980,woolworths,Extra Spearmint Sugar Free Chewing Gum Bottle,Extra,Snacks,5.0,5.0,0,0.0,64g,7.81,100G,,0,2026-06-18T14:40:52Z,National Brand
+686,ww_79773,woolworths,Fun Mix Chips Variety,Fun Mix,Snacks,8.9,8.9,0,0.0,20 pack,2.37,100G,,0,2026-06-18T14:40:52Z,National Brand
+687,ww_6034120,woolworths,Whittaker's Banana Caramel Chocolate Block,Whittaker's,Snacks,9.0,9.0,0,0.0,250g,3.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+688,ww_384245,woolworths,Arnott's Shapes Chicken Crimpy Cracker Biscuits,Arnott's,Snacks,2.0,4.0,1,50.0,175g,1.14,100G,,0,2026-06-18T14:40:52Z,National Brand
+689,ww_36033,woolworths,Arnott's Shortbread Cream Biscuits,Arnott's,Snacks,4.0,4.0,0,0.0,250g,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+690,ww_299946,woolworths,Red Rock Deli Potato Chips Variety,Red Rock Deli,Snacks,8.9,8.9,0,0.0,28g x 10 pack,3.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+691,ww_36059,woolworths,Arnott's Cruskits Original Crispbreads,Arnott's,Snacks,4.0,4.0,0,0.0,125g,3.2,100G,,0,2026-06-18T14:40:52Z,National Brand
+692,ww_814479,woolworths,Cadbury Dairy Milk Chocolate Block,Cadbury,Snacks,8.0,8.0,0,0.0,180g,4.44,100G,,0,2026-06-18T14:40:52Z,National Brand
+693,ww_956027,woolworths,Sakata Rice Crackers Original Plain,Sakata,Snacks,2.5,2.5,0,0.0,90g,2.78,100G,,0,2026-06-18T14:40:52Z,National Brand
+694,ww_206890,woolworths,Snickers Chocolate Bar Peanuts Caramel Nougat,Snickers,Snacks,3.0,3.0,0,0.0,44g,6.82,100G,,0,2026-06-18T14:40:52Z,National Brand
+695,ww_485436,woolworths,Arnott's Shapes Barbecue Cracker Biscuits,Arnott's,Snacks,2.0,4.0,1,50.0,175g,1.14,100G,,0,2026-06-18T14:40:52Z,National Brand
+696,ww_36072,woolworths,Arnott's Raspberry Shortcake Biscuits,Arnott's,Snacks,4.0,4.0,0,0.0,250g,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+697,ww_497649,woolworths,Woolworths Chocolate Creme Wafer Biscuits,Woolworths,Snacks,0.8,0.8,0,0.0,125g,0.64,100G,,0,2026-06-18T14:40:52Z,Own Brand
+698,ww_180279,woolworths,Cobs Best Ever Butter Popcorn,Cobs,Snacks,4.0,4.0,0,0.0,65g 5 pack,6.15,100G,,0,2026-06-18T14:40:52Z,National Brand
+699,ww_729278,woolworths,Woolworths Microwave Popcorn Butter Flavoured,Woolworths,Snacks,0.95,0.95,0,0.0,100g,0.95,100G,,0,2026-06-18T14:40:52Z,Own Brand
+700,ww_267172,woolworths,Sunrice Thin Rice Cakes Sour Cream & Chives,Sunrice,Snacks,2.1,2.5,1,16.0,160g,1.31,100G,,0,2026-06-18T14:40:52Z,National Brand
+701,ww_36720,woolworths,Arnott's Kingston Cream Biscuits,Arnott's,Snacks,4.0,4.0,0,0.0,200g,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+702,ww_824442,woolworths,Woolworths Arrowroot Milk Biscuits,Woolworths,Snacks,1.5,1.5,0,0.0,250g,0.6,100G,,0,2026-06-18T14:40:52Z,Own Brand
+703,ww_840556,woolworths,Cadbury Dairy Milk Caramel Chocolate Caramello Koala,Cadbury,Snacks,2.0,2.0,0,0.0,35g,5.71,100G,,0,2026-06-18T14:40:52Z,National Brand
+704,ww_299513,woolworths,Peckish Flavoured Rice Crackers Cheddar Cheese,Peckish,Snacks,2.0,2.5,1,20.0,90g,2.22,100G,,0,2026-06-18T14:40:52Z,National Brand
+705,ww_824408,woolworths,Woolworths Scotch Finger Biscuits,Woolworths,Snacks,1.25,1.25,0,0.0,250g,0.5,100G,,0,2026-06-18T14:40:52Z,Own Brand
+706,ww_829166,woolworths,Cadbury Twirl Milk Chocolate Mini Bars,Cadbury,Snacks,3.75,7.5,1,50.0,12 pack,2.23,100G,,0,2026-06-18T14:40:52Z,National Brand
+707,ww_326628,woolworths,Cadbury Dairy Milk Freddo Chocolate,Cadbury,Snacks,2.0,2.0,0,0.0,35g,5.71,100G,,0,2026-06-18T14:40:52Z,National Brand
+708,ww_172188,woolworths,Cobs Natural Popcorn Best Ever Butter,Cobs,Snacks,3.5,3.5,0,0.0,90g,3.89,100G,,0,2026-06-18T14:40:52Z,National Brand
+709,ww_6019911,woolworths,Parker's Baked Pretzels Mini Minis,Parker's,Snacks,4.0,6.0,1,33.3,25g x 8 pack,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+710,ww_617552,woolworths,Lotus Biscoff Biscuit,Lotus,Snacks,2.65,2.65,0,0.0,8 pack,2.14,100G,,0,2026-06-18T14:40:52Z,National Brand
+711,ww_245847,woolworths,Top 20 Variety Chips Lunch Box Snacks,Top 20,Snacks,7.5,7.5,0,0.0,20 pack,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+712,ww_479502,woolworths,Pringles Sour Cream & Onion Potato Chips,Pringles,Snacks,3.3,5.5,1,40.0,134g,2.46,100G,,0,2026-06-18T14:40:52Z,National Brand
+713,ww_869235,woolworths,Nutella Hazelnut Chocolate Spread With Breadsticks,Nutella,Snacks,1.4,2.8,1,50.0,48g,2.92,100G,,0,2026-06-18T14:40:52Z,National Brand
+714,ww_109586,woolworths,Cadbury Curly Wurly Milk Chocolate Bar Chocolate Bar,Cadbury,Snacks,2.0,2.0,0,0.0,21.5g,9.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+715,ww_814894,woolworths,Cadbury Dairy Milk Marvellous Creation Jelly Popping Chocolate Block,Cadbury,Snacks,8.0,8.0,0,0.0,190g,4.21,100G,,0,2026-06-18T14:40:52Z,National Brand
+716,ww_71324,woolworths,Woolworths Coconut Fine Desiccated,Woolworths,Snacks,4.9,4.9,0,0.0,500g,9.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+717,ww_781402,woolworths,Red Rock Deli Potato Chips Sea Salt & Balsamic Vinegar,Red Rock Deli,Snacks,6.0,6.0,0,0.0,165g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+718,ww_245856,woolworths,Smith's Crinkle Cut Potato Chips Variety,Smith's,Snacks,8.9,8.9,0,0.0,20 pack,2.34,100G,,0,2026-06-18T14:40:52Z,National Brand
+719,ww_36013,woolworths,Arnott's Scotch Finger Plain Biscuits,Arnott's,Snacks,3.3,3.3,0,0.0,250g,1.32,100G,,0,2026-06-18T14:40:52Z,National Brand
+720,ww_6019911,woolworths,Parker's Baked Pretzels Mini Minis,Parker's,Snacks,4.0,6.0,1,33.3,25g x 8 pack,2.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+721,ww_384250,woolworths,Arnott's Jatz Original Crackers Biscuits,Arnott's,Snacks,2.4,4.0,1,40.0,225g,1.07,100G,,0,2026-06-18T14:40:52Z,National Brand
+722,ww_97482,woolworths,Arnott's Vita Weat 9 Grain Crispbreads,Arnott's,Snacks,4.0,4.0,0,0.0,250g,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+723,ww_250746,woolworths,The Natural Confectionery Co. Fruity Chews Lollies,The Natural Confectionery Co.,Snacks,5.0,5.0,0,0.0,180g,2.78,100G,,0,2026-06-18T14:40:52Z,National Brand
+724,ww_829175,woolworths,Cadbury Dairy Milk Chocolate Caramello Koala,Cadbury,Snacks,3.75,7.5,1,50.0,180g 12 pack,2.08,100G,,0,2026-06-18T14:40:52Z,National Brand
+725,ww_247119,woolworths,Macy and Tailor Classic Pretzels,Macy and Tailor,Snacks,2.0,2.0,0,0.0,200g,1.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+726,ww_36009,woolworths,Arnott's Milk Arrowroot Biscuits,Arnott's,Snacks,2.5,2.5,0,0.0,250g,1.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+727,ww_814624,woolworths,Cadbury Dairy Milk Top Deck Chocolate Block,Cadbury,Snacks,8.0,8.0,0,0.0,180g,4.44,100G,,0,2026-06-18T14:40:52Z,National Brand
+728,ww_160838,woolworths,Mars Milk Chocolate Bar Party Share Bag 20 Pieces,Mars,Snacks,8.0,8.0,0,0.0,320g,2.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+729,ww_224461,woolworths,Whittaker's Coconut Slab,Whittaker's,Snacks,3.0,3.0,0,0.0,50g,6.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+730,ww_774205,woolworths,Nice & Natural Fruit Fun Mix Variety Multi Pack School Snacks Gluten Free,Nice & Natural,Snacks,8.0,8.0,0,0.0,16 pack,2.94,100G,,0,2026-06-18T14:40:52Z,National Brand
+731,ww_435459,woolworths,Sunbites Crackers Mix Variety,Sunbites,Snacks,5.5,5.5,0,0.0,24g x 12 pack,1.91,100G,,0,2026-06-18T14:40:52Z,National Brand
+732,ww_140784,woolworths,Captain's Table Classic Water Crackers,Captain's Table,Snacks,2.2,2.2,0,0.0,125g,1.76,100G,,0,2026-06-18T14:40:52Z,National Brand
+733,ww_641537,woolworths,Arnott's Tiny Teddy Variety Biscuits,Arnott's,Snacks,6.0,6.0,0,0.0,15 pack,1.6,100G,,0,2026-06-18T14:40:52Z,National Brand
+734,ww_711773,woolworths,Woolworths Popcorn Sweet & Salty,Woolworths,Snacks,2.6,2.6,0,0.0,10 pack,1.3,100G,,0,2026-06-18T14:40:52Z,Own Brand
+735,ww_955845,woolworths,Sakata Rice Crackers Seaweed Snack,Sakata,Snacks,2.5,2.5,0,0.0,80g,3.13,100G,,0,2026-06-18T14:40:52Z,National Brand
+736,ww_210151,woolworths,Arnott's Premier Chocolate Chip Cookies,Arnott's,Snacks,5.5,5.5,0,0.0,310g,1.77,100G,,0,2026-06-18T14:40:52Z,National Brand
+737,ww_98361,woolworths,Cadbury Chomp Caramel Milk Chocolate Bar,Cadbury,Snacks,2.0,2.0,0,0.0,30g,6.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+738,ww_70772,woolworths,Woolworths Traditional Cracker,Woolworths,Snacks,1.0,1.0,0,0.0,250g,0.4,100G,,0,2026-06-18T14:40:52Z,Own Brand
+739,ww_4021,woolworths,Real Foods Corn Thins Multigrain,Real Foods,Snacks,1.65,2.1,1,21.4,150g,1.1,100G,,0,2026-06-18T14:40:52Z,National Brand
+740,ww_82361,woolworths,Sunbites Grain Waves Wholegrain Chips Sour Cream & Chives,Sunbites,Snacks,2.5,5.0,1,50.0,170g,1.47,100G,,0,2026-06-18T14:40:52Z,National Brand
+741,ww_814558,woolworths,Cadbury Dairy Milk Hazelnut Chocolate Block,Cadbury,Snacks,8.0,8.0,0,0.0,180g,4.44,100G,,0,2026-06-18T14:40:52Z,National Brand
+742,ww_824365,woolworths,Woolworths Plain Water Crackers,Woolworths,Snacks,0.95,0.95,0,0.0,125g,0.76,100G,,0,2026-06-18T14:40:52Z,Own Brand
+743,ww_721581,woolworths,Mother Earth Chocolate Chip Oaty Slice,Mother Earth,Snacks,3.8,3.8,0,0.0,40g x 6 pack,1.58,100G,,0,2026-06-18T14:40:52Z,National Brand
+744,ww_6072641,woolworths,Sakata Plain Rice Crackers,Sakata,Snacks,4.5,4.5,0,0.0,230g,1.96,100G,,0,2026-06-18T14:40:52Z,National Brand
+745,ww_497685,woolworths,Woolworths Vanilla Creme Wafer Biscuits,Woolworths,Snacks,0.8,0.8,0,0.0,125g,0.64,100G,,0,2026-06-18T14:40:52Z,Own Brand
+746,ww_501408,woolworths,Woolworths Snapz Original Crackers,Woolworths,Snacks,1.8,1.8,0,0.0,250g,0.72,100G,,0,2026-06-18T14:40:52Z,Own Brand
+747,ww_815875,woolworths,Woolworths Dried Mango Slices,Woolworths,Snacks,4.0,4.0,0,0.0,130g,30.77,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+748,ww_515173,woolworths,Arnott's Shapes Pizza Cracker Biscuits,Arnott's,Snacks,2.0,4.0,1,50.0,190g,1.05,100G,,0,2026-06-18T14:40:52Z,National Brand
+749,ww_18862,woolworths,KitKat Chunky Bar,KitKat,Snacks,3.0,3.0,0,0.0,48g,6.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+750,ww_160841,woolworths,Mars Milk Chocolate Bar Party Share Bag 12 Pieces,Mars,Snacks,7.5,7.5,0,0.0,192g,3.91,100G,,0,2026-06-18T14:40:52Z,National Brand
+751,ww_36016,woolworths,Arnott's Family Favourites Assorted Biscuits,Arnott's,Snacks,5.0,5.0,0,0.0,500g,1.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+752,ww_210630,woolworths,The Natural Confectionery Co. Sour Squirms Lollies,The Natural Confectionery Co.,Snacks,5.0,5.0,0,0.0,220g,2.27,100G,,0,2026-06-18T14:40:52Z,National Brand
+753,ww_363227,woolworths,Ceres Organics Brown Rice Cakes Original,Ceres Organics,Snacks,4.0,4.0,0,0.0,110g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+754,ww_828985,woolworths,Cadbury Pascall Clinker Milk Chocolate Lollies Snack & Share Bag,Cadbury,Snacks,7.0,7.0,0,0.0,160g,4.38,100G,,0,2026-06-18T14:40:52Z,National Brand
+755,ww_317455,woolworths,Oreo Mini Cookies Original Bags 10 pack,Oreo,Snacks,4.0,5.0,1,20.0,204g,1.96,100G,,0,2026-06-18T14:40:52Z,National Brand
+756,ww_54631,woolworths,Doritos Corn Chips Cheese Supreme Party Size,Doritos,Snacks,6.0,8.5,1,29.4,380g,1.58,100G,,0,2026-06-18T14:40:52Z,National Brand
+757,ww_479501,woolworths,Pringles Original Salted Potato Chips,Pringles,Snacks,3.3,5.5,1,40.0,134g,2.46,100G,,0,2026-06-18T14:40:52Z,National Brand
+758,ww_6064869,woolworths,Cadbury Dairy Milk Chocolate Bar,Cadbury,Snacks,1.5,3.0,1,50.0,45g,3.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+759,ww_657419,woolworths,Twix Milk Chocolate Bar with Caramel Biscuit,Twix,Snacks,3.0,3.0,0,0.0,50g,6.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+760,ww_42605,woolworths,Coca-Cola Classic Soft Drink Cans,Coca-Cola,Drinks,26.0,37.5,1,30.7,375mL x 24 pack,2.89,1L,,0,2026-06-18T14:40:52Z,National Brand
+761,ww_30486,woolworths,Gatorade Sports Drinks Blue Bolt Electrolyte Hydration,Gatorade,Drinks,4.2,4.2,0,0.0,600mL,7.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+762,ww_30446,woolworths,Gatorade Sports Drinks Tropical Electrolyte Hydration,Gatorade,Drinks,4.2,4.2,0,0.0,600mL,7.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+763,ww_669683,woolworths,Coca-Cola Zero Sugar Soft Drink Cans,Coca-Cola,Drinks,26.0,37.5,1,30.7,375mL x 24 pack,2.89,1L,,0,2026-06-18T14:40:52Z,National Brand
+764,ww_748595,woolworths,Woolworths Full Cream Long Life Milk UHT,Woolworths,Drinks,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+765,ww_116784,woolworths,Woolworths Spring Water Bottles,Woolworths,Drinks,9.4,9.4,0,0.0,600mL x 24 pack,0.65,1L,,0,2026-06-18T14:40:52Z,Own Brand
+766,ww_32731,woolworths,Coca-Cola Classic  Soft Drink Bottle,Coca-Cola,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+767,ww_799813,woolworths,Woolworths Free From Lactose Lite Long Life Milk UHT,Woolworths,Drinks,2.1,2.1,0,0.0,1L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+768,ww_623034,woolworths,Coca-Cola Zero Sugar Soft Drink Bottle,Coca-Cola,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+769,ww_33557,woolworths,Devondale 100% Pure Full Cream Long Life Milk UHT,Devondale,Drinks,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+770,ww_6061820,woolworths,Gatorade Blue Bolt Sports Drink Mini Bottles,Gatorade,Drinks,7.5,9.5,1,21.1,350mL x 4 pack,5.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+771,ww_6060135,woolworths,Powerade Fifa Outlast,Powerade,Drinks,2.25,4.5,1,50.0,600mL,3.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+772,ww_6061955,woolworths,Gatorade No Sugar Berry Sports Drink Mini Bottles,Gatorade,Drinks,7.5,9.5,1,21.1,350mL x 4 pack,5.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+773,ww_489787,woolworths,Monster Energy Ultra Can,Monster,Drinks,3.3,4.45,1,25.8,500mL,6.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+774,ww_748597,woolworths,Woolworths Skim Long Life Milk UHT,Woolworths,Drinks,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+775,ww_799638,woolworths,Woolworths Sparkling Mineral Water,Woolworths,Drinks,1.1,1.1,0,0.0,1.25L,0.88,1L,,0,2026-06-18T14:40:52Z,Own Brand
+776,ww_799811,woolworths,Woolworths Free From Lactose Full Cream Long Life Milk UHT,Woolworths,Drinks,2.1,2.1,0,0.0,1L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+777,ww_748596,woolworths,Woolworths Lite Long Life Milk UHT,Woolworths,Drinks,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+778,ww_799637,woolworths,Woolworths Soda Water,Woolworths,Drinks,1.15,1.15,0,0.0,1.25L,0.92,1L,,0,2026-06-18T14:40:52Z,Own Brand
+779,ww_7985,woolworths,Pepsi Max Cola No Sugar Soft Drink Bottle,Pepsi,Drinks,1.87,3.75,1,50.1,1.25L,1.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+780,ww_825527,woolworths,Woolworths Apple Juice,Woolworths,Drinks,2.7,2.7,0,0.0,2L,1.35,1L,,0,2026-06-18T14:40:52Z,Own Brand
+781,ww_56731,woolworths,Bonsoy Soy Long Life Milk UHT,Bonsoy,Drinks,4.5,4.5,0,0.0,1L,4.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+782,ww_669379,woolworths,Coca-Cola Zero Sugar Soft Drink Cans,Coca-Cola,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+783,ww_779130,woolworths,Woolworths Soy Long Life Milk UHT,Woolworths,Drinks,1.75,1.75,0,0.0,1L,1.75,1L,,0,2026-06-18T14:40:52Z,Own Brand
+784,ww_54291,woolworths,Pepsi Max No Sugar Soft Drink Cans,Pepsi,Drinks,39.5,39.5,0,0.0,375mL x 24 pack,4.39,1L,,0,2026-06-18T14:40:52Z,National Brand
+785,ww_162609,woolworths,Red Bull Energy Drink,Red Bull,Drinks,13.0,13.0,0,0.0,250mL x 4 pack,13.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+786,ww_724514,woolworths,Cocobella Coconut Water Straight Up,Cocobella,Drinks,3.3,5.5,1,40.0,1L,3.3,1L,,0,2026-06-18T14:40:52Z,National Brand
+787,ww_749792,woolworths,Woolworths Spring Water Bottles,Woolworths,Drinks,4.9,4.9,0,0.0,1.5L x 6 pack,0.54,1L,,0,2026-06-18T14:40:52Z,Own Brand
+788,ww_744490,woolworths,Sanitarium So Good Unsweetened Almond Long Life Milk UHT,Sanitarium,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+789,ww_38121,woolworths,Coca-Cola Classic  Soft Drink Bottle Bottle,Coca-Cola,Drinks,4.0,4.0,0,0.0,2L,2.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+790,ww_779134,woolworths,Woolworths Unsweetened Almond Long Life Milk UHT,Woolworths,Drinks,1.85,1.85,0,0.0,1L,1.85,1L,,0,2026-06-18T14:40:52Z,Own Brand
+791,ww_333339,woolworths,Woolworths Lemonade Bottle,Woolworths,Drinks,1.15,1.15,0,0.0,1.25L,0.92,1L,,0,2026-06-18T14:40:52Z,Own Brand
+792,ww_24318,woolworths,Sanitarium So Good Soy Regular Long Life Milk UHT,Sanitarium,Drinks,2.4,2.4,0,0.0,1L,2.4,1L,,0,2026-06-18T14:40:52Z,National Brand
+793,ww_730998,woolworths,Pauls Zymil Lactose Free Full Cream Long Life Milk UHT,Pauls,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+794,ww_7984,woolworths,Pepsi Max No Sugar Cola Soft Drink Bottle,Pepsi,Drinks,3.8,3.8,0,0.0,2L,1.9,1L,,0,2026-06-18T14:40:52Z,National Brand
+795,ww_793315,woolworths,Coca-Cola Classic Soft Drink Cans,Coca-Cola,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+796,ww_785627,woolworths,Raw C Coconut Water Pure Natural,Raw C,Drinks,5.5,5.5,0,0.0,1L,5.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+797,ww_672966,woolworths,Coca-Cola Zero Sugar Soft Drink Bottle,Coca-Cola,Drinks,4.0,4.0,0,0.0,2L,2.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+798,ww_773129,woolworths,Pepsi Max No Sugar Soft Drink Cans,Pepsi,Drinks,29.5,29.5,0,0.0,375mL x 30 pack,2.62,1L,,0,2026-06-18T14:40:52Z,National Brand
+799,ww_858008,woolworths,PureHarvest Organic Almond Unsweetened Long Life Milk UH,PureHarvest,Drinks,2.6,3.4,1,23.5,1L,2.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+800,ww_365190,woolworths,Powerade ION4 Mountain Blast Sports Drink Sipper Cap,Powerade,Drinks,2.25,4.5,1,50.0,600mL,3.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+801,ww_365189,woolworths,Powerade ION4 Berry Ice Sports Drink Sipper Cap,Powerade,Drinks,2.25,4.5,1,50.0,600mL,3.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+802,ww_77938,woolworths,Mount Franklin Lightly Sparkling Water lime Cans,Mount Franklin,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+803,ww_159798,woolworths,Kirks Pasito Soft Drink Cans,Kirks,Drinks,9.3,15.5,1,40.0,375mL x 10 pack,2.48,1L,,0,2026-06-18T14:40:52Z,National Brand
+804,ww_511504,woolworths,Monster Energy Ultra Cans,Monster,Drinks,16.5,16.5,0,0.0,500mL x 4 pack,8.25,1L,,0,2026-06-18T14:40:52Z,National Brand
+805,ww_81274,woolworths,Nu Pure Still Spring Water,Nu Pure,Drinks,11.0,11.0,0,0.0,600mL x 20 pack,0.92,1L,,0,2026-06-18T14:40:52Z,National Brand
+806,ww_633876,woolworths,Woolworths Spring Water Minis,Woolworths,Drinks,8.0,8.0,0,0.0,250mL x 20 pack,1.6,1L,,0,2026-06-18T14:40:52Z,Own Brand
+807,ww_749793,woolworths,Woolworths Spring Water Bottle,Woolworths,Drinks,0.8,0.8,0,0.0,1.5L,0.53,1L,,0,2026-06-18T14:40:52Z,Own Brand
+808,ww_105914,woolworths,Nestle Sweetened Condensed Milk,Nestle,Drinks,4.0,4.0,0,0.0,395g,1.01,100G,,0,2026-06-18T14:40:52Z,National Brand
+809,ww_230367,woolworths,Devondale Semi Skim Long Life Milk UHT,Devondale,Drinks,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+810,ww_80047,woolworths,Mount Franklin Lightly Sparkling Raspberry,Mount Franklin,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+811,ww_176210,woolworths,Mount Franklin Lightly Sparkling Water Mango,Mount Franklin,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+812,ww_691635,woolworths,Mount Franklin Lightly Sparkling Peach Cans,Mount Franklin,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+813,ww_698612,woolworths,Monster Energy Mango Loco Can,Monster,Drinks,3.3,4.45,1,25.8,500mL,6.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+814,ww_148781,woolworths,Vitasoy Oat Milky Long Life Milk UHT,Vitasoy,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+815,ww_120207,woolworths,Sanitarium So Good Oat No Added Sugar Long Life Milk UHT,Sanitarium,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+816,ww_561890,woolworths,Woolworths Lightly Sparkling Spring Water,Woolworths,Drinks,12.5,12.5,0,0.0,500mL x 20 pack,1.25,1L,,0,2026-06-18T14:40:52Z,Own Brand
+817,ww_95325,woolworths,Sprite Lemonade Soft Drink Bottle,Sprite,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+818,ww_500999,woolworths,Cocobella Coconut Water Chocolate Chocolate,Cocobella,Drinks,5.5,5.5,0,0.0,1L,5.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+819,ww_756025,woolworths,Woolworths Lemonade Zero Sugar Bottle,Woolworths,Drinks,1.15,1.15,0,0.0,1.25L,0.92,1L,,0,2026-06-18T14:40:52Z,Own Brand
+820,ww_875162,woolworths,Milo Malt Drinking Chocolate Powder Hot Or Cold,Milo,Drinks,10.75,10.75,0,0.0,460g,2.34,100G,,0,2026-06-18T14:40:52Z,National Brand
+821,ww_226913,woolworths,Red Bull Energy Drink Sugar Free,Red Bull,Drinks,13.0,13.0,0,0.0,250mL x 4 pack,13.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+822,ww_912380,woolworths,Mt Ossa Australian Natural Spring Water,Mt Ossa,Drinks,4.75,4.75,0,0.0,10L,0.48,1L,,0,2026-06-18T14:40:52Z,National Brand
+823,ww_137848,woolworths,Coca-Cola Caffeine Free Zero Sugar Soft Drink Bottle,Coca-Cola,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+824,ww_52558,woolworths,Kirks Lemonade Soft Drink Bottle,Kirks,Drinks,1.8,1.8,0,0.0,1.25L,1.44,1L,,0,2026-06-18T14:40:52Z,National Brand
+825,ww_926885,woolworths,Vitasoy Unsweetened Almond Long Life Milk UHT,Vitasoy,Drinks,2.6,2.6,0,0.0,1L,2.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+826,ww_94493,woolworths,Coca-Cola Diet Soft Drink Bottle,Coca-Cola,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+827,ww_770183,woolworths,Woolworths Spring Water Bottles,Woolworths,Drinks,5.35,5.35,0,0.0,600mL x 12 pack,0.74,1L,,0,2026-06-18T14:40:52Z,Own Brand
+828,ww_893373,woolworths,Liddells Lactose Free Full Cream Long Life Milk UHT,Liddells,Drinks,3.2,3.2,0,0.0,1L,3.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+829,ww_152988,woolworths,Cadbury Drinking Chocolate,Cadbury,Drinks,8.0,8.0,0,0.0,450g,1.78,100G,,0,2026-06-18T14:40:52Z,National Brand
+830,ww_72618,woolworths,Twinings English Breakfast Tea Bags Tea Bags,Twinings,Drinks,6.75,13.5,1,50.0,100 pack,0.07,1EA,,0,2026-06-18T14:40:52Z,National Brand
+831,ww_332730,woolworths,Mount Franklin Lightly Sparkling Water Natural Bottle,Mount Franklin,Drinks,3.35,3.35,0,0.0,1.25L,2.68,1L,,0,2026-06-18T14:40:52Z,National Brand
+832,ww_503111,woolworths,Woolworths Tropical Fruit Drink Poppers,Woolworths,Drinks,3.15,3.15,0,0.0,250mL x 6 pack,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+833,ww_33637,woolworths,Devondale Skim Long Life Milk UHT,Devondale,Drinks,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+834,ww_146547,woolworths,Pauls Zymil Lactose Free Low Fat Long Life Milk UHT,Pauls,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+835,ww_825528,woolworths,Woolworths Orange Juice,Woolworths,Drinks,4.2,4.2,0,0.0,2L,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+836,ww_710014,woolworths,Sanitarium So Good Almond Long Life Milk UHT,Sanitarium,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+837,ww_365186,woolworths,Powerade ION4 Gold Rush Sports Drink Sipper Cap,Powerade,Drinks,2.25,4.5,1,50.0,600mL,3.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+838,ww_804284,woolworths,Devondale Long Life UHT Thickened Whipping Cream,Devondale,Drinks,3.8,3.8,0,0.0,250mL,1.52,100ML,,0,2026-06-18T14:40:52Z,National Brand
+839,ww_83836,woolworths,Sanitarium So Good Barista Almond Long Life Milk UHT,Sanitarium,Drinks,3.0,4.0,1,25.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+840,ww_279908,woolworths,Powerade ION4 Blackcurrant Sports Drink Sipper Cap,Powerade,Drinks,2.25,4.5,1,50.0,600mL,3.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+841,ww_94005,woolworths,Pureau Pure Water Water,Pureau,Drinks,9.6,9.6,0,0.0,10L,0.96,1L,,0,2026-06-18T14:40:52Z,National Brand
+842,ww_6013220,woolworths,Coca-Cola Mini Zero Sugar,Coca-Cola,Drinks,15.0,15.0,0,0.0,250mL x 15 pack,4.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+843,ww_159796,woolworths,Kirks Lemonade Soft Drink Cans,Kirks,Drinks,9.3,15.5,1,40.0,375mL x 10 pack,2.48,1L,,0,2026-06-18T14:40:52Z,National Brand
+844,ww_6008388,woolworths,Red Bull Berry Edition Sugar Free,Red Bull,Drinks,3.2,3.2,0,0.0,250mL,12.8,1L,,0,2026-06-18T14:40:52Z,National Brand
+845,ww_136874,woolworths,Mount Franklin Lightly Sparkling Water Passionfruit Cans,Mount Franklin,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+846,ww_6063977,woolworths,Schweppes Summer Fizz Blood Orange Lime No Sugar Mixer Soft Drink,Schweppes,Drinks,6.5,6.5,0,0.0,250mL x 6 pack,4.33,1L,,0,2026-06-18T14:40:52Z,National Brand
+847,ww_7576,woolworths,Golden Circle Golden Pash Poppers,Golden Circle,Drinks,5.5,5.5,0,0.0,250mL x 6 pack,3.67,1L,,0,2026-06-18T14:40:52Z,National Brand
+848,ww_825529,woolworths,Woolworths Apple & Blackcurrant Juice,Woolworths,Drinks,2.7,2.7,0,0.0,2L,1.35,1L,,0,2026-06-18T14:40:52Z,Own Brand
+849,ww_673135,woolworths,Woolworths Apple & Mango Juice,Woolworths,Drinks,2.7,2.7,0,0.0,2L,1.35,1L,,0,2026-06-18T14:40:52Z,Own Brand
+850,ww_94950,woolworths,Golden Circle Apple Splash Poppers,Golden Circle,Drinks,5.5,5.5,0,0.0,250mL x 6 pack,3.67,1L,,0,2026-06-18T14:40:52Z,National Brand
+851,ww_219582,woolworths,Frantelle Australian Spring Water Bottles,Frantelle,Drinks,12.0,12.0,0,0.0,600mL x 24 pack,0.83,1L,,0,2026-06-18T14:40:52Z,National Brand
+852,ww_756023,woolworths,Woolworths Cola Sugar Zero Bottle,Woolworths,Drinks,1.15,1.15,0,0.0,1.25L,0.92,1L,,0,2026-06-18T14:40:52Z,Own Brand
+853,ww_72618,woolworths,Twinings English Breakfast Tea Bags Tea Bags,Twinings,Drinks,6.75,13.5,1,50.0,100 pack,0.07,1EA,,0,2026-06-18T14:40:52Z,National Brand
+854,ww_331784,woolworths,Red Bull Energy Drink Cans,Red Bull,Drinks,22.0,22.0,0,0.0,250mL x 8 pack,11.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+855,ww_162609,woolworths,Red Bull Energy Drink,Red Bull,Drinks,13.0,13.0,0,0.0,250mL x 4 pack,13.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+856,ww_329812,woolworths,Monster Energy Green Can,Monster,Drinks,3.3,4.45,1,25.8,500mL,6.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+857,ww_86298,woolworths,PureHarvest Organic Oat Unsweetened Long Life Milk UHT,PureHarvest,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+858,ww_192366,woolworths,PureHarvest Organic Soy Unsweetened Long Life Milk UHT,PureHarvest,Drinks,2.2,2.2,0,0.0,1L,2.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+859,ww_756022,woolworths,Woolworths Cola Bottle,Woolworths,Drinks,1.15,1.15,0,0.0,1.25L,0.92,1L,,0,2026-06-18T14:40:52Z,Own Brand
+860,ww_334369,woolworths,So Good Extra Creamy Oat Long Life Milk UHT,So Good,Drinks,3.0,3.0,0,0.0,1L,3.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+861,ww_180941,woolworths,Coca-Cola Vanilla  Soft Drink Bottle Bottle,Coca-Cola,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+862,ww_310675,woolworths,Vitasoy Unsweetened Oat Long Life Milk UHT,Vitasoy,Drinks,3.3,3.3,0,0.0,1L,3.3,1L,,0,2026-06-18T14:40:52Z,National Brand
+863,ww_140090,woolworths,Kirks Pasito Soft Drink Bottle,Kirks,Drinks,1.8,1.8,0,0.0,1.25L,1.44,1L,,0,2026-06-18T14:40:52Z,National Brand
+864,ww_132815,woolworths,V Original Guarana Energy Drink,V,Drinks,7.2,12.0,1,40.0,250mL x 4 pack,7.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+865,ww_635960,woolworths,Schweppes Soda Water Mixer Bottle Mixers,Schweppes,Drinks,1.8,3.0,1,40.0,1.1L,1.64,1L,,0,2026-06-18T14:40:52Z,National Brand
+866,ww_503038,woolworths,Woolworths Apple Fruit Drink Poppers,Woolworths,Drinks,3.15,3.15,0,0.0,250mL x 6 pack,2.1,1L,,0,2026-06-18T14:40:52Z,Own Brand
+867,ww_62170,woolworths,Sprite Zero Sugar Lemonade Soft Drink Bottle,Sprite,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+868,ww_212841,woolworths,Vitasoy Soy Milky Low Sugar Long Life Milk UHT,Vitasoy,Drinks,2.45,2.45,0,0.0,1L,2.45,1L,,0,2026-06-18T14:40:52Z,National Brand
+869,ww_289272,woolworths,Milo Malt Drinking Chocolate Powder Hot Or Cold Refill Pack,Milo,Drinks,11.5,11.5,0,0.0,730g,1.58,100G,,0,2026-06-18T14:40:52Z,National Brand
+870,ww_32673,woolworths,Solo Original Lemon Soft Drink Bottle,Solo,Drinks,1.87,3.75,1,50.1,1.25L,1.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+871,ww_6024108,woolworths,Nuttelex Oat Long Life Milk UHT,Nuttelex,Drinks,1.65,3.3,1,50.0,1L,1.65,1L,,0,2026-06-18T14:40:52Z,National Brand
+872,ww_370757,woolworths,Coca-Cola Diet Soft Drink Cans,Coca-Cola,Drinks,26.0,37.5,1,30.7,375mL x 24 pack,2.89,1L,,0,2026-06-18T14:40:52Z,National Brand
+873,ww_90032,woolworths,Devondale 100% Pure Full Cream Long Life Milk UHT,Devondale,Drinks,6.25,6.25,0,0.0,200mL x 6 pack,5.21,1L,,0,2026-06-18T14:40:52Z,National Brand
+874,ww_729168,woolworths,Woolworths Apple Juice Poppers,Woolworths,Drinks,3.3,3.3,0,0.0,250mL x 6 pack,2.2,1L,,0,2026-06-18T14:40:52Z,Own Brand
+875,ww_365548,woolworths,Powerade ION4 Lemon Lime Sports Drink Sipper Cap,Powerade,Drinks,2.25,4.5,1,50.0,600mL,3.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+876,ww_793280,woolworths,Sprite Zero Sugar Lemonade Soft Drink  Cans,Sprite,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+877,ww_264490,woolworths,V Energy Sugar Free,V Energy,Drinks,7.2,12.0,1,40.0,250mL x 4 pack,7.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+878,ww_97471,woolworths,Bundaberg Ginger Beer,Bundaberg,Drinks,7.7,7.7,0,0.0,375mL x 4 pack,5.13,1L,,0,2026-06-18T14:40:52Z,National Brand
+879,ww_839502,woolworths,Cococoast Natural Coconut Water Pure,Cococoast,Drinks,2.5,2.5,0,0.0,500mL,5.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+880,ww_32812,woolworths,Fanta Orange Soft Drink Bottle,Fanta,Drinks,4.2,4.2,0,0.0,1.25L,3.36,1L,,0,2026-06-18T14:40:52Z,National Brand
+881,ww_6024687,woolworths,Nuttelex Unsweetened Almond Long Life Milk UHT,Nuttelex,Drinks,1.65,3.3,1,50.0,1L,1.65,1L,,0,2026-06-18T14:40:52Z,National Brand
+882,ww_140640,woolworths,Coca-Cola Caffeine Free Zero Sugar Soft Drink Cans,Coca-Cola,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+883,ww_77938,woolworths,Mount Franklin Lightly Sparkling Water lime Cans,Mount Franklin,Drinks,21.0,21.0,0,0.0,375mL x 10 pack,5.6,1L,,0,2026-06-18T14:40:52Z,National Brand
+884,ww_38078,woolworths,Moccona Freeze Dried Instant Coffee Classic Medium Roast,Moccona,Drinks,14.5,14.5,0,0.0,100g,14.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+885,ww_59561,woolworths,Woolworths Pineapple Juice,Woolworths,Drinks,2.5,2.5,0,0.0,1L,2.5,1L,,0,2026-06-18T14:40:52Z,Own Brand
+886,ww_773142,woolworths,Solo Original Lemon Soft Drink Cans,Solo,Drinks,26.0,26.0,0,0.0,375mL x 30 pack,2.31,1L,,0,2026-06-18T14:40:52Z,National Brand
+887,ww_53205,woolworths,McCain Pub Style Potato Wedges,McCain,Frozen,6.0,6.0,0,0.0,750g,8.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+888,ww_822845,woolworths,McCain Pub Style Extra Crispy Chips,McCain,Frozen,6.0,6.0,0,0.0,750g,8.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+889,ww_112492,woolworths,McCain Pizza Slice Snacks Meatlovers Meatlovers,McCain,Frozen,9.8,9.8,0,0.0,2 pack,1.63,100G,,0,2026-06-18T14:40:52Z,National Brand
+890,ww_6064049,woolworths,Sara Lee Mini Cups Golden Apple Crumble,Sara Lee,Frozen,9.0,9.0,0,0.0,4 pack,2.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+891,ww_18366,woolworths,Woolworths Puff Pastry Sheets,Woolworths,Frozen,3.8,3.8,0,0.0,1kg,0.38,100G,,0,2026-06-18T14:40:52Z,Own Brand
+892,ww_586517,woolworths,Woolworths Frozen Mixed Berries,Woolworths,Frozen,12.0,12.0,0,0.0,1kg,12.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+893,ww_516857,woolworths,Bell Farms Chopped Spinach,Bell Farms,Frozen,1.0,1.0,0,0.0,250g,4.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+894,ww_260010,woolworths,Woolworths Frozen Mixed Berries,Woolworths,Frozen,6.5,6.5,0,0.0,500g,13.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+895,ww_260004,woolworths,Woolworths Frozen Raspberries,Woolworths,Frozen,8.0,8.0,0,0.0,500g,16.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+896,ww_260007,woolworths,Woolworths Frozen Blueberries,Woolworths,Frozen,6.5,6.5,0,0.0,500g,13.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+897,ww_166922,woolworths,McCain Lil Pizzas Snacks Cheesy Margherita,McCain,Frozen,7.8,7.8,0,0.0,4 pack,2.05,100G,,0,2026-06-18T14:40:52Z,National Brand
+898,ww_9660,woolworths,McCain Lil Pizzas Snacks Ham & Cheese,McCain,Frozen,7.8,7.8,0,0.0,4 pack,1.95,100G,,0,2026-06-18T14:40:52Z,National Brand
+899,ww_662937,woolworths,McCain Superfries Shoestring,McCain,Frozen,4.3,4.3,0,0.0,900g,4.78,1KG,,0,2026-06-18T14:40:52Z,National Brand
+900,ww_139610,woolworths,McCain Pizza Pocket Snacks Cheese & Bacon,McCain,Frozen,5.0,8.5,1,41.2,4 pack,1.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+901,ww_768559,woolworths,Woolworths Broccoli Florets,Woolworths,Frozen,4.0,4.0,0,0.0,500g,8.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+902,ww_586516,woolworths,Woolworths Frozen Blueberries,Woolworths,Frozen,12.0,12.0,0,0.0,1kg,12.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+903,ww_61998,woolworths,Woolworths Prep Set Go Diced Frozen Onions,Woolworths,Frozen,3.0,3.0,0,0.0,500g,6.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+904,ww_93915,woolworths,Essentials Frozen Mixed Vegetables,Essentials,Frozen,2.8,2.8,0,0.0,1kg,2.8,1KG,,0,2026-06-18T14:40:52Z,National Brand
+905,ww_96845,woolworths,Essentials Frozen Peas,Essentials,Frozen,2.5,2.5,0,0.0,1kg,2.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+906,ww_768569,woolworths,Woolworths Carrots Peas & Corn,Woolworths,Frozen,5.0,5.0,0,0.0,1kg,5.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+907,ww_754169,woolworths,Woolworths Frozen Australian Peas,Woolworths,Frozen,3.8,3.8,0,0.0,1kg,3.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+908,ww_768567,woolworths,Woolworths Winter Veg Mix,Woolworths,Frozen,5.2,5.2,0,0.0,1kg,5.2,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+909,ww_54233,woolworths,McCain Mixed Vegetables Peas Corn & Carrot,McCain,Frozen,4.5,4.5,0,0.0,500g,9.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+910,ww_949,woolworths,Creative Gourmet Frozen Mango Chunks,Creative Gourmet,Frozen,5.35,5.35,0,0.0,500g,10.7,1KG,,0,2026-06-18T14:40:52Z,National Brand
+911,ww_830212,woolworths,Woolworths Cookies & Cream Ice Cream Sandwich,Woolworths,Frozen,3.8,3.8,0,0.0,4 pack,0.86,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+912,ww_820796,woolworths,Woolworths Frozen Mango,Woolworths,Frozen,9.8,9.8,0,0.0,1kg,9.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+913,ww_658326,woolworths,Umami Edamame Salad,Umami,Frozen,2.5,2.5,0,0.0,200g,12.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+914,ww_532199,woolworths,Creative Gourmet Frozen Banana Chunks,Creative Gourmet,Frozen,5.0,5.0,0,0.0,500g,10.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+915,ww_228797,woolworths,Birds Eye Golden Crunch Hash Browns,Birds Eye,Frozen,5.7,5.7,0,0.0,800g,7.13,1KG,,0,2026-06-18T14:40:52Z,National Brand
+916,ww_695650,woolworths,Woolworths Potato Minis,Woolworths,Frozen,5.0,5.0,0,0.0,1kg,5.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+917,ww_180109,woolworths,Birds Eye Potato Gems Bite Size Hash Brown,Birds Eye,Frozen,6.8,6.8,0,0.0,900g,7.56,1KG,,0,2026-06-18T14:40:52Z,National Brand
+918,ww_768561,woolworths,Woolworths Broccoli & Cauliflower,Woolworths,Frozen,4.0,4.0,0,0.0,500g,8.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+919,ww_77888,woolworths,Patties Party Pies Frozen,Patties,Frozen,9.7,9.7,0,0.0,12 pack,1.73,100G,,0,2026-06-18T14:40:52Z,National Brand
+920,ww_815126,woolworths,Macro Organic Frozen Blueberries,Macro,Frozen,9.3,9.3,0,0.0,450g,20.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+921,ww_315505,woolworths,McCain Rustica Thin & Crispy Australian Angus Beef Pizza,McCain,Frozen,11.0,11.0,0,0.0,370g,2.97,100G,,0,2026-06-18T14:40:52Z,National Brand
+922,ww_901499,woolworths,Your Spud Co Hash Browns,Your Spud Co,Frozen,4.5,4.5,0,0.0,1kg,4.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+923,ww_98299,woolworths,McCain Hash Browns Shredded,McCain,Frozen,5.8,5.8,0,0.0,750g,7.73,1KG,,0,2026-06-18T14:40:52Z,National Brand
+924,ww_429267,woolworths,Bell Farms Frozen Mash Potato,Bell Farms,Frozen,5.0,5.0,0,0.0,1kg,5.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+925,ww_40518,woolworths,Peters Original Vanilla Ice Cream Ice Cream,Peters,Frozen,5.95,5.95,0,0.0,2L,0.3,100ML,,0,2026-06-18T14:40:52Z,National Brand
+926,ww_693777,woolworths,Woolworths Potato Wedges,Woolworths,Frozen,3.5,3.5,0,0.0,750g,4.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+927,ww_768558,woolworths,Woolworths Frozen Sliced Beans,Woolworths,Frozen,2.8,2.8,0,0.0,500g,5.6,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+928,ww_374274,woolworths,Woolworths Australian Frozen Sweet Corn Cobs,Woolworths,Frozen,5.0,5.0,0,0.0,1kg,5.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+929,ww_385359,woolworths,Steggles Chicken Nuggets Tempura,Steggles,Frozen,10.5,13.5,1,22.2,1kg,10.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+930,ww_662935,woolworths,McCain Superfries Crinkle Cut,McCain,Frozen,4.3,4.3,0,0.0,900g,4.78,1KG,,0,2026-06-18T14:40:52Z,National Brand
+931,ww_252640,woolworths,McCain Pizza Meatlovers BBQ,McCain,Frozen,6.0,8.8,1,31.8,500g,1.2,100G,,0,2026-06-18T14:40:52Z,National Brand
+932,ww_112352,woolworths,McCain Pizza Slice Snacks Cheese & Bacon,McCain,Frozen,9.8,9.8,0,0.0,2 pack,1.63,100G,,0,2026-06-18T14:40:52Z,National Brand
+933,ww_259674,woolworths,Peters Drumstick Minis Ice Cream Vanilla,Peters,Frozen,9.9,9.9,0,0.0,6 pack,2.02,100ML,,0,2026-06-18T14:40:52Z,National Brand
+934,ww_768622,woolworths,Birds Eye Stir Fry Oriental,Birds Eye,Frozen,5.5,5.5,0,0.0,850g,6.47,1KG,,0,2026-06-18T14:40:52Z,National Brand
+935,ww_705694,woolworths,Birds Eye Stir Fry Mix Chinese,Birds Eye,Frozen,5.5,5.5,0,0.0,850g,6.47,1KG,,0,2026-06-18T14:40:52Z,National Brand
+936,ww_901497,woolworths,Your Spud Co Potato Tots,Your Spud Co,Frozen,4.5,4.5,0,0.0,1kg,4.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+937,ww_95243,woolworths,Scotts Pies Meat,Scotts,Frozen,6.0,6.0,0,0.0,6 pack,0.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+938,ww_621328,woolworths,Woolworths Party Pies,Woolworths,Frozen,9.9,9.9,0,0.0,24 pack,0.88,100G,,0,2026-06-18T14:40:52Z,Own Brand
+939,ww_6058367,woolworths,McCain Hash Browns Airfryer Triangle,McCain,Frozen,5.5,5.5,0,0.0,525g,10.48,1KG,,0,2026-06-18T14:40:52Z,National Brand
+940,ww_6074262,woolworths,Bibigo Mini Pop Mandu Chicken Dumplings,Bibigo,Frozen,8.9,8.9,0,0.0,280g,3.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+941,ww_6058423,woolworths,McCain Airfryer Chips Straight Cut,McCain,Frozen,5.5,5.5,0,0.0,750g,7.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+942,ww_972326,woolworths,Steggles Chicken Salt Chicken Fingers,Steggles,Frozen,10.5,13.5,1,22.2,1kg,10.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+943,ww_768564,woolworths,Woolworths Peas & Corn,Woolworths,Frozen,3.4,3.4,0,0.0,500g,6.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+944,ww_48914,woolworths,Marathon Dim Sims Dim Sims,Marathon,Frozen,13.0,13.0,0,0.0,1.5kg,0.87,100G,,0,2026-06-18T14:40:52Z,National Brand
+945,ww_96206,woolworths,McCain Frozen Peas,McCain,Frozen,3.7,3.7,0,0.0,500g,7.4,1KG,,0,2026-06-18T14:40:52Z,National Brand
+946,ww_815127,woolworths,Macro Organic Frozen Raspberries,Macro,Frozen,9.3,9.3,0,0.0,450g,20.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+947,ww_48387,woolworths,Peters Drumstick Ice Cream Vanilla,Peters,Frozen,9.9,9.9,0,0.0,4 pack,2.08,100ML,,0,2026-06-18T14:40:52Z,National Brand
+948,ww_191043,woolworths,Bulla Creamy Classics Ice Cream Vanilla,Bulla,Frozen,7.0,7.0,0,0.0,2L,0.35,100ML,,0,2026-06-18T14:40:52Z,National Brand
+949,ww_97997,woolworths,Essentials Crumbed Chicken Nuggets,Essentials,Frozen,3.25,3.25,0,0.0,500g,6.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+950,ww_96492,woolworths,Pampas Puff Pastry 6 Sheets,Pampas,Frozen,5.5,5.5,0,0.0,1kg,0.55,100G,,0,2026-06-18T14:40:52Z,National Brand
+951,ww_40568,woolworths,Blue Ribbon Classic Vanilla Tub Classic vanilla Dessert Tub,Blue Ribbon,Frozen,6.5,6.5,0,0.0,2L,0.33,100ML,,0,2026-06-18T14:40:52Z,National Brand
+952,ww_694859,woolworths,Woolworths Butter Chicken & Rice NULL,Woolworths,Frozen,4.2,4.2,0,0.0,375g,1.12,100G,,0,2026-06-18T14:40:52Z,Own Brand
+953,ww_6010485,woolworths,Woolworths Frozen Strawberries,Woolworths,Frozen,12.0,12.0,0,0.0,1kg,12.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+954,ww_383909,woolworths,Steggles Chicken Dino Snacks Tempura,Steggles,Frozen,10.5,13.5,1,22.2,1kg,10.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+955,ww_96190,woolworths,Connoisseur Ice Cream Classic Vanilla Tub,Connoisseur,Frozen,13.0,13.0,0,0.0,1L,1.3,100ML,,0,2026-06-18T14:40:52Z,National Brand
+956,ww_7282,woolworths,Peters Drumstick Super Chocolate,Peters,Frozen,9.9,9.9,0,0.0,4 pack,2.08,100ML,,0,2026-06-18T14:40:52Z,National Brand
+957,ww_502581,woolworths,Woolworths Steakhouse Chips,Woolworths,Frozen,3.6,3.6,0,0.0,900g,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+958,ww_132260,woolworths,Woolworths Crumbed Chicken Breast Tenders,Woolworths,Frozen,9.0,9.0,0,0.0,1kg,9.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+959,ww_918333,woolworths,McCain Rustica Sourdough Frozen Pizza Supreme,McCain,Frozen,11.0,11.0,0,0.0,450g,2.44,100G,,0,2026-06-18T14:40:52Z,National Brand
+960,ww_38728,woolworths,Ingham's Frozen Chicken Breast Tenders Original,Ingham's,Frozen,5.5,5.5,0,0.0,400g,13.75,1KG,,0,2026-06-18T14:40:52Z,National Brand
+961,ww_30748,woolworths,Patties Sausage Roll Party,Patties,Frozen,9.7,9.7,0,0.0,450g,2.16,100G,,0,2026-06-18T14:40:52Z,National Brand
+962,ww_24940,woolworths,Four'N Twenty Pies Meat,Four'N Twenty,Frozen,4.75,9.5,1,50.0,4 pack,0.68,100G,,0,2026-06-18T14:40:52Z,National Brand
+963,ww_621329,woolworths,Woolworths Party Sausage Rolls,Woolworths,Frozen,9.9,9.9,0,0.0,24 pack,1.1,100G,,0,2026-06-18T14:40:52Z,Own Brand
+964,ww_310432,woolworths,Findus Crumbed Fish Fingers,Findus,Frozen,2.75,5.5,1,50.0,10 pack,9.82,1KG,,0,2026-06-18T14:40:52Z,National Brand
+965,ww_62050,woolworths,Just Caught Raw Prawns Tail Off Large,Just Caught,Frozen,11.6,11.6,0,0.0,300g,38.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+966,ww_227255,woolworths,Ingham's Chicken Tenders Original,Ingham's,Frozen,13.0,13.0,0,0.0,1kg,13.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+967,ww_768570,woolworths,Woolworths Corn Kernels,Woolworths,Frozen,5.0,5.0,0,0.0,1kg,5.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+968,ww_96844,woolworths,Essentials Frozen Cut Green Beans,Essentials,Frozen,2.8,2.8,0,0.0,1kg,2.8,1KG,,0,2026-06-18T14:40:52Z,National Brand
+969,ww_18574,woolworths,McCain Peas Baby,McCain,Frozen,4.5,4.5,0,0.0,500g,9.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+970,ww_695442,woolworths,Woolworths Vegetable Cocktail Spring Rolls 60 Pack,Woolworths,Frozen,6.5,6.5,0,0.0,1kg,0.65,100G,,0,2026-06-18T14:40:52Z,Own Brand
+971,ww_741,woolworths,McCain Pub Style Onion Rings,McCain,Frozen,5.8,5.8,0,0.0,500g,11.6,1KG,,0,2026-06-18T14:40:52Z,National Brand
+972,ww_6033626,woolworths,Bibigo Korean Style Fried Chicken With Sweet & Spicy Sauce,Bibigo,Frozen,9.0,13.0,1,30.8,350g,2.57,100G,,0,2026-06-18T14:40:52Z,National Brand
+973,ww_662933,woolworths,McCain Superfries Straight Cut,McCain,Frozen,4.3,4.3,0,0.0,900g,4.78,1KG,,0,2026-06-18T14:40:52Z,National Brand
+974,ww_48914,woolworths,Marathon Dim Sims Dim Sims,Marathon,Frozen,13.0,13.0,0,0.0,1.5kg,0.87,100G,,0,2026-06-18T14:40:52Z,National Brand
+975,ww_322796,woolworths,Birds Eye Steam Fresh Broccoli Carrots & Corn,Birds Eye,Frozen,5.5,5.5,0,0.0,750g,7.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+976,ww_503713,woolworths,Woolworths Shoestring Fries,Woolworths,Frozen,3.6,3.6,0,0.0,900g,4.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+977,ww_6042407,woolworths,WOW Pizza BBQ Meatlovers,WOW,Frozen,4.0,4.0,0,0.0,500g,0.8,100G,,0,2026-06-18T14:40:52Z,National Brand
+978,ww_180652,woolworths,Birds Eye Golden Crunch Crinkle Cut Chips,Birds Eye,Frozen,6.0,6.0,0,0.0,900g,6.67,1KG,,0,2026-06-18T14:40:52Z,National Brand
+979,ww_854298,woolworths,McCain Straight Sweet Potato Chips,McCain,Frozen,7.7,7.7,0,0.0,750g,10.27,1KG,,0,2026-06-18T14:40:52Z,National Brand
+980,ww_45916,woolworths,Birds Eye Oven Bake Fish Original Crumb,Birds Eye,Frozen,12.0,12.0,0,0.0,425g,28.24,1KG,,0,2026-06-18T14:40:52Z,National Brand
+981,ww_3496,woolworths,McCain Pizza Slice Snacks Ham & Pineapple,McCain,Frozen,9.8,9.8,0,0.0,2 pack,1.63,100G,,0,2026-06-18T14:40:52Z,National Brand
+982,ww_6049842,woolworths,Steggles Chicken Tenders Korean Style,Steggles,Frozen,14.0,14.0,0,0.0,600g,23.33,1KG,,0,2026-06-18T14:40:52Z,National Brand
+983,ww_78067,woolworths,McCain Pizza Pocket Snacks Hawaiian,McCain,Frozen,5.0,8.5,1,41.2,4 pack,1.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+984,ww_6076380,woolworths,Bibigo Mini Pop Mandu Beef Bulgogi,Bibigo,Frozen,8.9,8.9,0,0.0,280g,3.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+985,ww_64179,woolworths,Woolworths Snack Apple Pies,Woolworths,Frozen,3.8,3.8,0,0.0,4 pack,0.84,100G,,0,2026-06-18T14:40:52Z,Own Brand
+986,ww_99387,woolworths,Bell Farms Frozen Baby Peas,Bell Farms,Frozen,2.2,2.2,0,0.0,500g,4.4,1KG,,0,2026-06-18T14:40:52Z,National Brand
+987,ww_179958,woolworths,Woolworths Chicken Breast Sweet Chilli Tenders,Woolworths,Frozen,9.0,9.0,0,0.0,1kg,9.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+988,ww_662935,woolworths,McCain Superfries Crinkle Cut,McCain,Frozen,4.3,4.3,0,0.0,900g,4.78,1KG,,0,2026-06-18T14:40:52Z,National Brand
+989,ww_179039,woolworths,Peters Drumstick Ice Cream Boysenberry Swirl,Peters,Frozen,9.9,9.9,0,0.0,4 pack,2.08,100ML,,0,2026-06-18T14:40:52Z,National Brand
+990,ww_388386,woolworths,Woolworths Beef Lasagne,Woolworths,Frozen,4.2,4.2,0,0.0,375g,1.12,100G,,0,2026-06-18T14:40:52Z,Own Brand
+991,ww_792235,woolworths,Woolworths Ice Cream Cones Boysenberry,Woolworths,Frozen,3.7,3.7,0,0.0,4 pack,0.78,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+992,ww_318573,woolworths,Bibigo Mandu Pork Dumplings,Bibigo,Frozen,8.9,8.9,0,0.0,280g,3.18,100G,,0,2026-06-18T14:40:52Z,National Brand
+993,ww_53205,woolworths,McCain Pub Style Potato Wedges,McCain,Frozen,6.0,6.0,0,0.0,750g,8.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+994,ww_792233,woolworths,Woolworths Ice Cream Cones Vanilla,Woolworths,Frozen,3.7,3.7,0,0.0,4 pack,0.78,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+995,ww_61999,woolworths,Woolworths Prep Set Go Frozen Stir Fry Mixed Vegetables,Woolworths,Frozen,2.6,2.6,0,0.0,500g,5.2,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+996,ww_70787,woolworths,Woolworths Spaghetti Bolognese Frozen Meal,Woolworths,Frozen,4.2,4.2,0,0.0,375g,1.12,100G,,0,2026-06-18T14:40:52Z,Own Brand
+997,ww_227382,woolworths,Ingham's Sweet Chilli Chicken Tenders,Ingham's,Frozen,13.0,13.0,0,0.0,1kg,13.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+998,ww_777912,woolworths,Woolworths Frozen Pitted Cherries,Woolworths,Frozen,6.5,6.5,0,0.0,500g,13.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+999,ww_972913,woolworths,Essentials French Fries,Essentials,Frozen,3.15,3.15,0,0.0,1kg,3.15,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1000,ww_508730,woolworths,Steggles Chicken Fingers Crumbed,Steggles,Frozen,10.5,13.5,1,22.2,1kg,10.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1001,ww_662937,woolworths,McCain Superfries Shoestring,McCain,Frozen,4.3,4.3,0,0.0,900g,4.78,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1002,ww_768560,woolworths,Woolworths Cauliflower Florets,Woolworths,Frozen,4.0,4.0,0,0.0,500g,8.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1003,ww_310989,woolworths,Bell Farms Corn Kernels Snap Frozen,Bell Farms,Frozen,4.0,4.0,0,0.0,1kg,4.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1004,ww_817500,woolworths,Macro Organic Spinach Leaf Portions,Macro,Frozen,5.0,5.0,0,0.0,450g,11.11,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1005,ww_792236,woolworths,Woolworths Ice Cream Cones Choc Mint,Woolworths,Frozen,3.7,3.7,0,0.0,4 pack,0.78,100ML,,0,2026-06-18T14:40:52Z,Own Brand
+1006,ww_881481,woolworths,Peters Drumstick Mini Chocolate Caramel,Peters,Frozen,9.9,9.9,0,0.0,6 pack,2.06,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1007,ww_227176,woolworths,Ingham's Chicken Nuggets Original,Ingham's,Frozen,13.0,13.0,0,0.0,1kg,13.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1008,ww_248429,woolworths,Herbert Adams Pies King Island Beef,Herbert Adams,Frozen,8.0,10.0,1,20.0,2 pack,1.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+1009,ww_640776,woolworths,Essentials Straight Cut Chips,Essentials,Frozen,3.15,3.15,0,0.0,1kg,3.15,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1010,ww_89994,woolworths,McCain Tuna Mornay Frozen Meal,McCain,Frozen,4.5,5.6,1,19.6,400g,1.13,100G,,0,2026-06-18T14:40:52Z,National Brand
+1011,ww_777911,woolworths,Woolworths Frozen Mango,Woolworths,Frozen,6.5,6.5,0,0.0,500g,13.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1012,ww_532343,woolworths,Creative Gourmet Frozen Pineapple Pieces,Creative Gourmet,Frozen,6.5,6.5,0,0.0,500g,13.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1013,ww_330824,woolworths,Peters Drumstick Chocolate Mint,Peters,Frozen,9.9,9.9,0,0.0,4 pack,2.08,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1014,ww_803377,woolworths,Clearblue Pregnancy Test Ultra Early,Clearblue,Health & Wellness,17.0,20.0,1,15.0,3 pack,5.67,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1015,ww_444306,woolworths,Clearblue Pregnancy Test Rapid Detection,Clearblue,Health & Wellness,18.0,18.0,0,0.0,3 pack,6.0,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1016,ww_275790,woolworths,Clearblue Visual Early Detect Pregnancy Tests,Clearblue,Health & Wellness,36.0,36.0,0,0.0,7 pack,5.14,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1017,ww_310931,woolworths,Clearblue Pregnancy Test Combo Pack,Clearblue,Health & Wellness,26.0,26.0,0,0.0,3 pack,26.0,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1018,ww_331595,woolworths,Macro Organic Corn Chips Natural,Macro,Health & Wellness,3.7,3.7,0,0.0,200g,1.85,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1019,ww_651474,woolworths,Macro Black Chia Seeds,Macro,Health & Wellness,6.0,6.0,0,0.0,350g,1.71,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1020,ww_913540,woolworths,Table Of Plenty Mini Rice Cakes Milk Chocolate Snack Packs,Table Of Plenty,Health & Wellness,7.0,7.0,0,0.0,6 pack,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1021,ww_193885,woolworths,Fresh Medjool Dates Loose,,Health & Wellness,26.0,26.0,0,0.0,per 250g,26.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1022,ww_363227,woolworths,Ceres Organics Brown Rice Cakes Original,Ceres Organics,Health & Wellness,4.0,4.0,0,0.0,110g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+1023,ww_6047509,woolworths,Table Of Plenty Mini Rice Cakes Milk Chocolate With 100s & 1000s,Table Of Plenty,Health & Wellness,7.0,7.0,0,0.0,6 pack,6.86,100G,,0,2026-06-18T14:40:52Z,National Brand
+1024,ww_6009022,woolworths,Clearblue Digital Pregnancy Test Ultra Early,Clearblue,Health & Wellness,29.0,29.0,0,0.0,2 pack,14.5,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1025,ww_482440,woolworths,Clearblue Trying To Get Pregnant Kit 10 Ovulation & 1 Pregnancy Test,Clearblue,Health & Wellness,34.8,40.0,1,13.0,each,3.48,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1026,ww_433239,woolworths,Difflam Soothing Drops + Immune Support Strawberry,Difflam,Health & Wellness,4.5,4.5,0,0.0,20 pack,0.23,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1027,ww_232256,woolworths,First Response Pregnancy Test Instream,First Response,Health & Wellness,20.0,20.0,0,0.0,3 pack,6.67,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1028,ww_215450,woolworths,Macro Organic Spaghetti Pasta,Macro,Health & Wellness,1.95,1.95,0,0.0,500g,0.39,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1029,ww_913593,woolworths,Table Of Plenty Mini Rice Cakes Dark Chocolate Snack Packs,Table Of Plenty,Health & Wellness,7.0,7.0,0,0.0,6 pack,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1030,ww_71919,woolworths,Table Of Plenty Mini Rice Cakes Berry Yoghurt Topped,Table Of Plenty,Health & Wellness,7.0,7.0,0,0.0,6 pack,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1031,ww_501762,woolworths,Woolworths Sesame Seeds,Woolworths,Health & Wellness,1.65,1.65,0,0.0,100g,16.5,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1032,ww_136913,woolworths,Swisspers Cotton Tips,Swisspers,Health & Wellness,5.0,5.0,0,0.0,240 pack,2.08,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1033,ww_220751,woolworths,Help@Hand Cotton Tips No Plastic Stems,Help@Hand,Health & Wellness,2.5,2.5,0,0.0,200 pack,1.25,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1034,ww_699980,woolworths,Musashi Wafer Protein Bar Chocolate,Musashi,Health & Wellness,4.5,4.5,0,0.0,40g,11.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+1035,ww_153164,woolworths,Musashi Crisp Protein Bar Chocolate Peanut,Musashi,Health & Wellness,4.9,4.9,0,0.0,60g,8.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+1036,ww_501763,woolworths,Woolworths Sunflower Seeds,Woolworths,Health & Wellness,2.2,2.2,0,0.0,200g,11.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1037,ww_821066,woolworths,Musashi Shred & Burn Protein Shake Chocolate Milkshake,Musashi,Health & Wellness,5.5,5.5,0,0.0,375mL,14.67,1L,,0,2026-06-18T14:40:52Z,National Brand
+1038,ww_390904,woolworths,Koja Oat Bites Choc Chip,Koja,Health & Wellness,7.5,7.5,0,0.0,150g,5.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1039,ww_15722,woolworths,Swisspers Cotton Pads Make Up,Swisspers,Health & Wellness,4.3,4.3,0,0.0,80 pack,5.38,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1040,ww_794875,woolworths,Weet-Bix Gluten Free Breakfast Cereal,Weet-Bix,Health & Wellness,5.0,5.0,0,0.0,375g,1.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1041,ww_446583,woolworths,Ceres Organics Brown Rice Crackers Chia,Ceres Organics,Health & Wellness,4.0,4.0,0,0.0,115g,3.48,100G,,0,2026-06-18T14:40:52Z,National Brand
+1042,ww_726442,woolworths,Ceres Organics Seaweed Nori Original Snack,Ceres Organics,Health & Wellness,7.0,7.0,0,0.0,2g x 8 pack,43.75,100G,,0,2026-06-18T14:40:52Z,National Brand
+1043,ww_671971,woolworths,Macro Organic Cacao Powder,Macro,Health & Wellness,10.0,10.0,0,0.0,250g,4.0,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1044,ww_286090,woolworths,Grenade Oreo Milk Chocolate Protein Bar,Grenade,Health & Wellness,5.0,5.0,0,0.0,60g,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1045,ww_600878,woolworths,Woolworths Dry Roasted Almonds Nuts,Woolworths,Health & Wellness,8.0,8.0,0,0.0,400g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1046,ww_791122,woolworths,Help@Hand Make Up Pads,Help@Hand,Health & Wellness,1.5,1.5,0,0.0,80 pack,1.88,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1047,ww_479953,woolworths,Macro Organic Psyllium Husk,Macro,Health & Wellness,7.0,7.0,0,0.0,250g,2.8,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1048,ww_57855,woolworths,Vege Chips Multi 12 Pack,Vege Chips,Health & Wellness,9.5,9.5,0,0.0,250g,3.8,100G,,0,2026-06-18T14:40:52Z,National Brand
+1049,ww_376068,woolworths,Funday Natural Sweets Flavoured Gummies Strawberry & Cream,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1050,ww_81785,woolworths,Pureharvest Organic Tamari Soy Sauce,Pureharvest,Health & Wellness,4.3,4.3,0,0.0,250mL,1.72,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1051,ww_717631,woolworths,Macro Organic Quinoa Tri Colour,Macro,Health & Wellness,6.0,6.0,0,0.0,500g,1.2,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1052,ww_172660,woolworths,Woolworths Cashews Roasted & Salted,Woolworths,Health & Wellness,14.0,14.0,0,0.0,750g,18.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1053,ww_117189,woolworths,Healtheries Potato Stix Chicken,Healtheries,Health & Wellness,4.5,5.0,1,10.0,20g x 6 pack,3.75,100G,,0,2026-06-18T14:40:52Z,National Brand
+1054,ww_769892,woolworths,Woolworths Free From Gluten Breadcrumbs,Woolworths,Health & Wellness,4.25,4.25,0,0.0,350g,1.21,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1055,ww_68711,woolworths,Table Of Plenty Mini Rice Cakes Snack Packs Caramel White Choc,Table Of Plenty,Health & Wellness,7.0,7.0,0,0.0,6 pack,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1056,ww_657399,woolworths,San Remo Gluten Free Spirals,San Remo,Health & Wellness,4.5,4.5,0,0.0,350g,1.29,100G,,0,2026-06-18T14:40:52Z,National Brand
+1057,ww_331588,woolworths,Macro Organic Corn Chips Cheese,Macro,Health & Wellness,3.7,3.7,0,0.0,200g,1.85,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1058,ww_6072110,woolworths,Gevity Rx Chocolate Bone Broth,Gevity Rx,Health & Wellness,17.5,17.5,0,0.0,200g,8.75,100G,,0,2026-06-18T14:40:52Z,National Brand
+1059,ww_104052,woolworths,Frisp Raspberry Crisps Choc Coated,Frisp,Health & Wellness,6.0,7.5,1,20.0,100g,6.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1060,ww_6071974,woolworths,Gevity Rx Goodstachio Pistachio Spread,Gevity Rx,Health & Wellness,12.8,16.0,1,20.0,150g,8.53,100G,,0,2026-06-18T14:40:52Z,National Brand
+1061,ww_916772,woolworths,Panadol Rapid For Fast Pain Relief With Paracetamol 500mg,Panadol,Health & Wellness,5.7,5.7,0,0.0,16 pack,0.36,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1062,ww_815872,woolworths,Woolworths Pecans,Woolworths,Health & Wellness,4.3,4.3,0,0.0,150g,28.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1063,ww_671889,woolworths,Macro Australian Hemp Seeds,Macro,Health & Wellness,6.6,6.6,0,0.0,200g,3.3,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1064,ww_555158,woolworths,Musashi Protein Crisp Bar White Choc Cookies & Cream,Musashi,Health & Wellness,4.9,4.9,0,0.0,60g,8.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+1065,ww_600808,woolworths,Woolworths Crunchy Natural Almonds,Woolworths,Health & Wellness,8.0,8.0,0,0.0,400g,20.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1066,ww_557264,woolworths,Musashi Protein Wafer Bar White Chocolate,Musashi,Health & Wellness,4.5,4.5,0,0.0,40g,11.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+1067,ww_220852,woolworths,Help@Hand Cotton Tips,Help@Hand,Health & Wellness,4.0,4.0,0,0.0,400 pack,1.0,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1068,ww_232260,woolworths,Mylanta 2Go Antacid Double Strength Chewable Tablets Lemon Mint,Mylanta,Health & Wellness,8.5,8.5,0,0.0,24 pack,0.35,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1069,ww_225621,woolworths,Band-Aid Tough Strips Regular,Band-Aid,Health & Wellness,3.5,3.5,0,0.0,20 pack,0.18,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1070,ww_829122,woolworths,First Response Pregnancy Test Instream,First Response,Health & Wellness,35.5,35.5,0,0.0,7 pack,5.07,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1071,ww_764209,woolworths,Nicaway Stop Smoking Mint Gum 4Mg,Nicaway,Health & Wellness,27.0,27.0,0,0.0,96 pack,28.13,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1072,ww_6027807,woolworths,Grenade Salted Caramel Protein Bar,Grenade,Health & Wellness,5.0,5.0,0,0.0,60g,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1073,ww_6070654,woolworths,Funday Barbie Berry Kisses Gummies,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1074,ww_119059,woolworths,True Fruit Apple & Strawberry Straps,True Fruit,Health & Wellness,5.8,5.8,0,0.0,120g,4.83,100G,,0,2026-06-18T14:40:52Z,National Brand
+1075,ww_96154,woolworths,Vege Chips Barbeque,Vege Chips,Health & Wellness,4.9,4.9,0,0.0,100g,4.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+1076,ww_275141,woolworths,Musashi Protein Crisp Choc Brownie,Musashi,Health & Wellness,4.9,4.9,0,0.0,60g,8.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+1077,ww_698018,woolworths,Macro Organic Brown Flaxseed Meal,Macro,Health & Wellness,6.3,6.3,0,0.0,500g,1.26,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1078,ww_176411,woolworths,Woolworths Almonds Kernels,Woolworths,Health & Wellness,13.5,13.5,0,0.0,750g,18.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1079,ww_893874,woolworths,Funday No Sugar Added Party Mix Natural Sweets,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1080,ww_357265,woolworths,Macro Natural Almond Spread,Macro,Health & Wellness,6.0,6.0,0,0.0,250g,2.4,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1081,ww_334757,woolworths,Macro Organic Hulled Tahini Spread,Macro,Health & Wellness,5.0,5.0,0,0.0,375g,1.33,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1082,ww_8519,woolworths,Golden Days Snacks Sesame Snaps,Golden Days,Health & Wellness,3.0,3.0,0,0.0,40g x 3 pack,2.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+1083,ww_6028961,woolworths,Grenade Protein Bar White Oreo,Grenade,Health & Wellness,5.0,5.0,0,0.0,60g,8.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1084,ww_62842,woolworths,Vege Chips Natural,Vege Chips,Health & Wellness,4.9,4.9,0,0.0,100g,4.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+1085,ww_363226,woolworths,Ceres Organics Rice Cakes No Added Salt,Ceres Organics,Health & Wellness,4.0,4.0,0,0.0,110g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+1086,ww_131,woolworths,Golden Days Fruit Snacks Bites Apricot Delight,Golden Days,Health & Wellness,4.0,4.0,0,0.0,150g,2.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+1087,ww_184441,woolworths,Funday Natural Sweets No Sugar Added Lollies Raspberry Gummy Frogs,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1088,ww_133300,woolworths,Macro Organic Natural Pumpkin Kernels,Macro,Health & Wellness,5.7,5.7,0,0.0,250g,22.8,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1089,ww_6044601,woolworths,Funday Natural Sweets Peaches & Cream Flavoured Gummies,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1090,ww_965281,woolworths,Macro Chia Seed Black & White,Macro,Health & Wellness,6.6,6.6,0,0.0,150g,4.4,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1091,ww_779237,woolworths,Woolworths Free From Gluten Chocolate Chip Biscuit,Woolworths,Health & Wellness,2.9,2.9,0,0.0,160g,1.81,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1092,ww_209105,woolworths,Musashi Protein Cookie Choc Chip Low Sugar Snack,Musashi,Health & Wellness,4.9,4.9,0,0.0,58g,8.45,100G,,0,2026-06-18T14:40:52Z,National Brand
+1093,ww_749540,woolworths,Woolworths Walnuts Kernel,Woolworths,Health & Wellness,11.0,11.0,0,0.0,500g,22.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1094,ww_781444,woolworths,Ceres Organics Seaweed Nori Original Snack,Ceres Organics,Health & Wellness,2.2,2.2,0,0.0,5g,44.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1095,ww_236145,woolworths,Funday Fruity Flavoured Gummy Snakes,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1096,ww_202399,woolworths,Woolworths Cashews Roasted & Unsalted,Woolworths,Health & Wellness,14.0,14.0,0,0.0,750g,18.67,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1097,ww_82835,woolworths,Golden Days Fruit Snacks Bites Apricot,Golden Days,Health & Wellness,6.0,6.0,0,0.0,40g x 5 pack,3.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1098,ww_6029112,woolworths,Koja Oat Bites Raspberry Choc Chip,Koja,Health & Wellness,7.5,7.5,0,0.0,150g,5.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1099,ww_263796,woolworths,Vege Chips Salt & Vinegar,Vege Chips,Health & Wellness,4.9,4.9,0,0.0,100g,4.9,100G,,0,2026-06-18T14:40:52Z,National Brand
+1100,ww_726520,woolworths,Ceres Organics Brown Rice Crackers Salt & Vinegar,Ceres Organics,Health & Wellness,4.0,4.0,0,0.0,115g,3.48,100G,,0,2026-06-18T14:40:52Z,National Brand
+1101,ww_22576,woolworths,Kez's Kitchen Chocolate Crackle,Kez's Kitchen,Health & Wellness,6.0,6.0,0,0.0,5 pack,8.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1102,ww_195126,woolworths,Lyher Rapid Antigen Test Kit,Lyher,Health & Wellness,20.0,20.0,0,0.0,5 pack,20.0,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1103,ww_919320,woolworths,Muscle Nation Protein Daily Shake Powder Milk Chocolate Flavour,Muscle Nation,Health & Wellness,24.5,35.0,1,30.0,300g,8.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+1104,ww_913387,woolworths,Muscle Nation Cheesecake Protein Bar Strawberry,Muscle Nation,Health & Wellness,3.15,4.5,1,30.0,50g,6.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+1105,ww_161517,woolworths,Macro Organic Black Chia Seeds,Macro,Health & Wellness,8.5,8.5,0,0.0,300g,2.83,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1106,ww_774695,woolworths,Golden Palm Medjool Dates Punnet,Golden Palm,Health & Wellness,11.2,12.5,1,10.4,450g,24.89,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1107,ww_224381,woolworths,Freedom Classic Rice Puffs Cereal,Freedom,Health & Wellness,6.0,6.0,0,0.0,250g,2.4,100G,,0,2026-06-18T14:40:52Z,National Brand
+1108,ww_746176,woolworths,Help@Hand Epsom Salt,Help@Hand,Health & Wellness,5.4,5.4,0,0.0,1kg,0.54,100G,,0,2026-06-18T14:40:52Z,National Brand
+1109,ww_184901,woolworths,Koja Dark Choc Chip Oat Bar,Koja,Health & Wellness,3.5,3.5,0,0.0,60g,5.83,100G,,0,2026-06-18T14:40:52Z,National Brand
+1110,ww_791123,woolworths,Help@Hand Cotton Balls,Help@Hand,Health & Wellness,1.6,1.6,0,0.0,200 pack,0.8,100EA,,0,2026-06-18T14:40:52Z,National Brand
+1111,ww_6000599,woolworths,Muscle Nation Protein Bar Cheesecake Zesty Lemon,Muscle Nation,Health & Wellness,3.15,4.5,1,30.0,50g,6.3,100G,,0,2026-06-18T14:40:52Z,National Brand
+1112,ww_913388,woolworths,Muscle Nation Protein Custard Bar White Chocolate Raspberry,Muscle Nation,Health & Wellness,3.15,4.5,1,30.0,60g,5.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+1113,ww_103297,woolworths,Muscle Nation Protein Water Powder Apple Blackcurrant Flavour,Muscle Nation,Health & Wellness,24.5,35.0,1,30.0,300g,8.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+1114,ww_915466,woolworths,Muscle Nation Protein Water Powder Raspberry,Muscle Nation,Health & Wellness,24.5,35.0,1,30.0,300g,8.17,100G,,0,2026-06-18T14:40:52Z,National Brand
+1115,ww_106209,woolworths,FreshLife Soy Protein Crisps,FreshLife,Health & Wellness,7.0,7.0,0,0.0,150g,4.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+1116,ww_267298,woolworths,Double 'D' Smart Sweets Sour Bears,Double 'D',Health & Wellness,2.7,2.7,0,0.0,50g,5.4,100G,,0,2026-06-18T14:40:52Z,National Brand
+1117,ww_184482,woolworths,Funday Natural Sweets No Sugar Added Lollies Sour Peach Hearts,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1118,ww_693004,woolworths,Ceres Organics Brown Rice Cakes Quinoa Quinoa,Ceres Organics,Health & Wellness,4.0,4.0,0,0.0,110g,3.64,100G,,0,2026-06-18T14:40:52Z,National Brand
+1119,ww_869169,woolworths,Musashi High Protein Bar Chocolate Brownie,Musashi,Health & Wellness,6.9,6.9,0,0.0,90g,7.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+1120,ww_686544,woolworths,Macro Nutritional Yeast Flakes,Macro,Health & Wellness,8.0,8.0,0,0.0,200g,4.0,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1121,ww_751353,woolworths,Macro Organic Virgin Coconut Oil,Macro,Health & Wellness,5.25,5.25,0,0.0,300g,1.75,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1122,ww_288117,woolworths,Funday Natural Sweets Sour Cola Flavoured Bottles,Funday,Health & Wellness,3.5,4.5,1,22.2,50g,7.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1123,ww_651475,woolworths,Macro White Chia Seeds,Macro,Health & Wellness,6.4,6.4,0,0.0,350g,1.83,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1124,ww_6045212,woolworths,Table Of Plenty Air Popped Mini Rice Cakes Cheddar Cheese Snack,Table Of Plenty,Health & Wellness,6.0,6.0,0,0.0,6 pack,6.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+1125,ww_267269,woolworths,Double 'D' Smart Sweets Berry Bears,Double 'D',Health & Wellness,2.7,2.7,0,0.0,50g,5.4,100G,,0,2026-06-18T14:40:52Z,National Brand
+1126,ww_868314,woolworths,Woolworths Free From Gluten Choc Chip Mini Cookies,Woolworths,Health & Wellness,4.5,4.5,0,0.0,8 pack,2.25,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1127,ww_651571,woolworths,Woolworths Free From Gluten Scotch Finger Biscuits,Woolworths,Health & Wellness,3.0,3.0,0,0.0,160g,1.88,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1128,ww_676994,woolworths,"Musashi High Protein Shake Chocolate 99% Fat Free,",Musashi,Health & Wellness,5.5,5.5,0,0.0,375mL,14.67,1L,,0,2026-06-18T14:40:52Z,National Brand
+1129,ww_390086,woolworths,Koja Oat Bites Muesli Slice,Koja,Health & Wellness,7.5,7.5,0,0.0,150g,5.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1130,ww_6045304,woolworths,Koja Wholegrain Popcorn Bar Chocolate Drizzle,Koja,Health & Wellness,7.5,7.5,0,0.0,5 pack,6.82,100G,,0,2026-06-18T14:40:52Z,National Brand
+1131,ww_6045122,woolworths,Table Of Plenty Air Popped Mini Rice Cakes Salt & Vinegar Snack,Table Of Plenty,Health & Wellness,6.0,6.0,0,0.0,6 pack,6.67,100G,,0,2026-06-18T14:40:52Z,National Brand
+1132,ww_501764,woolworths,Woolworths Hazelnut Kernels,Woolworths,Health & Wellness,4.9,4.9,0,0.0,110g,44.55,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1133,ww_607069,woolworths,Macro Organic Coconut Flakes,Macro,Health & Wellness,3.3,3.3,0,0.0,200g,1.65,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1134,ww_700014,woolworths,Musashi Wafer Protein Bar Vanilla,Musashi,Health & Wellness,4.5,4.5,0,0.0,40g,11.25,100G,,0,2026-06-18T14:40:52Z,National Brand
+1135,ww_71917,woolworths,Ceres Organics Seaweed Original,Ceres Organics,Health & Wellness,10.0,10.0,0,0.0,5g x 6 pack,33.33,100G,,0,2026-06-18T14:40:52Z,National Brand
+1136,ww_133476,woolworths,Macro Organic Natural Walnuts,Macro,Health & Wellness,10.0,10.0,0,0.0,250g,40.0,1KG,,0,2026-06-18T14:40:52Z,Own Brand
+1137,ww_927881,woolworths,The Happy Snack Company Roasted Chickpeas Lightly Salted,The Happy Snack Company,Health & Wellness,6.0,6.0,0,0.0,6 pack,4.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1138,ww_661303,woolworths,Bosisto's Eucalyptus Spray,Bosisto's,Health & Wellness,9.6,9.6,0,0.0,225g,4.27,100G,,0,2026-06-18T14:40:52Z,National Brand
+1139,ww_104091,woolworths,Koja Bickie Bites Choc Chip,Koja,Health & Wellness,7.5,7.5,0,0.0,150g,5.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1140,ww_79,woolworths,Bellis Bar Apricot,Bellis,Health & Wellness,1.0,1.0,0,0.0,45g,2.22,100G,,0,2026-06-18T14:40:52Z,National Brand
+1141,ww_927838,woolworths,The Happy Snack Company Roasted Fava Beans Sea Salt & Balsamic Vinegar,The Happy Snack Company,Health & Wellness,6.0,6.0,0,0.0,6 pack,4.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1142,ww_117737,woolworths,Vege Chips Rice Crackers Honey Soy,Vege Chips,Health & Wellness,2.45,4.9,1,50.0,75g,3.27,100G,,0,2026-06-18T14:40:52Z,National Brand
+1143,ww_294329,woolworths,Macro LSA Mix,Macro,Health & Wellness,3.55,3.55,0,0.0,250g,1.42,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1144,ww_335073,woolworths,Macro Organic Quinoa,Macro,Health & Wellness,5.75,5.75,0,0.0,500g,1.15,100G,,0,2026-06-18T14:40:52Z,Own Brand
+1145,ww_502077,woolworths,Vanish Gold Pro Turbo Stain Remover Powder,Vanish,Household,10.0,20.0,1,50.0,1kg,10.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1146,ww_156865,woolworths,icare Wipex Absorbent Recycled Pick A Size Paper Towel,icare,Household,4.5,4.5,0,0.0,3 x 100 pack,1.5,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1147,ww_385130,woolworths,Dynamo Professional Laundry Liquid 7 In 1 Action,Dynamo,Household,12.0,12.0,0,0.0,1L,12.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+1148,ww_95186,woolworths,Bref Deluxe Delicate Magnolia Toilet Cleaner Block,Bref,Household,5.5,11.0,1,50.0,50g x 2 pack,5.5,100G,,0,2026-06-18T14:40:52Z,National Brand
+1149,ww_759496,woolworths,Essentials Facial Tissues,Essentials,Household,1.9,1.9,0,0.0,224 pack,0.85,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1150,ww_574728,woolworths,Quilton Tuffy 4 Ply White Paper Towel,Quilton,Household,5.0,5.0,0,0.0,3 x 60 pack,2.78,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1151,ww_390686,woolworths,Vevelle Luxury Soft 3 Ply Toilet Tissue,Vevelle,Household,9.0,9.0,0,0.0,24 pack,0.2,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1152,ww_851925,woolworths,Quilton White 3 Ply Toilet Paper White 180 Sheets,Quilton,Household,13.6,13.6,0,0.0,24 pack,0.31,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1153,ww_167699,woolworths,Strike Pro 3 Ply Paper Towel 3 Ply,Strike,Household,3.2,3.2,0,0.0,3 x 60 pack,1.78,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1154,ww_79502,woolworths,Kleenex Aloe Vera & Vitamin E 3 Ply Facial Tissues,Kleenex,Household,2.6,2.6,0,0.0,95 pack,2.74,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1155,ww_6005360,woolworths,Foodbank 3 Ply Toilet Paper,Foodbank,Household,10.0,11.0,1,9.1,20 pack,0.28,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1156,ww_660923,woolworths,Bref Duo Cubes Clear Water Flower Toilet Cleaner In Tank Block,Bref,Household,5.0,5.0,0,0.0,50g x 2 pack,5.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1157,ww_660833,woolworths,Earthwise Orange & Eucalyptus Laundry Capsules Washing Detergent,Earthwise,Household,10.0,20.0,1,50.0,26 pack,0.38,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1158,ww_618646,woolworths,Vanish Gold Pro Turbo Stain Remover Powder,Vanish,Household,19.0,38.0,1,50.0,2kg,9.5,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1159,ww_183671,woolworths,Symphony Facial Tissues White 228Ss,Symphony,Household,5.0,5.0,0,0.0,3 pack,0.73,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1160,ww_785118,woolworths,Sorbent Soft & Strong 3 Ply Toilet Paper,Sorbent,Household,8.5,8.5,0,0.0,20 pack,0.24,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1161,ww_10432,woolworths,Earth Choice Dishwashing Liquid,Earth Choice,Household,2.55,2.55,0,0.0,1L,0.26,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1162,ww_171164,woolworths,Strike 2 Ply Paper Towel 2 Ply,Strike,Household,2.2,2.2,0,0.0,2 x 80 pack,1.38,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1163,ww_252037,woolworths,Handee Ultra Paper Towel 2 Ply 180 Sheets,Handee,Household,3.5,5.0,1,30.0,3 x 60 pack,1.94,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1164,ww_473213,woolworths,Quilton Gold 4 Ply Toilet Paper,Quilton,Household,6.0,10.3,1,41.7,12 pack,0.36,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1165,ww_644239,woolworths,Quilton 2Ply Tissue Hypo-Allergenic,Quilton,Household,1.45,2.9,1,50.0,250 pack,0.58,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1166,ww_183858,woolworths,Shine Dishwashing Liquid Lemon,Shine,Household,1.4,1.4,0,0.0,1L,0.14,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1167,ww_212842,woolworths,Handee Ultra Double Length White Paper Towel,Handee,Household,5.25,5.25,0,0.0,2 x 120 pack,2.19,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1168,ww_63899,woolworths,Kleenex Everyday 2 Ply Facial Tissues,Kleenex,Household,3.0,3.0,0,0.0,200 pack,1.5,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1169,ww_252787,woolworths,Armada Baking Paper,Armada,Household,2.7,2.7,0,0.0,15m,0.18,1M,,0,2026-06-18T14:40:52Z,National Brand
+1170,ww_64018,woolworths,Armada Kitchen Tidy Bags With Handles Large Roll,Armada,Household,2.6,2.6,0,0.0,30 pack,0.09,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1171,ww_580263,woolworths,Kleenex Complete Clean White Toilet Paper,Kleenex,Household,12.0,12.0,0,0.0,24 pack,0.28,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1172,ww_105598,woolworths,Essentials Aluminium Foil 30m,Essentials,Household,4.5,4.5,0,0.0,each,0.15,1M,,0,2026-06-18T14:40:52Z,National Brand
+1173,ww_172610,woolworths,Kleenex Large & Thick 3 Ply Facial Tissues,Kleenex,Household,3.1,3.1,0,0.0,95 pack,3.26,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1174,ww_573468,woolworths,Viva White Paper Towel White 360 Sheets,Viva,Household,8.0,8.0,0,0.0,6 x 60 pack,2.22,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1175,ww_517111,woolworths,Armada Large Kitchen Tidy Bag Lavender/Lemon Scented,Armada,Household,2.5,2.5,0,0.0,25 pack,0.1,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1176,ww_183960,woolworths,Strike Pro Antibacterial Power Gel Toilet Cleaner Marine Fresh,Strike,Household,2.2,2.2,0,0.0,700mL,0.31,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1177,ww_742707,woolworths,Quilton King Size 3 Ply Toilet Paper Unscented,Quilton,Household,5.8,5.8,0,0.0,6 pack,0.55,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1178,ww_517079,woolworths,Armada Resealable Sandwich Bags,Armada,Household,3.65,3.65,0,0.0,120 pack,0.03,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1179,ww_91722,woolworths,Armada Freezer Bags Large,Armada,Household,0.8,0.8,0,0.0,40 pack,0.02,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1180,ww_644240,woolworths,Quilton Gold 4 Ply Tissues Aloe Vera,Quilton,Household,2.2,2.2,0,0.0,100 pack,2.2,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1181,ww_94671,woolworths,Armada Garbage Bags,Armada,Household,3.0,3.0,0,0.0,20 pack,0.15,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1182,ww_183940,woolworths,Strike Bleach,Strike,Household,2.0,2.0,0,0.0,2L,0.1,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1183,ww_196464,woolworths,Quilton Double Length White 3 Ply Toilet Paper,Quilton,Household,12.0,12.0,0,0.0,8 pack,0.42,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1184,ww_157334,woolworths,Viva Select A Size Double Length Paper Towel,Viva,Household,8.0,8.0,0,0.0,3 x 180 pack,1.48,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1185,ww_722,woolworths,Kleenex Complete Clean Double Length Toilet Paper,Kleenex,Household,13.5,13.5,0,0.0,12 pack,0.31,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1186,ww_171303,woolworths,Vevelle White 2 Ply Toilet Tissue,Vevelle,Household,6.0,6.0,0,0.0,12 pack,0.19,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1187,ww_65008,woolworths,Earth Choice Top & Front Loader,Earth Choice,Household,3.2,3.2,0,0.0,1L,3.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+1188,ww_32969,woolworths,Kleenex Aloe Vera & Vitamin E 3 Ply Facial Tissues,Kleenex,Household,4.5,4.5,0,0.0,140 pack,3.21,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1189,ww_654495,woolworths,Ajax Spray & Wipe Multipurpose Cleaner Vanilla & Berries,Ajax,Household,3.5,3.5,0,0.0,475mL,0.74,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1190,ww_215238,woolworths,Bref Power Active Flower Toilet Cleaner Gel,Bref,Household,7.0,7.0,0,0.0,700mL,1.0,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1191,ww_385187,woolworths,Dynamo Professional Laundry Liquid Odour Eliminator,Dynamo,Household,14.5,29.0,1,50.0,2L,7.25,1L,,0,2026-06-18T14:40:52Z,National Brand
+1192,ww_385684,woolworths,Dynamo Professional Laundry Liquid Odour Eliminator,Dynamo,Household,23.0,23.0,0,0.0,4L,5.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+1193,ww_208111,woolworths,Morning Fresh Dishwashing Liquid Lemon Lemon Super Strength,Morning Fresh,Household,10.0,10.0,0,0.0,900mL,1.11,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1194,ww_785129,woolworths,Sorbent Hypo-Allergenic 3 Ply Toilet Paper,Sorbent,Household,8.5,8.5,0,0.0,20 pack,0.24,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1195,ww_184421,woolworths,Clean Laundry Liquid Apple Splash,Clean,Household,2.0,2.0,0,0.0,2L,1.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+1196,ww_852042,woolworths,Quilton Prints 3 Ply Toilet Paper 180 Sheets,Quilton,Household,13.6,13.6,0,0.0,24 pack,0.31,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1197,ww_58478,woolworths,Glad Kitchen Tidy Bag Wavetop Large,Glad,Household,4.25,4.25,0,0.0,30 pack,0.14,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1198,ww_684102,woolworths,Armada Small Kitchen Tidy Bag,Armada,Household,2.5,2.5,0,0.0,40 pack,0.06,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1199,ww_6052264,woolworths,Earthwise Plant Powered Dish Liquid Orange & Eucalyptus,Earthwise,Household,5.75,5.75,0,0.0,900mL,0.64,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1200,ww_6026366,woolworths,Cold Power Laundry Capsules Advanced Clean,Cold Power,Household,17.0,17.0,0,0.0,18 pack,0.94,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1201,ww_503712,woolworths,Vanish Gold Pro Turbo White Stain Remover Powder,Vanish,Household,10.0,20.0,1,50.0,1kg,10.0,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1202,ww_973273,woolworths,Natpat Buzz Patch Mosquito Repellent Sticker Patches,Natpat,Household,14.5,14.5,0,0.0,16 pack,0.91,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1203,ww_622215,woolworths,Harpic Fresh Power Marine Splash Toilet Cleaner,Harpic,Household,7.0,7.0,0,0.0,700mL,1.0,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1204,ww_248546,woolworths,Strike Blue Toilet Cleaner Cistern Blocks,Strike,Household,2.0,2.0,0,0.0,2 pack,1.0,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1205,ww_517047,woolworths,Armada Garbage Bag Drawstring 56L,Armada,Household,3.8,3.8,0,0.0,20 pack,0.19,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1206,ww_227264,woolworths,Earth Choice Dishwashing Liquid Green Tea & Lime,Earth Choice,Household,3.5,3.5,0,0.0,500mL,0.7,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1207,ww_152347,woolworths,Earth Choice Antibacterial All Purpose Surface Spray,Earth Choice,Household,3.5,4.4,1,20.5,600mL,0.58,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1208,ww_900471,woolworths,My Eco Bag Compostable Earth Friendly Bin Liner Bags 12L Small,My Eco Bag,Household,4.7,4.7,0,0.0,20 pack,0.24,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1209,ww_250145,woolworths,Essentials Sponge Scourer Sponge,Essentials,Household,2.8,2.8,0,0.0,6 pack,0.47,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1210,ww_517110,woolworths,Armada Medium Kitchen Tidy Bag Lavender/Lemon Scented,Armada,Household,2.5,2.5,0,0.0,30 pack,0.08,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1211,ww_250305,woolworths,Earth Choice Toilet Cleaner Liquid Aqua,Earth Choice,Household,2.85,3.6,1,20.8,750mL,0.38,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1212,ww_752108,woolworths,Sorbent Flushable Wipes Hypo-Allergenic,Sorbent,Household,3.0,3.8,1,21.1,40 pack,7.5,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1213,ww_824734,woolworths,Armada Resealable Snack Bags,Armada,Household,1.5,1.5,0,0.0,50 pack,0.03,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1214,ww_79492,woolworths,Kleenex Eucalyptus 3 Ply Facial Tissues,Kleenex,Household,2.6,2.6,0,0.0,95 pack,2.74,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1215,ww_588994,woolworths,Morning Fresh Dishwashing Liquid Raspberry & Crisp Apple,Morning Fresh,Household,10.0,10.0,0,0.0,900mL,1.11,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1216,ww_252072,woolworths,Hercules Click Zip Large Resealable Twinzip Sandwich Bags,Hercules,Household,2.55,2.55,0,0.0,25 pack,0.1,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1217,ww_517081,woolworths,Armada Resealable Sandwich Bags,Armada,Household,2.0,2.0,0,0.0,65 pack,0.03,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1218,ww_318338,woolworths,Quilton Facial Tissue White 3Ply White 3Ply,Quilton,Household,2.3,2.3,0,0.0,55 pack,4.18,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1219,ww_94095,woolworths,Domestos Disinfectant Bleach Regular,Domestos,Household,6.6,6.6,0,0.0,1.25L,0.53,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1220,ww_435065,woolworths,Strike Pro Double Length 3 Ply Paper Towel,Strike,Household,5.3,5.3,0,0.0,3 x 120 pack,1.47,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1221,ww_59044,woolworths,Vanish Gold Stain Remover Spray Remover Spray,Vanish,Household,4.75,9.5,1,50.0,450mL,10.56,1L,,0,2026-06-18T14:40:52Z,National Brand
+1222,ww_58479,woolworths,Glad Kitchen Tidy Bag Wavetop Medium,Glad,Household,4.25,4.25,0,0.0,40 pack,0.11,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1223,ww_707402,woolworths,Glad Wavetop Tie Bin Liner Purple Large,Glad,Household,4.4,4.4,0,0.0,24 pack,0.18,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1224,ww_158767,woolworths,Quilton Classic 3 Ply Toilet Paper,Quilton,Household,4.3,8.6,1,50.0,8 pack,0.3,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1225,ww_13542,woolworths,Essentials Cling Wrap 60m,Essentials,Household,1.5,1.5,0,0.0,each,0.03,1M,,0,2026-06-18T14:40:52Z,National Brand
+1226,ww_18324,woolworths,Essentials Aluminium Foil 10m,Essentials,Household,2.1,2.1,0,0.0,each,0.21,1M,,0,2026-06-18T14:40:52Z,National Brand
+1227,ww_103467,woolworths,icare Wipex Recycled 3 Ply Paper Towel,icare,Household,1.9,3.85,1,50.6,2 x 60 pack,1.58,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1228,ww_192426,woolworths,Glad Kitchen Tidy Bag Wavetop X-Large,Glad,Household,4.25,4.25,0,0.0,20 pack,0.21,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1229,ww_178479,woolworths,Strike Pro Disinfectant Lavender Hospital Grade,Strike,Household,2.5,2.5,0,0.0,1.25L,0.2,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1230,ww_183866,woolworths,Shine Dishwashing Tablets,Shine,Household,4.0,4.0,0,0.0,30 pack,0.13,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1231,ww_94094,woolworths,Domestos Disinfectant Bleach Mountain Fresh,Domestos,Household,6.6,6.6,0,0.0,1.25L,0.53,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1232,ww_385987,woolworths,Cold Power Extreme Clean Laundry Liquid Washing Detergent,Cold Power,Household,26.0,26.0,0,0.0,2L,13.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+1233,ww_88334,woolworths,Cold Power Sensitive Laundry Liquid Washing Detergent,Cold Power,Household,26.0,26.0,0,0.0,2L,13.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+1234,ww_903711,woolworths,Cold Power Sensitive Laundry Liquid Washing Detergent,Cold Power,Household,21.0,21.0,0,0.0,4L,5.25,1L,,0,2026-06-18T14:40:52Z,National Brand
+1235,ww_385929,woolworths,Cold Power Advanced Clean Odour Fighter Laundry Liquid Detergent,Cold Power,Household,21.0,21.0,0,0.0,4L,5.25,1L,,0,2026-06-18T14:40:52Z,National Brand
+1236,ww_687742,woolworths,Glad Wavetop Garbage Bag 80 Litres,Glad,Household,9.0,9.0,0,0.0,30 pack,0.3,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1237,ww_249921,woolworths,Viva White Paper Towel 180 Sheets,Viva,Household,5.0,5.0,0,0.0,3 x 60 pack,2.78,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1238,ww_173870,woolworths,Sard Super Power Stain Remover Spray,Sard,Household,8.0,8.0,0,0.0,420mL,19.05,1L,,0,2026-06-18T14:40:52Z,National Brand
+1239,ww_6055295,woolworths,Sorbent Flushable Intimate Wipes,Sorbent,Household,3.8,3.8,0,0.0,40 pack,9.5,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1240,ww_819751,woolworths,Armada Baking Paper 50m,Armada,Household,8.0,8.0,0,0.0,each,0.16,1M,,0,2026-06-18T14:40:52Z,National Brand
+1241,ww_63878,woolworths,Earth Choice Wool Wash,Earth Choice,Household,2.7,2.7,0,0.0,1L,2.7,1L,,0,2026-06-18T14:40:52Z,National Brand
+1242,ww_88675,woolworths,Cold Power Advanced Clean Laundry Liquid Washing Detergent,Cold Power,Household,10.0,10.0,0,0.0,1L,10.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+1243,ww_463969,woolworths,Bref Duo Cubes Blue Water Ocean Toilet Cleaner In Tank Block,Bref,Household,5.0,5.0,0,0.0,50g x 2 pack,5.0,100G,,0,2026-06-18T14:40:52Z,National Brand
+1244,ww_660453,woolworths,Earthwise Orange & Eucalyptus Laundry Liquid Washing Detergent,Earthwise,Household,19.0,19.0,0,0.0,4L,4.75,1L,,0,2026-06-18T14:40:52Z,National Brand
+1245,ww_88205,woolworths,Cold Power Advanced Clean Laundry Washing Powder Detergent,Cold Power,Household,21.0,21.0,0,0.0,4kg,5.25,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1246,ww_720962,woolworths,Shine Dishwasher Powder Concentrate,Shine,Household,3.9,3.9,0,0.0,1kg,0.39,100G,,0,2026-06-18T14:40:52Z,National Brand
+1247,ww_6065378,woolworths,Finish Dishwasher Deep Cleaner Lemon,Finish,Household,12.0,12.0,0,0.0,250mL,4.8,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1248,ww_880225,woolworths,Handee Ultra Triple Length Paper Towel,Handee,Household,8.0,8.0,0,0.0,2 x 180 pack,2.22,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1249,ww_204831,woolworths,Ajax Spray & Wipe Multipurpose Kitchen Cleaner Baking Soda,Ajax,Household,3.5,3.5,0,0.0,500mL,0.7,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1250,ww_25724,woolworths,Essentials Household Sponge Sponge,Essentials,Household,1.8,1.8,0,0.0,5 pack,0.36,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1251,ww_738604,woolworths,Earth Choice Dishwashing Tablets,Earth Choice,Household,17.8,17.8,0,0.0,42 pack,0.42,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1252,ww_517049,woolworths,Armada Small Kitchen Tidy Bags Lavender/Lemon Scented,Armada,Household,2.5,2.5,0,0.0,40 pack,0.06,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1253,ww_938184,woolworths,Sorbent Soft & Strong 3 Ply Toilet Paper,Sorbent,Household,9.0,9.0,0,0.0,10 pack,0.5,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1254,ww_507630,woolworths,Quilton 3 Ply Large & Thick Aloe Vera Facial Tissue,Quilton,Household,2.0,2.0,0,0.0,72 pack,2.78,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1255,ww_309127,woolworths,Glad Cling Wrap 90m,Glad,Household,6.5,6.5,0,0.0,each,0.07,1M,,0,2026-06-18T14:40:52Z,National Brand
+1256,ww_785104,woolworths,Fluffy Fabric Softener Concentrate Vanilla & Coconut,Fluffy,Household,9.5,9.5,0,0.0,900mL,10.56,1L,,0,2026-06-18T14:40:52Z,National Brand
+1257,ww_143227,woolworths,Radiant Mixed Colours Laundry Liquid Detergent,Radiant,Household,22.0,22.0,0,0.0,2L,11.0,1L,,0,2026-06-18T14:40:52Z,National Brand
+1258,ww_360701,woolworths,Multix Kitchen Tidy Bags Large Colour Scents Rose,Multix,Household,7.0,7.0,0,0.0,60 pack,0.12,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1259,ww_183957,woolworths,Shine Ultra Rinse Aid Lemon,Shine,Household,2.8,2.8,0,0.0,500mL,0.56,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1260,ww_260703,woolworths,Finish Rinse & Shine Dishwashing Aid Aid,Finish,Household,6.5,13.0,1,50.0,500mL,1.3,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1261,ww_208112,woolworths,Morning Fresh Dishwashing Liquid Original Original Super Strength,Morning Fresh,Household,10.0,10.0,0,0.0,900mL,1.11,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1262,ww_847649,woolworths,icare 100% Recycled Double Length 3 Ply Toilet Tissue,icare,Household,7.9,7.9,0,0.0,6 pack,0.37,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1263,ww_267357,woolworths,Who Gives A Crap Double Length Recycled 3 Ply Toilet Paper,Who Gives A Crap,Household,10.5,10.5,0,0.0,8 pack,0.36,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1264,ww_184425,woolworths,Clean Laundry Powder Lemon Fresh,Clean,Household,5.0,5.0,0,0.0,4kg,1.25,1KG,,0,2026-06-18T14:40:52Z,National Brand
+1265,ww_19787,woolworths,Handee Ultra White Paper Towel White 120 Sheets,Handee,Household,4.3,4.3,0,0.0,2 x 60 pack,3.58,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1266,ww_244372,woolworths,Vevelle 3 Ply 9 Sheets Hypoallergenic Facial Tissues,Vevelle,Household,1.4,1.4,0,0.0,6 pack,2.59,100 sheets,,0,2026-06-18T14:40:52Z,National Brand
+1267,ww_861620,woolworths,Essentials Non-Scratch Sponge Scourers Scourers,Essentials,Household,2.0,2.0,0,0.0,3 pack,0.67,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1268,ww_305390,woolworths,Armada Cling Wrap 60m,Armada,Household,3.5,3.5,0,0.0,each,0.06,1M,,0,2026-06-18T14:40:52Z,National Brand
+1269,ww_94666,woolworths,Essentials Wipes Domestic,Essentials,Household,1.05,1.05,0,0.0,10 pack,0.11,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1270,ww_829558,woolworths,Morning Fresh Dishwashing Liquid Lemon Lemon Fresh,Morning Fresh,Household,6.0,6.0,0,0.0,400mL,1.5,100ML,,0,2026-06-18T14:40:52Z,National Brand
+1271,ww_6031499,woolworths,Strike Stainless Steel Scourers,Strike,Household,1.0,1.0,0,0.0,3 pack,1.0,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1272,ww_125367,woolworths,Hercules Click Zip Resealable Sandwich Bags,Hercules,Household,2.35,2.35,0,0.0,40 pack,0.06,1EA,,0,2026-06-18T14:40:52Z,National Brand
+1273,ww_117138,woolworths,Refresh Demineralised Water,Refresh,Household,2.4,2.4,0,0.0,2L,1.2,1L,,0,2026-06-18T14:40:52Z,National Brand
+1274,ww_187132,woolworths,Soften Fabric Conditioner Ocean Fresh,Soften,Household,3.0,3.0,0,0.0,2L,1.5,1L,,0,2026-06-18T14:40:52Z,National Brand
+1275,ww_700563,woolworths,Fluffy Fabric Softener Concentrate Spice Allure,Fluffy,Household,9.5,9.5,0,0.0,1L,9.5,1L,,0,2026-06-18T14:40:52Z,National Brand
