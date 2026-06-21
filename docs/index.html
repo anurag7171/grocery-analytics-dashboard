@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Australian Grocery Analytics Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #050f0a;
+      --surface:  rgba(255,255,255,0.04);
+      --border:   rgba(255,255,255,0.08);
+      --green:    #16a34a;
+      --green-lt: #22c55e;
+      --blue:     #0ea5e9;
+      --amber:    #f59e0b;
+      --text:     #f1f5f9;
+      --muted:    #94a3b8;
+      --grad:     linear-gradient(135deg, #16a34a, #0ea5e9);
+    }
+
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; }
+
+    /* ── Orbs ── */
+    .orb { position: fixed; border-radius: 50%; filter: blur(120px); opacity: 0.18; pointer-events: none; z-index: 0; animation: drift 18s ease-in-out infinite alternate; }
+    .orb-1 { width: 500px; height: 500px; background: #16a34a; top: -120px; left: -100px; }
+    .orb-2 { width: 400px; height: 400px; background: #0ea5e9; bottom: 10%; right: -80px; animation-delay: -6s; }
+    .orb-3 { width: 300px; height: 300px; background: #f59e0b; top: 50%; left: 40%; animation-delay: -12s; }
+    @keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(30px,40px) scale(1.08); } }
+
+    /* ── Layout ── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1; }
+
+    /* ── Nav ── */
+    nav { position: sticky; top: 0; z-index: 100; backdrop-filter: blur(16px); background: rgba(5,15,10,0.8); border-bottom: 1px solid var(--border); padding: 1rem 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-weight: 700; font-size: 1.1rem; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover { color: var(--text); }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.4rem; border-radius: 8px; font-weight: 600; font-size: 0.88rem; text-decoration: none; transition: all .2s; cursor: pointer; border: none; }
+    .btn-primary { background: var(--grad); color: #fff; }
+    .btn-primary:hover { opacity: 0.88; transform: translateY(-1px); }
+    .btn-outline { border: 1px solid var(--border); color: var(--text); background: var(--surface); }
+    .btn-outline:hover { border-color: var(--green); color: var(--green-lt); }
+
+    /* ── Hero ── */
+    .hero { padding: 7rem 0 5rem; text-align: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(22,163,74,0.12); border: 1px solid rgba(22,163,74,0.3); color: var(--green-lt); padding: 0.4rem 1rem; border-radius: 999px; font-size: 0.82rem; font-weight: 600; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 800; line-height: 1.15; margin-bottom: 1.2rem; }
+    .hero h1 span { background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero-sub { font-size: 1.1rem; color: var(--muted); max-width: 600px; margin: 0 auto 2.5rem; }
+    .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    /* ── Stats ── */
+    .stats { padding: 3rem 0; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.2rem; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.4rem 1.2rem; text-align: center; backdrop-filter: blur(8px); transition: transform .2s, border-color .2s; }
+    .stat-card:hover { transform: translateY(-3px); border-color: rgba(22,163,74,0.4); }
+    .stat-value { font-size: 2rem; font-weight: 800; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.35rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; }
+
+    /* ── Section ── */
+    section { padding: 5rem 0; }
+    .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green-lt); margin-bottom: 0.6rem; }
+    .section-title { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; margin-bottom: 1rem; }
+    .section-sub { color: var(--muted); max-width: 580px; margin-bottom: 3rem; }
+    .divider { height: 1px; background: var(--border); margin: 0; }
+
+    /* ── Insights ── */
+    .insights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; }
+    .insight-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.5rem; backdrop-filter: blur(8px); transition: transform .2s, border-color .2s; }
+    .insight-card:hover { transform: translateY(-3px); border-color: rgba(22,163,74,0.35); }
+    .insight-icon { font-size: 1.6rem; margin-bottom: 0.8rem; }
+    .insight-title { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--text); }
+    .insight-body { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+    .tag { display: inline-block; background: rgba(22,163,74,0.15); border: 1px solid rgba(22,163,74,0.3); color: var(--green-lt); padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.72rem; font-weight: 600; margin-top: 0.8rem; }
+    .tag-blue { background: rgba(14,165,233,0.12); border-color: rgba(14,165,233,0.3); color: #38bdf8; }
+    .tag-amber { background: rgba(245,158,11,0.12); border-color: rgba(245,158,11,0.3); color: #fbbf24; }
+
+    /* ── Charts gallery ── */
+    .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 1.5rem; }
+    .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; backdrop-filter: blur(8px); transition: transform .2s; }
+    .chart-card:hover { transform: translateY(-3px); }
+    .chart-card img { width: 100%; display: block; background: #fff; }
+    .chart-caption { padding: 0.9rem 1.2rem; font-size: 0.82rem; color: var(--muted); font-weight: 500; }
+
+    /* ── Tech stack ── */
+    .tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .tech-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem 1.4rem; display: flex; align-items: flex-start; gap: 1rem; }
+    .tech-icon { font-size: 1.4rem; flex-shrink: 0; }
+    .tech-title { font-size: 0.88rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .tech-tools { font-size: 0.78rem; color: var(--muted); }
+
+    /* ── SQL showcase ── */
+    .sql-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 1.2rem; }
+    .sql-card { background: #0d1117; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .sql-header { padding: 0.7rem 1.2rem; background: rgba(255,255,255,0.04); border-bottom: 1px solid var(--border); font-size: 0.78rem; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+    .sql-header::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--green); border-radius: 50%; }
+    pre { padding: 1.2rem; font-size: 0.78rem; overflow-x: auto; line-height: 1.7; }
+    .kw { color: #ff7b72; }
+    .fn { color: #d2a8ff; }
+    .cm { color: #8b949e; }
+    .st { color: #a5d6ff; }
+    .nm { color: #79c0ff; }
+
+    /* ── CTA ── */
+    .cta { padding: 5rem 0; text-align: center; }
+    .cta-box { background: linear-gradient(135deg, rgba(22,163,74,0.12), rgba(14,165,233,0.12)); border: 1px solid rgba(22,163,74,0.25); border-radius: 20px; padding: 3.5rem 2rem; }
+    .cta h2 { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
+    .cta p { color: var(--muted); margin-bottom: 2rem; }
+    .cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    /* ── Footer ── */
+    footer { border-top: 1px solid var(--border); padding: 2rem 0; text-align: center; color: var(--muted); font-size: 0.82rem; }
+
+    /* ── Scroll reveal ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 700px) {
+      .chart-grid, .sql-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .hero { padding: 4rem 0 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<!-- Nav -->
+<nav>
+  <div class="container nav-inner">
+    <span class="nav-logo">🛒 Grocery Analytics</span>
+    <ul class="nav-links">
+      <li><a href="#insights">Insights</a></li>
+      <li><a href="#charts">Analysis</a></li>
+      <li><a href="#tech">Stack</a></li>
+      <li><a href="#sql">SQL</a></li>
+    </ul>
+    <div style="display:flex;gap:.7rem">
+      <a href="https://github.com/anurag7171/grocery-analytics-dashboard" target="_blank" class="btn btn-outline">GitHub</a>
+      <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Live Demo →</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">🇦🇺 Real Data · Woolworths Online · 10 Categories</div>
+    <h1>Australian Grocery<br><span>Price Intelligence</span></h1>
+    <p class="hero-sub">End-to-end data analytics pipeline — scraping, SQL analysis, deep EDA, time-series forecasting, and interactive dashboard built on 1,275 real supermarket products.</p>
+    <div class="hero-btns">
+      <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Live Dashboard →</a>
+      <a href="https://github.com/anurag7171/grocery-analytics-dashboard" target="_blank" class="btn btn-outline">View Code</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<div class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="1275">0</div>
+        <div class="stat-label">Real Products Scraped</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="66300">0</div>
+        <div class="stat-label">Price Records</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="52">0</div>
+        <div class="stat-label">Weeks of History</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="10">0</div>
+        <div class="stat-label">Categories Tracked</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="19">0</div>
+        <div class="stat-label">EDA Charts Generated</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="8">0</div>
+        <div class="stat-label">Week Price Forecast</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Key Insights -->
+<section id="insights">
+  <div class="container">
+    <div class="section-label">EDA Findings</div>
+    <h2 class="section-title">Key Insights from the Data</h2>
+    <p class="section-sub">Statistical analysis across 1,275 products revealing real pricing patterns in the Australian grocery market.</p>
+    <div class="insights-grid">
+      <div class="insight-card reveal">
+        <div class="insight-icon">💸</div>
+        <div class="insight-title">Snacks: 130% National Brand Premium</div>
+        <div class="insight-body">Welch's t-test confirms national brands cost 130.5% more than own-brand equivalents in the Snacks category — the largest premium of any department (p &lt; 0.001, large effect size).</div>
+        <span class="tag">p &lt; 0.001</span> <span class="tag tag-amber">Cohen's d = large</span>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📉</div>
+        <div class="insight-title">Cheaper Products Get Deeper Discounts</div>
+        <div class="insight-body">Spearman correlation shows a strong negative relationship between price and discount depth in Bakery (ρ = -0.78) and Dairy (ρ = -0.83) — budget items are promoted more aggressively.</div>
+        <span class="tag tag-blue">Spearman ρ = -0.83</span>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🥛</div>
+        <div class="insight-title">Dairy Running Highest Implied Inflation</div>
+        <div class="insight-body">OLS regression on 52-week price trends reveals Dairy & Eggs tracking at 4.71% implied annual inflation — the steepest of all 10 categories and well above RBA's 2–3% target band.</div>
+        <span class="tag tag-amber">4.71% / year</span>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🍎</div>
+        <div class="insight-title">Fruit & Veg: Most Volatile Prices</div>
+        <div class="insight-body">Fruit & Veg shows extreme right-skewed price distribution (skewness 4.2, kurtosis 28.8) — a handful of premium items like truffles and specialty mushrooms pull the tail hard right.</div>
+        <span class="tag">Skewness 4.2</span>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🏷️</div>
+        <div class="insight-title">Snacks & Drinks: Most Promotional Activity</div>
+        <div class="insight-body">Snacks and Drinks products go on special ~11 times per year — every 4.7 weeks on average. Household and Health & Wellness run promotions least frequently (~7–8 weeks apart).</div>
+        <span class="tag tag-blue">11× / year</span>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📦</div>
+        <div class="insight-title">Budget Tier Gets Largest Specials</div>
+        <div class="insight-body">Percentile-based price tier segmentation shows Budget products (avg $2.88) receive an average 5.1% discount when on special vs 3.3% for Premium products — promotional strategy targets the value-conscious shopper.</div>
+        <span class="tag">Budget avg $2.88</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Charts -->
+<section id="charts">
+  <div class="container">
+    <div class="section-label">Exploratory Data Analysis</div>
+    <h2 class="section-title">19 Analysis Charts</h2>
+    <p class="section-sub">From distribution analysis to statistical hypothesis testing — every chart tells a story about Australian grocery pricing.</p>
+    <div class="chart-grid">
+      <div class="chart-card reveal">
+        <img src="figures/08_weekly_price_trends.png" alt="52-Week Price Trends by Category" loading="lazy" />
+        <div class="chart-caption">52-Week Average Price Trend by Category — seasonal patterns visible in Fruit & Veg and Meat</div>
+      </div>
+      <div class="chart-card reveal">
+        <img src="figures/05_brand_vs_ownbrand.png" alt="Brand vs Own Brand Price Comparison" loading="lazy" />
+        <div class="chart-caption">Own Brand vs National Brand — Avg price difference and % savings per category</div>
+      </div>
+      <div class="chart-card reveal">
+        <img src="figures/14_brand_ttest.png" alt="Statistical significance of brand price difference" loading="lazy" />
+        <div class="chart-caption">Welch's t-test: National Brand Premium (%) — green bars indicate statistical significance (p&lt;0.05)</div>
+      </div>
+      <div class="chart-card reveal">
+        <img src="figures/04_specials_analysis.png" alt="On-Special Analysis" loading="lazy" />
+        <div class="chart-caption">Promotional Analysis — special rate per category, average discount depth, and discount distribution</div>
+      </div>
+      <div class="chart-card reveal">
+        <img src="figures/07_price_correlation_heatmap.png" alt="Price Correlation Heatmap" loading="lazy" />
+        <div class="chart-caption">Price Correlation Between Categories — do high-priced categories co-move? Pearson correlation matrix</div>
+      </div>
+      <div class="chart-card reveal">
+        <img src="figures/16_category_inflation.png" alt="Category Inflation Analysis" loading="lazy" />
+        <div class="chart-caption">Implied Annual Inflation by Category — OLS regression on 52-week price trend per department</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Tech Stack -->
+<section id="tech">
+  <div class="container">
+    <div class="section-label">Technical Stack</div>
+    <h2 class="section-title">Built with Industry Tools</h2>
+    <p class="section-sub">Every layer of the pipeline uses tools that appear in data analyst and ML engineer job descriptions.</p>
+    <div class="tech-grid">
+      <div class="tech-card reveal">
+        <div class="tech-icon">🕷️</div>
+        <div>
+          <div class="tech-title">Data Collection</div>
+          <div class="tech-tools">requests · BeautifulSoup · Woolworths internal API · Next.js endpoint parsing · rate limiting</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">🗄️</div>
+        <div>
+          <div class="tech-title">Storage & SQL</div>
+          <div class="tech-tools">SQLite · 12 business queries · indexes · aggregations · window functions · GROUP BY / HAVING</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">🐼</div>
+        <div>
+          <div class="tech-title">Data Wrangling</div>
+          <div class="tech-tools">pandas · numpy · data cleaning · outlier detection · feature engineering · price tier segmentation</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">📊</div>
+        <div>
+          <div class="tech-title">Statistical Analysis</div>
+          <div class="tech-tools">scipy · Shapiro-Wilk normality test · Welch's t-test · Spearman correlation · OLS regression · Cohen's d</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">📈</div>
+        <div>
+          <div class="tech-title">Visualisation</div>
+          <div class="tech-tools">plotly · seaborn · matplotlib · 19 EDA charts · interactive dashboards · heatmaps</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">🔮</div>
+        <div>
+          <div class="tech-title">Forecasting</div>
+          <div class="tech-tools">Prophet (Meta) · 52-week training data · 8-week horizon · 90% confidence intervals · yearly seasonality</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">🚀</div>
+        <div>
+          <div class="tech-title">Dashboard & Deployment</div>
+          <div class="tech-tools">Streamlit · 7-tab layout · st.cache_data · HuggingFace Spaces · GitHub Pages</div>
+        </div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tech-icon">📋</div>
+        <div>
+          <div class="tech-title">Reporting</div>
+          <div class="tech-tools">Tableau Public · 4 published dashboards · CSV export pipeline · automated insight generation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SQL Showcase -->
+<section id="sql">
+  <div class="container">
+    <div class="section-label">SQL Showcase</div>
+    <h2 class="section-title">Business Queries</h2>
+    <p class="section-sub">12 production-ready SQL queries answering real business questions about pricing, promotions, and value.</p>
+    <div class="sql-grid">
+      <div class="sql-card reveal">
+        <div class="sql-header">Brand vs Own Brand — Avg Price by Category</div>
+        <pre><span class="kw">SELECT</span>
+    category,
+    <span class="kw">CASE</span>
+        <span class="kw">WHEN</span> <span class="fn">LOWER</span>(<span class="fn">COALESCE</span>(brand,<span class="st">''</span>)) <span class="kw">LIKE</span> <span class="st">'%woolworths%'</span>
+          <span class="kw">OR</span>  brand <span class="kw">IS NULL</span>
+        <span class="kw">THEN</span> <span class="st">'Own Brand'</span>
+        <span class="kw">ELSE</span> <span class="st">'National Brand'</span>
+    <span class="kw">END</span>                          <span class="kw">AS</span> brand_type,
+    <span class="fn">COUNT</span>(*)                     <span class="kw">AS</span> product_count,
+    <span class="fn">ROUND</span>(<span class="fn">AVG</span>(price), <span class="nm">2</span>)         <span class="kw">AS</span> avg_price,
+    <span class="fn">ROUND</span>(<span class="nm">100.0</span> * <span class="fn">SUM</span>(is_on_special)
+          / <span class="fn">COUNT</span>(*), <span class="nm">1</span>)          <span class="kw">AS</span> special_pct
+<span class="kw">FROM</span>   products
+<span class="kw">WHERE</span>  scraped_at = (<span class="kw">SELECT</span> <span class="fn">MAX</span>(scraped_at) <span class="kw">FROM</span> products)
+<span class="kw">GROUP  BY</span> category, brand_type
+<span class="kw">ORDER  BY</span> category, brand_type;</pre>
+      </div>
+
+      <div class="sql-card reveal">
+        <div class="sql-header">Top Discounted Products Right Now</div>
+        <pre><span class="kw">SELECT</span>
+    name,
+    brand,
+    category,
+    price,
+    was_price,
+    discount_pct,
+    unit_size
+<span class="kw">FROM</span>   products
+<span class="kw">WHERE</span>  is_on_special = <span class="nm">1</span>
+  <span class="kw">AND</span>  scraped_at = (<span class="kw">SELECT</span> <span class="fn">MAX</span>(scraped_at) <span class="kw">FROM</span> products)
+<span class="kw">ORDER  BY</span> discount_pct <span class="kw">DESC</span>
+<span class="kw">LIMIT</span>  <span class="nm">25</span>;</pre>
+      </div>
+
+      <div class="sql-card reveal">
+        <div class="sql-header">Price Volatility — Most Unpredictable Products</div>
+        <pre><span class="kw">SELECT</span>
+    p.name,
+    p.category,
+    <span class="fn">ROUND</span>(h.avg_price, <span class="nm">2</span>)          <span class="kw">AS</span> hist_avg,
+    <span class="fn">ROUND</span>(h.price_std, <span class="nm">2</span>)          <span class="kw">AS</span> std_dev,
+    <span class="fn">ROUND</span>(<span class="nm">100.0</span> * h.price_std
+          / h.avg_price, <span class="nm">1</span>)         <span class="kw">AS</span> cv_pct
+<span class="kw">FROM</span>   products p
+<span class="kw">JOIN</span> (
+    <span class="kw">SELECT</span> product_id,
+           <span class="fn">AVG</span>(price)   <span class="kw">AS</span> avg_price,
+           <span class="fn">SQRT</span>(<span class="fn">AVG</span>(price*price)
+                - <span class="fn">AVG</span>(price)*<span class="fn">AVG</span>(price))
+                        <span class="kw">AS</span> price_std
+    <span class="kw">FROM</span>   price_history_weekly
+    <span class="kw">GROUP  BY</span> product_id
+) h <span class="kw">ON</span> p.product_id = h.product_id
+<span class="kw">ORDER  BY</span> cv_pct <span class="kw">DESC</span>
+<span class="kw">LIMIT</span>  <span class="nm">20</span>;</pre>
+      </div>
+
+      <div class="sql-card reveal">
+        <div class="sql-header">Weekly Promotional Heatmap Data</div>
+        <pre><span class="kw">SELECT</span>
+    week_date,
+    category,
+    <span class="fn">ROUND</span>(
+        <span class="nm">100.0</span> * <span class="fn">SUM</span>(is_on_special)
+               / <span class="fn">COUNT</span>(*), <span class="nm">1</span>
+    )                        <span class="kw">AS</span> special_pct,
+    <span class="fn">COUNT</span>(*)                 <span class="kw">AS</span> products_tracked
+<span class="kw">FROM</span>   price_history_weekly
+<span class="kw">GROUP  BY</span> week_date, category
+<span class="kw">ORDER  BY</span> week_date, category;</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CTA -->
+<div class="cta">
+  <div class="container">
+    <div class="cta-box reveal">
+      <h2>Explore the Full Dashboard</h2>
+      <p>7 interactive tabs — product explorer, category analysis, deals tracker, best value finder, price trends, and 8-week forecast.</p>
+      <div class="cta-btns">
+        <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Open Live Dashboard →</a>
+        <a href="https://github.com/anurag7171/grocery-analytics-dashboard" target="_blank" class="btn btn-outline">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    Data: Woolworths Online · Analysis: Python, SQL, Prophet · Dashboard: Streamlit · Built by <a href="https://anurag7171.github.io" style="color:var(--green-lt);text-decoration:none">Anurag Rawat</a>
+  </div>
+</footer>
+
+<script>
+  // Count-up animation
+  const counters = document.querySelectorAll('[data-target]');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = +el.dataset.target;
+      const suffix = target >= 1000 ? (target >= 10000 ? 'K' : '') : '';
+      const display = target >= 10000 ? Math.round(target/1000) : target;
+      let cur = 0;
+      const step = display / 60;
+      const timer = setInterval(() => {
+        cur = Math.min(cur + step, display);
+        el.textContent = Math.floor(cur).toLocaleString() + (cur >= display ? suffix : suffix);
+        if (cur >= display) clearInterval(timer);
+      }, 16);
+      obs.unobserve(el);
+    });
+  }, { threshold: 0.3 });
+  counters.forEach(c => obs.observe(c));
+
+  // Scroll reveal
+  const revealObs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+</script>
+</body>
+</html>
