@@ -1,7 +1,7 @@
 category,brand_type,product_count,avg_price,avg_discount,special_pct
 Bakery,National Brand,71,5.25,24.2,21.1
 Bakery,Own Brand,52,3.82,13.2,1.9
-Dairy & Eggs,National Brand,86,4.93,20.5,9.3
+Dairy & Eggs,National Brand,86,4.93,20.4,9.3
 Dairy & Eggs,Own Brand,42,4.51,,0.0
 Drinks,National Brand,100,8.28,39.3,28.0
 Drinks,Own Brand,27,3.17,,0.0
