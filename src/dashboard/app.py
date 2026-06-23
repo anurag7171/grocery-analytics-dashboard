@@ -18,10 +18,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 from src.scraper.init_db import build_if_missing
 from src.analysis.sql_queries import load_all
 
-build_if_missing(DB_PATH)
-
 # ── Config ─────────────────────────────────────────────────────────────────────
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "retail.db")
+
+build_if_missing(DB_PATH)
 
 PALETTE = {
     "primary":    "#16a34a",

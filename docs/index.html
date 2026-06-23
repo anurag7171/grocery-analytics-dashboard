@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Australian Grocery Analytics Dashboard</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -88,6 +89,11 @@
     .chart-card img { width: 100%; display: block; background: #fff; }
     .chart-caption { padding: 0.9rem 1.2rem; font-size: 0.82rem; color: var(--muted); font-weight: 500; }
 
+    /* ── Tableau embed ── */
+    .tableau-embed { background: #fff; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: 0 8px 40px rgba(0,0,0,0.35); }
+    .tableau-embed tableau-viz { display: block; width: 100%; min-height: 820px; }
+    @media (max-width: 700px) { .tableau-embed tableau-viz { min-height: 560px; } }
+
     /* ── Tech stack ── */
     .tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
     .tech-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem 1.4rem; display: flex; align-items: flex-start; gap: 1rem; }
@@ -137,16 +143,17 @@
 <!-- Nav -->
 <nav>
   <div class="container nav-inner">
-    <span class="nav-logo">🛒 Grocery Analytics</span>
+    <span class="nav-logo">Grocery Analytics</span>
     <ul class="nav-links">
       <li><a href="#insights">Insights</a></li>
       <li><a href="#charts">Analysis</a></li>
+      <li><a href="#tableau">Tableau</a></li>
       <li><a href="#tech">Stack</a></li>
       <li><a href="#sql">SQL</a></li>
     </ul>
     <div style="display:flex;gap:.7rem">
       <a href="https://github.com/anurag7171/grocery-analytics-dashboard" target="_blank" class="btn btn-outline">GitHub</a>
-      <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Live Dashboard →</a>
+      <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Live Dashboard</a>
     </div>
   </div>
 </nav>
@@ -154,11 +161,11 @@
 <!-- Hero -->
 <section class="hero">
   <div class="container">
-    <div class="hero-badge">🇦🇺 Real Data · Woolworths Online · 10 Categories</div>
+    <div class="hero-badge">Real data · Woolworths Online · 10 categories</div>
     <h1>Australian Grocery<br><span>Price Intelligence</span></h1>
-    <p class="hero-sub">End-to-end data analytics pipeline — scraping, SQL analysis, deep EDA, time-series forecasting, and interactive dashboard built on 1,275 real supermarket products.</p>
+    <p class="hero-sub">A data analytics project on Australian supermarket pricing — web scraping, SQL, exploratory analysis, forecasting, and interactive dashboards, built on 1,275 real Woolworths products.</p>
     <div class="hero-btns">
-      <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Live Dashboard →</a>
+      <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Live Dashboard</a>
       <a href="https://github.com/anurag7171/grocery-analytics-dashboard" target="_blank" class="btn btn-outline">View Code</a>
     </div>
   </div>
@@ -206,37 +213,31 @@
     <p class="section-sub">Statistical analysis across 1,275 products revealing real pricing patterns in the Australian grocery market.</p>
     <div class="insights-grid">
       <div class="insight-card reveal">
-        <div class="insight-icon">💸</div>
         <div class="insight-title">Snacks: 130% National Brand Premium</div>
         <div class="insight-body">Welch's t-test confirms national brands cost 130.5% more than own-brand equivalents in the Snacks category — the largest premium of any department (p &lt; 0.001, large effect size).</div>
         <span class="tag">p &lt; 0.001</span> <span class="tag tag-amber">Cohen's d = large</span>
       </div>
       <div class="insight-card reveal">
-        <div class="insight-icon">📉</div>
         <div class="insight-title">Cheaper Products Get Deeper Discounts</div>
         <div class="insight-body">Spearman correlation shows a strong negative relationship between price and discount depth in Bakery (ρ = -0.78) and Dairy (ρ = -0.83) — budget items are promoted more aggressively.</div>
         <span class="tag tag-blue">Spearman ρ = -0.83</span>
       </div>
       <div class="insight-card reveal">
-        <div class="insight-icon">🥛</div>
         <div class="insight-title">Dairy Running Highest Implied Inflation</div>
         <div class="insight-body">OLS regression on 52-week price trends reveals Dairy & Eggs tracking at 4.71% implied annual inflation — the steepest of all 10 categories and well above RBA's 2–3% target band.</div>
         <span class="tag tag-amber">4.71% / year</span>
       </div>
       <div class="insight-card reveal">
-        <div class="insight-icon">🍎</div>
         <div class="insight-title">Fruit & Veg: Most Volatile Prices</div>
         <div class="insight-body">Fruit & Veg shows extreme right-skewed price distribution (skewness 4.2, kurtosis 28.8) — a handful of premium items like truffles and specialty mushrooms pull the tail hard right.</div>
         <span class="tag">Skewness 4.2</span>
       </div>
       <div class="insight-card reveal">
-        <div class="insight-icon">🏷️</div>
         <div class="insight-title">Snacks & Drinks: Most Promotional Activity</div>
         <div class="insight-body">Snacks and Drinks products go on special ~11 times per year — every 4.7 weeks on average. Household and Health & Wellness run promotions least frequently (~7–8 weeks apart).</div>
         <span class="tag tag-blue">11× / year</span>
       </div>
       <div class="insight-card reveal">
-        <div class="insight-icon">📦</div>
         <div class="insight-title">Budget Tier Gets Largest Specials</div>
         <div class="insight-body">Percentile-based price tier segmentation shows Budget products (avg $2.88) receive an average 5.1% discount when on special vs 3.3% for Premium products — promotional strategy targets the value-conscious shopper.</div>
         <span class="tag">Budget avg $2.88</span>
@@ -284,6 +285,26 @@
 
 <div class="divider"></div>
 
+<!-- Tableau -->
+<section id="tableau">
+  <div class="container">
+    <div class="section-label">Interactive Reporting</div>
+    <h2 class="section-title">Live Tableau Dashboard</h2>
+    <p class="section-sub">A four-view interactive dashboard built in Tableau Public — category price overview, 52-week trends, brand premium, and a product-level value finder. Click any category to highlight it across every chart.</p>
+    <div class="tableau-embed reveal">
+      <tableau-viz id="tableauViz"
+        src="https://public.tableau.com/views/groceryanalytics/Overview"
+        toolbar="bottom" hide-tabs>
+      </tableau-viz>
+    </div>
+    <div style="margin-top:1.5rem">
+      <a href="https://public.tableau.com/app/profile/anurag.rawat5234/viz/groceryanalytics/Overview" target="_blank" class="btn btn-outline">Open in Tableau Public</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
 <!-- Tech Stack -->
 <section id="tech">
   <div class="container">
@@ -292,59 +313,51 @@
     <p class="section-sub">Every layer of the pipeline uses tools that appear in data analyst and ML engineer job descriptions.</p>
     <div class="tech-grid">
       <div class="tech-card reveal">
-        <div class="tech-icon">🕷️</div>
         <div>
           <div class="tech-title">Data Collection</div>
           <div class="tech-tools">requests · BeautifulSoup · Woolworths internal API · Next.js endpoint parsing · rate limiting</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">🗄️</div>
         <div>
           <div class="tech-title">Storage & SQL</div>
           <div class="tech-tools">SQLite · 12 business queries · indexes · aggregations · window functions · GROUP BY / HAVING</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">🐼</div>
         <div>
           <div class="tech-title">Data Wrangling</div>
           <div class="tech-tools">pandas · numpy · data cleaning · outlier detection · feature engineering · price tier segmentation</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">📊</div>
         <div>
           <div class="tech-title">Statistical Analysis</div>
           <div class="tech-tools">scipy · Shapiro-Wilk normality test · Welch's t-test · Spearman correlation · OLS regression · Cohen's d</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">📈</div>
         <div>
           <div class="tech-title">Visualisation</div>
           <div class="tech-tools">plotly · seaborn · matplotlib · 19 EDA charts · interactive dashboards · heatmaps</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">🔮</div>
         <div>
           <div class="tech-title">Forecasting</div>
           <div class="tech-tools">Prophet (Meta) · 52-week training data · 8-week horizon · 90% confidence intervals · yearly seasonality</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">🚀</div>
         <div>
           <div class="tech-title">Dashboard & Deployment</div>
           <div class="tech-tools">Streamlit · 7-tab layout · st.cache_data · HuggingFace Spaces · GitHub Pages</div>
         </div>
       </div>
       <div class="tech-card reveal">
-        <div class="tech-icon">📋</div>
         <div>
           <div class="tech-title">Reporting</div>
-          <div class="tech-tools">Tableau Public · 4 published dashboards · CSV export pipeline · automated insight generation</div>
+          <div class="tech-tools">Tableau Public · interactive dashboard with 4 linked views · CSV export pipeline</div>
         </div>
       </div>
     </div>
@@ -447,7 +460,7 @@
       <h2>Explore the Full Dashboard</h2>
       <p>7 interactive tabs — product explorer, category analysis, deals tracker, best value finder, price trends, and 8-week forecast.</p>
       <div class="cta-btns">
-        <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Open Live Dashboard →</a>
+        <a href="https://huggingface.co/spaces/Anurag717/grocery-analytics-dashboard" target="_blank" class="btn btn-primary">Open Live Dashboard</a>
         <a href="https://github.com/anurag7171/grocery-analytics-dashboard" target="_blank" class="btn btn-outline">View on GitHub</a>
       </div>
     </div>
