@@ -101,6 +101,11 @@ def insight(text):
     st.markdown(f'<div class="insight-box">{text}</div>', unsafe_allow_html=True)
 
 
+def grid_height(n_rows: int, max_height: int = 480) -> int:
+    """Size a dataframe to its content so few rows don't leave a big empty grid."""
+    return min(38 + 35 * max(int(n_rows), 1) + 3, max_height)
+
+
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("## Grocery Analytics")
@@ -133,17 +138,26 @@ def apply_filters(df):
     return df
 
 
-# ── Empty-selection guard ───────────────────────────────────────────────────────
-# With no categories chosen every view would receive empty frames (and the
-# forecast would hit NaT dates), so show a clear prompt instead of errors.
-if not selected_cats:
-    st.info("Select at least one category from the sidebar to explore the dashboard.")
-    st.stop()
-
 # ── Tabs ───────────────────────────────────────────────────────────────────────
 tabs = st.tabs(["Overview", "Products", "Categories", "Deals", "Best Value", "Price Trends", "Forecast"])
 
 filtered = apply_filters(products)
+
+# ── Empty-selection guard ───────────────────────────────────────────────────────
+# Keep the tab bar visible, but show a centered prompt instead of rendering every
+# view on empty data (which would otherwise hit NaT dates in the forecast).
+if not selected_cats:
+    empty_msg = (
+        '<div style="text-align:center; padding:6rem 1rem; color:#475569;">'
+        '<div style="font-size:1.5rem; font-weight:700; color:#0f172a; margin-bottom:0.4rem;">No category selected</div>'
+        '<div style="font-size:0.95rem; max-width:440px; margin:0 auto;">'
+        'Choose one or more categories from the sidebar to explore prices, deals, trends, and forecasts.'
+        '</div></div>'
+    )
+    for t in tabs:
+        with t:
+            st.markdown(empty_msg, unsafe_allow_html=True)
+    st.stop()
 
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 1 — OVERVIEW
@@ -250,7 +264,7 @@ with tabs[1]:
     show["Was ($)"]    = show["Was ($)"].map("${:.2f}".format)
     show["Discount %"] = show["Discount %"].map("{:.1f}%".format)
 
-    st.dataframe(show, use_container_width=True, height=480)
+    st.dataframe(show, use_container_width=True, height=grid_height(len(show)))
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -348,7 +362,7 @@ with tabs[3]:
     specials_table["Price ($)"]  = specials_table["Price ($)"].map("${:.2f}".format)
     specials_table["Was ($)"]    = specials_table["Was ($)"].map("${:.2f}".format)
     specials_table["Discount %"] = specials_table["Discount %"].map("{:.1f}%".format)
-    st.dataframe(specials_table, use_container_width=True, height=380)
+    st.dataframe(specials_table, use_container_width=True, height=grid_height(len(specials_table), 380))
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -399,7 +413,7 @@ with tabs[4]:
     })
     bv_display["Shelf Price ($)"] = bv_display["Shelf Price ($)"].map("${:.2f}".format)
     bv_display["Unit Price"]      = bv_display["Unit Price"].map("${:.4f}".format)
-    st.dataframe(bv_display, use_container_width=True, height=380)
+    st.dataframe(bv_display, use_container_width=True, height=grid_height(len(bv_display), 380))
 
 
 # ══════════════════════════════════════════════════════════════════════════════
