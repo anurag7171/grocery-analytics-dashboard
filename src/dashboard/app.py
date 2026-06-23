@@ -67,8 +67,8 @@ st.markdown("""
         color: #1e3a5f;
     }
     div[data-testid="stSidebarNav"] { display: none; }
-    .stTabs [data-baseweb="tab-list"] { gap: 4px; }
-    .stTabs [data-baseweb="tab"] { border-radius: 8px 8px 0 0; font-weight: 600; }
+    .stTabs [data-baseweb="tab-list"] { gap: 1.5rem; }
+    .stTabs [data-baseweb="tab"] { border-radius: 8px 8px 0 0; font-weight: 600; padding: 0 0.85rem; }
 </style>
 """, unsafe_allow_html=True)
 

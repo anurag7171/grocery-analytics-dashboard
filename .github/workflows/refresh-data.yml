@@ -1,0 +1,51 @@
+name: Refresh data & redeploy
+
+# Rolls the 52-week price history forward to "today" on a schedule so the
+# 8-week forecast never looks back-dated, then redeploys the live Space.
+
+on:
+  schedule:
+    - cron: "0 18 * * 1"   # every Monday 18:00 UTC
+  workflow_dispatch: {}      # allow manual runs from the Actions tab
+
+permissions:
+  contents: write            # needed to commit the refreshed CSVs
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install lightweight deps
+        run: pip install --quiet pandas numpy huggingface_hub
+
+      - name: Roll history forward + re-export
+        run: python scripts/refresh_data.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/products.csv data/raw/price_history.csv data/tableau/*.csv
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: roll price history forward to today [skip ci]"
+            git push
+          fi
+
+      - name: Redeploy to HuggingFace Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/deploy_hf.py
