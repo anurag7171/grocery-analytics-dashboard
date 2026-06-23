@@ -133,6 +133,13 @@ def apply_filters(df):
     return df
 
 
+# ── Empty-selection guard ───────────────────────────────────────────────────────
+# With no categories chosen every view would receive empty frames (and the
+# forecast would hit NaT dates), so show a clear prompt instead of errors.
+if not selected_cats:
+    st.info("Select at least one category from the sidebar to explore the dashboard.")
+    st.stop()
+
 # ── Tabs ───────────────────────────────────────────────────────────────────────
 tabs = st.tabs(["Overview", "Products", "Categories", "Deals", "Best Value", "Price Trends", "Forecast"])
 
@@ -496,55 +503,60 @@ with tabs[6]:
         forecast_df["ds"] = pd.to_datetime(forecast_df["ds"])
         forecast_cats = [c for c in forecast_df["category"].unique() if c in selected_cats]
 
-        sel_forecast_cat = st.selectbox("Select category to forecast", sorted(forecast_cats), key="fcat")
+        if not forecast_cats:
+            st.info("None of the selected categories have a forecast available — pick another category in the sidebar.")
+        else:
+            sel_forecast_cat = st.selectbox("Select category to forecast", sorted(forecast_cats), key="fcat")
+            cat_fc = forecast_df[forecast_df["category"] == sel_forecast_cat].copy()
 
-        cat_fc = forecast_df[forecast_df["category"] == sel_forecast_cat].copy()
+            weekly = data["weekly_avg"].copy()
+            weekly["week_date"] = pd.to_datetime(weekly["week_date"])
+            hist_cat = weekly[weekly["category"] == sel_forecast_cat]
+            last_hist_date = hist_cat["week_date"].max()
 
-        weekly = data["weekly_avg"].copy()
-        weekly["week_date"] = pd.to_datetime(weekly["week_date"])
-        hist_cat = weekly[weekly["category"] == sel_forecast_cat]
+            if cat_fc.empty or hist_cat.empty or pd.isna(last_hist_date):
+                st.info("Not enough price history to forecast this category yet.")
+            else:
+                # Split historical vs future
+                hist_fc  = cat_fc[cat_fc["ds"] <= last_hist_date]
+                future_fc = cat_fc[cat_fc["ds"] > last_hist_date]
 
-        # Split historical vs future
-        last_hist_date = hist_cat["week_date"].max()
-        hist_fc  = cat_fc[cat_fc["ds"] <= last_hist_date]
-        future_fc = cat_fc[cat_fc["ds"] > last_hist_date]
+                fig = go.Figure()
+                fig.add_trace(go.Scatter(x=hist_cat["week_date"], y=hist_cat["avg_price"],
+                                         name="Historical (actual)", line=dict(color=PALETTE["secondary"], width=2)))
+                fig.add_trace(go.Scatter(x=cat_fc["ds"], y=cat_fc["yhat"],
+                                         name="Prophet fit + forecast", line=dict(color=PALETTE["primary"], width=2)))
+                fig.add_trace(go.Scatter(
+                    x=pd.concat([cat_fc["ds"], cat_fc["ds"].iloc[::-1]]),
+                    y=pd.concat([cat_fc["yhat_upper"], cat_fc["yhat_lower"].iloc[::-1]]),
+                    fill="toself", fillcolor="rgba(22,163,74,0.12)",
+                    line=dict(color="rgba(255,255,255,0)"),
+                    name="90% confidence band", showlegend=True,
+                ))
+                # Pass a ms-epoch timestamp (not a string) — Plotly's add_vline fails on
+                # string dates over a datetime axis ("unsupported operand type(s) for +").
+                fig.add_vline(x=last_hist_date.timestamp() * 1000, line_dash="dash", line_color="#94a3b8",
+                              annotation_text="Forecast starts", annotation_position="top left")
+                fig.update_layout(
+                    title=f"Price Forecast — {sel_forecast_cat}",
+                    xaxis_title="Week", yaxis_title="Avg Price ($)",
+                    height=420, plot_bgcolor="white", hovermode="x unified",
+                    margin=dict(t=50),
+                )
+                st.plotly_chart(fig, use_container_width=True)
 
-        fig = go.Figure()
-        fig.add_trace(go.Scatter(x=hist_cat["week_date"], y=hist_cat["avg_price"],
-                                 name="Historical (actual)", line=dict(color=PALETTE["secondary"], width=2)))
-        fig.add_trace(go.Scatter(x=cat_fc["ds"], y=cat_fc["yhat"],
-                                 name="Prophet fit + forecast", line=dict(color=PALETTE["primary"], width=2)))
-        fig.add_trace(go.Scatter(
-            x=pd.concat([cat_fc["ds"], cat_fc["ds"].iloc[::-1]]),
-            y=pd.concat([cat_fc["yhat_upper"], cat_fc["yhat_lower"].iloc[::-1]]),
-            fill="toself", fillcolor="rgba(22,163,74,0.12)",
-            line=dict(color="rgba(255,255,255,0)"),
-            name="90% confidence band", showlegend=True,
-        ))
-        # Pass a ms-epoch timestamp (not a string) — Plotly's add_vline fails on
-        # string dates over a datetime axis ("unsupported operand type(s) for +").
-        fig.add_vline(x=last_hist_date.timestamp() * 1000, line_dash="dash", line_color="#94a3b8",
-                      annotation_text="Forecast starts", annotation_position="top left")
-        fig.update_layout(
-            title=f"Price Forecast — {sel_forecast_cat}",
-            xaxis_title="Week", yaxis_title="Avg Price ($)",
-            height=420, plot_bgcolor="white", hovermode="x unified",
-            margin=dict(t=50),
-        )
-        st.plotly_chart(fig, use_container_width=True)
+                if not future_fc.empty:
+                    st.markdown("**8-Week Forecast Summary**")
+                    summary = future_fc[["ds", "yhat", "yhat_lower", "yhat_upper"]].copy()
+                    summary.columns = ["Week", "Forecast ($)", "Lower ($)", "Upper ($)"]
+                    summary["Week"] = summary["Week"].dt.strftime("%d %b %Y")
+                    for c in ["Forecast ($)", "Lower ($)", "Upper ($)"]:
+                        summary[c] = summary[c].map("${:.2f}".format)
+                    st.dataframe(summary, use_container_width=True, hide_index=True)
 
-        if not future_fc.empty:
-            st.markdown("**8-Week Forecast Summary**")
-            summary = future_fc[["ds", "yhat", "yhat_lower", "yhat_upper"]].copy()
-            summary.columns = ["Week", "Forecast ($)", "Lower ($)", "Upper ($)"]
-            summary["Week"] = summary["Week"].dt.strftime("%d %b %Y")
-            for c in ["Forecast ($)", "Lower ($)", "Upper ($)"]:
-                summary[c] = summary[c].map("${:.2f}".format)
-            st.dataframe(summary, use_container_width=True, hide_index=True)
-
-            direction = "rising" if future_fc["yhat"].iloc[-1] > future_fc["yhat"].iloc[0] else "falling"
-            pct_change = 100 * (future_fc["yhat"].iloc[-1] - future_fc["yhat"].iloc[0]) / future_fc["yhat"].iloc[0]
-            insight(f"<b>{sel_forecast_cat}</b> prices are forecast to be <b>{direction}</b> over the next 8 weeks ({pct_change:+.1f}%). Consider stocking up now if this is a staple.")
+                    direction = "rising" if future_fc["yhat"].iloc[-1] > future_fc["yhat"].iloc[0] else "falling"
+                    pct_change = 100 * (future_fc["yhat"].iloc[-1] - future_fc["yhat"].iloc[0]) / future_fc["yhat"].iloc[0]
+                    insight(f"<b>{sel_forecast_cat}</b> prices are forecast to be <b>{direction}</b> over the next 8 weeks ({pct_change:+.1f}%). Consider stocking up now if this is a staple.")
 
 
 # ── Footer ─────────────────────────────────────────────────────────────────────
