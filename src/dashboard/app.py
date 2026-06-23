@@ -144,53 +144,69 @@ filtered = apply_filters(products)
 with tabs[0]:
     st.markdown('<div class="section-header">Market Snapshot</div>', unsafe_allow_html=True)
 
-    kpi = data["kpi"].iloc[0]
-    c1, c2, c3, c4, c5 = st.columns(5)
-    with c1: kpi_card("Total Products", f"{int(kpi['total_products']):,}", "Woolworths Online")
-    with c2: kpi_card("Avg Price", f"${kpi['avg_price']:.2f}", "across all categories")
-    with c3: kpi_card("On Special", f"{int(kpi['on_special_count']):,}", f"{kpi['special_pct']}% of catalogue")
-    with c4: kpi_card("Categories", int(kpi['categories']), "grocery departments")
-    with c5: kpi_card("Brands", int(kpi['brands']), "unique brands tracked")
+    fp = filtered
+    if fp.empty:
+        st.info("No products match the current filters. Widen the category or price-range filters in the sidebar.")
+    else:
+        total       = len(fp)
+        on_special  = int(fp["is_on_special"].sum())
+        special_pct = round(100 * on_special / total, 1)
 
-    st.divider()
-    col_left, col_right = st.columns(2)
+        c1, c2, c3, c4, c5 = st.columns(5)
+        with c1: kpi_card("Total Products", f"{total:,}", "match current filters")
+        with c2: kpi_card("Avg Price", f"${fp['price'].mean():.2f}", "selected categories")
+        with c3: kpi_card("On Special", f"{on_special:,}", f"{special_pct}% of selection")
+        with c4: kpi_card("Categories", fp["category"].nunique(), "in current filter")
+        with c5: kpi_card("Brands", fp["brand"].nunique(), "unique brands")
 
-    with col_left:
-        st.markdown('<div class="section-header">Average Price by Category</div>', unsafe_allow_html=True)
-        cat_df = data["category"]
-        fig = px.bar(
-            cat_df.sort_values("avg_price"),
-            x="avg_price", y="category", orientation="h",
-            color="avg_price", color_continuous_scale="Greens",
-            labels={"avg_price": "Avg Price ($)", "category": ""},
-            text="avg_price",
+        st.divider()
+
+        # Recompute per-category aggregates from the filtered products so these
+        # charts respond to every sidebar filter (category, price, specials).
+        cat_agg = fp.groupby("category", as_index=False).agg(
+            avg_price=("price", "mean"),
+            special_pct=("is_on_special", "mean"),
         )
-        fig.update_traces(texttemplate="$%{text:.2f}", textposition="outside")
-        fig.update_layout(height=400, margin=dict(l=0, r=40, t=10, b=10), coloraxis_showscale=False, plot_bgcolor="white")
-        st.plotly_chart(fig, use_container_width=True)
+        cat_agg["avg_price"]   = cat_agg["avg_price"].round(2)
+        cat_agg["special_pct"] = (cat_agg["special_pct"] * 100).round(1)
 
-    with col_right:
-        st.markdown('<div class="section-header">% Products On Special by Category</div>', unsafe_allow_html=True)
-        fig2 = px.bar(
-            cat_df.sort_values("special_pct"),
-            x="special_pct", y="category", orientation="h",
-            color="special_pct", color_continuous_scale="Oranges",
-            labels={"special_pct": "% On Special", "category": ""},
-            text="special_pct",
-        )
-        fig2.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
-        fig2.update_layout(height=400, margin=dict(l=0, r=40, t=10, b=10), coloraxis_showscale=False, plot_bgcolor="white")
-        st.plotly_chart(fig2, use_container_width=True)
+        col_left, col_right = st.columns(2)
+        with col_left:
+            st.markdown('<div class="section-header">Average Price by Category</div>', unsafe_allow_html=True)
+            fig = px.bar(
+                cat_agg.sort_values("avg_price"),
+                x="avg_price", y="category", orientation="h",
+                color="avg_price", color_continuous_scale="Greens",
+                labels={"avg_price": "Avg Price ($)", "category": ""},
+                text="avg_price",
+            )
+            fig.update_traces(texttemplate="$%{text:.2f}", textposition="outside")
+            fig.update_layout(height=400, margin=dict(l=0, r=40, t=10, b=10), coloraxis_showscale=False, plot_bgcolor="white")
+            st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown('<div class="section-header">Key Insights</div>', unsafe_allow_html=True)
-    most_expensive = data["category"].loc[data["category"]["avg_price"].idxmax(), "category"]
-    most_specials  = data["category"].loc[data["category"]["special_pct"].idxmax(), "category"]
-    best_discount  = data["category"].loc[data["category"]["avg_discount_pct"].idxmax(), "category"]
+        with col_right:
+            st.markdown('<div class="section-header">% Products On Special by Category</div>', unsafe_allow_html=True)
+            fig2 = px.bar(
+                cat_agg.sort_values("special_pct"),
+                x="special_pct", y="category", orientation="h",
+                color="special_pct", color_continuous_scale="Oranges",
+                labels={"special_pct": "% On Special", "category": ""},
+                text="special_pct",
+            )
+            fig2.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
+            fig2.update_layout(height=400, margin=dict(l=0, r=40, t=10, b=10), coloraxis_showscale=False, plot_bgcolor="white")
+            st.plotly_chart(fig2, use_container_width=True)
 
-    insight(f"<b>{most_expensive}</b> is the most expensive category on average.")
-    insight(f"<b>{most_specials}</b> runs the highest proportion of promotional specials.")
-    insight(f"<b>{best_discount}</b> offers the deepest average discount when items are on special.")
-    insight(f"<b>{int(kpi['on_special_count']):,} products</b> ({kpi['special_pct']}%) are currently discounted — worth checking before you shop.")
+        st.markdown('<div class="section-header">Key Insights</div>', unsafe_allow_html=True)
+        most_expensive = cat_agg.loc[cat_agg["avg_price"].idxmax(), "category"]
+        most_specials  = cat_agg.loc[cat_agg["special_pct"].idxmax(), "category"]
+        disc = fp[fp["is_on_special"] == 1].groupby("category")["discount_pct"].mean()
+        best_discount  = disc.idxmax() if not disc.empty else most_specials
+
+        insight(f"<b>{most_expensive}</b> is the most expensive of the selected categories on average.")
+        insight(f"<b>{most_specials}</b> runs the highest proportion of promotional specials.")
+        insight(f"<b>{best_discount}</b> offers the deepest average discount when items are on special.")
+        insight(f"<b>{on_special:,} products</b> ({special_pct}%) in your selection are discounted — worth checking before you shop.")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -505,7 +521,9 @@ with tabs[6]:
             line=dict(color="rgba(255,255,255,0)"),
             name="90% confidence band", showlegend=True,
         ))
-        fig.add_vline(x=str(last_hist_date), line_dash="dash", line_color="#94a3b8",
+        # Pass a ms-epoch timestamp (not a string) — Plotly's add_vline fails on
+        # string dates over a datetime axis ("unsupported operand type(s) for +").
+        fig.add_vline(x=last_hist_date.timestamp() * 1000, line_dash="dash", line_color="#94a3b8",
                       annotation_text="Forecast starts", annotation_position="top left")
         fig.update_layout(
             title=f"Price Forecast — {sel_forecast_cat}",
