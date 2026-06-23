@@ -266,6 +266,13 @@ with tabs[1]:
 
     st.dataframe(show, use_container_width=True, height=grid_height(len(show)))
 
+    st.download_button(
+        "Download these products (CSV)",
+        data=view[display_cols].to_csv(index=False).encode("utf-8"),
+        file_name="grocery_products_filtered.csv",
+        mime="text/csv",
+    )
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 3 — CATEGORY ANALYSIS

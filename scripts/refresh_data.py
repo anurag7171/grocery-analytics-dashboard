@@ -21,6 +21,7 @@ sys.path.insert(0, ROOT)
 from src.scraper.init_db import build_if_missing
 from src.scraper.generate_history import generate_and_save
 from src.analysis.export_tableau import export_all
+from src.analysis.export_excel import build as build_excel
 
 DB_PATH       = os.path.join(ROOT, "data", "retail.db")
 PRODUCTS_CSV  = os.path.join(ROOT, "data", "raw", "products.csv")
@@ -48,6 +49,9 @@ def main() -> None:
 
     # 4. Re-export the Tableau CSVs from the refreshed data.
     export_all(DB_PATH)
+
+    # 5. Rebuild the Excel report.
+    build_excel()
 
     print("Data refresh complete — history and exports re-anchored to today.")
 
