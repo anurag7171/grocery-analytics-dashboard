@@ -36,7 +36,6 @@ CATEGORY_COLORS = px.colors.qualitative.Safe
 
 st.set_page_config(
     page_title="Australian Grocery Analytics",
-    page_icon="🛒",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -44,7 +43,8 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main { background-color: #f8fafc; }
-    .block-container { padding-top: 1.5rem; padding-bottom: 2rem; }
+    .block-container { padding-top: 3rem; padding-bottom: 2rem; }
+    .stTabs [data-baseweb="tab-list"] { padding-top: 0.25rem; }
     .metric-card {
         background: white;
         border-radius: 12px;
@@ -98,12 +98,12 @@ def kpi_card(label, value, sub=""):
 
 
 def insight(text):
-    st.markdown(f'<div class="insight-box">💡 {text}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="insight-box">{text}</div>', unsafe_allow_html=True)
 
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🛒 Grocery Analytics")
+    st.markdown("## Grocery Analytics")
     st.markdown("**Australian supermarket price intelligence**")
     st.divider()
 
@@ -119,7 +119,7 @@ with st.sidebar:
     show_specials_only = st.checkbox("Specials only")
 
     st.divider()
-    st.caption(f"📦 {len(products):,} products · 10 categories")
+    st.caption(f"{len(products):,} products · 10 categories")
     st.caption("Source: Woolworths Online")
     st.caption("History: 52-week synthetic (seasonal model)")
 
@@ -134,7 +134,7 @@ def apply_filters(df):
 
 
 # ── Tabs ───────────────────────────────────────────────────────────────────────
-tabs = st.tabs(["📊 Overview", "🔍 Products", "📂 Categories", "🏷️ Deals", "💰 Best Value", "📈 Price Trends", "🔮 Forecast"])
+tabs = st.tabs(["Overview", "Products", "Categories", "Deals", "Best Value", "Price Trends", "Forecast"])
 
 filtered = apply_filters(products)
 
@@ -203,13 +203,13 @@ with tabs[1]:
     with col_s:
         search = st.text_input("Search products", placeholder="e.g. milk, chicken, pasta…")
     with col_sort:
-        sort_by = st.selectbox("Sort by", ["price ↑", "price ↓", "discount %", "name"])
+        sort_by = st.selectbox("Sort by", ["price (low to high)", "price (high to low)", "discount %", "name"])
 
     view = filtered.copy()
     if search:
         view = view[view["name"].str.contains(search, case=False, na=False)]
 
-    sort_map = {"price ↑": ("price", True), "price ↓": ("price", False),
+    sort_map = {"price (low to high)": ("price", True), "price (high to low)": ("price", False),
                 "discount %": ("discount_pct", False), "name": ("name", True)}
     scol, asc = sort_map[sort_by]
     view = view.sort_values(scol, ascending=asc)
@@ -222,7 +222,7 @@ with tabs[1]:
         "price": "Price ($)", "was_price": "Was ($)", "discount_pct": "Discount %",
         "unit_size": "Size", "is_on_special": "On Special",
     })
-    show["On Special"] = show["On Special"].map({1: "✅", 0: ""})
+    show["On Special"] = show["On Special"].map({1: "Yes", 0: ""})
     show["Price ($)"]  = show["Price ($)"].map("${:.2f}".format)
     show["Was ($)"]    = show["Was ($)"].map("${:.2f}".format)
     show["Discount %"] = show["Discount %"].map("{:.1f}%".format)
@@ -524,7 +524,7 @@ with tabs[6]:
                 summary[c] = summary[c].map("${:.2f}".format)
             st.dataframe(summary, use_container_width=True, hide_index=True)
 
-            direction = "📈 rising" if future_fc["yhat"].iloc[-1] > future_fc["yhat"].iloc[0] else "📉 falling"
+            direction = "rising" if future_fc["yhat"].iloc[-1] > future_fc["yhat"].iloc[0] else "falling"
             pct_change = 100 * (future_fc["yhat"].iloc[-1] - future_fc["yhat"].iloc[0]) / future_fc["yhat"].iloc[0]
             insight(f"<b>{sel_forecast_cat}</b> prices are forecast to be <b>{direction}</b> over the next 8 weeks ({pct_change:+.1f}%). Consider stocking up now if this is a staple.")
 
